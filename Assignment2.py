@@ -314,20 +314,6 @@ for track in tracks:
 # -------- 2.4 Salvataggio --------
 with open('tracks_cleaned.json', 'w', encoding='utf-8') as f:
     json.dump(tracks, f, indent=2, ensure_ascii=False)
-import pandas as pd
-
-
-df_artists = pd.read_xml("artists_cleaned.xml", parser="etree")
-
-print("\n== ANY ==")
-print(df_artists.isnull().any())
-
-print("\n== SUM ==")
-print(df_artists.isnull().sum())
-
-print("\n== PERCENT ==")
-missing_pct_tracks = df_artists.isnull().mean() * 100
-print(missing_pct_tracks)
 
 
 print("Pulizia tracks.json completata. File: output2_tracks.json")
