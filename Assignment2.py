@@ -207,7 +207,7 @@ for row in root.findall('row'):
 
 
 # Salva XML pulito con geo dati
-tree.write("artists_cleaned2.xml", encoding="utf-8", xml_declaration=True)
+tree.write("artists_cleaned.xml", encoding="utf-8", xml_declaration=True)
 print(f"\nArtisti aggiornati con geocoding: {updated_artists}")
 print(f"Campi aggiunti totali: {fields_added}")
 print("â†’ artists_cleaned.xml generato e pronto per Assignment 4!\n")
