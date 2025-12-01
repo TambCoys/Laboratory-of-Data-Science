@@ -5,17 +5,17 @@
     <name>99 posse</name>
     <gender>M</gender>
     <birth_date />
-    <birth_place />
-    <nationality />
+    <birth_place>Napoli</birth_place>
+    <nationality>Italia</nationality>
     <description>gruppo musicale italiano</description>
     <active_start>1991-01-01</active_start>
     <active_end />
-    <province />
-    <region />
-    <country />
-    <latitude />
-    <longitude />
-  </row>
+    <province>Napoli</province>
+    <region>Campania</region>
+    <country>Italia</country>
+    <latitude>40.8358846</latitude>
+    <longitude>14.2487679</longitude>
+  <h3_idx>851e832bfffffff</h3_idx></row>
   <row>
     <id_author>ART53496045</id_author>
     <name>achille lauro</name>
@@ -31,7 +31,7 @@
     <country>Italia</country>
     <latitude>45.4424977</latitude>
     <longitude>10.9857377</longitude>
-  </row>
+  <h3_idx>851ea447fffffff</h3_idx></row>
   <row>
     <id_author>ART18853907</id_author>
     <name>alfa</name>
@@ -47,7 +47,7 @@
     <country>Italia</country>
     <latitude>44.40726</latitude>
     <longitude>8.9338624</longitude>
-  </row>
+  <h3_idx>851f9b0bfffffff</h3_idx></row>
   <row>
     <id_author>ART64265460</id_author>
     <name>anna pepe</name>
@@ -63,23 +63,23 @@
     <country>Italia</country>
     <latitude>44.238366</latitude>
     <longitude>9.6912326</longitude>
-  </row>
+  <h3_idx>851eb597fffffff</h3_idx></row>
   <row>
     <id_author>ART75741740</id_author>
     <name>articolo 31</name>
     <gender>M</gender>
     <birth_date />
-    <birth_place />
-    <nationality />
+    <birth_place>Milano</birth_place>
+    <nationality>Italia</nationality>
     <description>gruppo musicale hip hop italiano</description>
     <active_start>1990-01-01</active_start>
     <active_end />
-    <province />
-    <region />
-    <country />
-    <latitude />
-    <longitude />
-  </row>
+    <province>Milano</province>
+    <region>Lombardia</region>
+    <country>Italia</country>
+    <latitude>45.4641943</latitude>
+    <longitude>9.1896346</longitude>
+  <h3_idx>851f99cffffffff</h3_idx></row>
   <row>
     <id_author>ART24123617</id_author>
     <name>babaman</name>
@@ -95,7 +95,7 @@
     <country>Italia</country>
     <latitude>45.528878</latitude>
     <longitude>9.04156</longitude>
-  </row>
+  <h3_idx>851f99cbfffffff</h3_idx></row>
   <row>
     <id_author>ART40229749</id_author>
     <name>baby k</name>
@@ -106,12 +106,12 @@
     <description>cantautrice e rapper italiana (1983-)</description>
     <active_start>2007-01-01</active_start>
     <active_end />
-    <province />
+    <province>Singapore</province>
     <region />
-    <country />
+    <country>Singapore</country>
     <latitude>45.0806268</latitude>
     <longitude>7.6707168</longitude>
-  </row>
+  <h3_idx>851f9843fffffff</h3_idx></row>
   <row>
     <id_author>ART56320683</id_author>
     <name>bassi maestro</name>
@@ -127,7 +127,7 @@
     <country>Italia</country>
     <latitude>45.4641943</latitude>
     <longitude>9.1896346</longitude>
-  </row>
+  <h3_idx>851f99cffffffff</h3_idx></row>
   <row>
     <id_author>ART19605256</id_author>
     <name>beba</name>
@@ -143,7 +143,7 @@
     <country>Italia</country>
     <latitude>45.0677551</latitude>
     <longitude>7.6824892</longitude>
-  </row>
+  <h3_idx>851f9843fffffff</h3_idx></row>
   <row>
     <id_author>ART02666525</id_author>
     <name>bigmama</name>
@@ -159,7 +159,7 @@
     <country>Italia</country>
     <latitude>40.9965446</latitude>
     <longitude>15.140569</longitude>
-  </row>
+  <h3_idx>851e8e0bfffffff</h3_idx></row>
   <row>
     <id_author>ART03111237</id_author>
     <name>brusco</name>
@@ -175,23 +175,23 @@
     <country>Italia</country>
     <latitude>41.8933203</latitude>
     <longitude>12.4829321</longitude>
-  </row>
+  <h3_idx>851e8053fffffff</h3_idx></row>
   <row>
     <id_author>ART95365016</id_author>
     <name>bushwaka</name>
     <gender>M</gender>
     <birth_date />
-    <birth_place />
-    <nationality />
+    <birth_place>La Spezia</birth_place>
+    <nationality>Italia</nationality>
     <description />
     <active_start />
     <active_end />
-    <province />
-    <region />
-    <country />
-    <latitude />
-    <longitude />
-  </row>
+    <province>La Spezia</province>
+    <region>Liguria</region>
+    <country>Italia</country>
+    <latitude>44.238366</latitude>
+    <longitude>9.6912326</longitude>
+  <h3_idx>851eb597fffffff</h3_idx></row>
   <row>
     <id_author>ART28846313</id_author>
     <name>caneda</name>
@@ -207,7 +207,7 @@
     <country>Italia</country>
     <latitude>45.4641943</latitude>
     <longitude>9.1896346</longitude>
-  </row>
+  <h3_idx>851f99cffffffff</h3_idx></row>
   <row>
     <id_author>ART27304446</id_author>
     <name>caparezza</name>
@@ -223,7 +223,7 @@
     <country>Italia</country>
     <latitude>40.222125</latitude>
     <longitude>18.225226</longitude>
-  </row>
+  <h3_idx>851e8b27fffffff</h3_idx></row>
   <row>
     <id_author>ART70825116</id_author>
     <name>capo plaza</name>
@@ -239,7 +239,7 @@
     <country>Italia</country>
     <latitude>40.4194416</latitude>
     <longitude>15.3106085</longitude>
-  </row>
+  <h3_idx>851e8adbfffffff</h3_idx></row>
   <row>
     <id_author>ART67409252</id_author>
     <name>chadia rodriguez</name>
@@ -255,7 +255,7 @@
     <country>Italia</country>
     <latitude>44.4194958</latitude>
     <longitude>8.9234821</longitude>
-  </row>
+  <h3_idx>851f9b0bfffffff</h3_idx></row>
   <row>
     <id_author>ART71969350</id_author>
     <name>clementino</name>
@@ -271,23 +271,23 @@
     <country>Italia</country>
     <latitude>40.9965446</latitude>
     <longitude>15.140569</longitude>
-  </row>
+  <h3_idx>851e8e0bfffffff</h3_idx></row>
   <row>
     <id_author>ART81071062</id_author>
     <name>club dogo</name>
     <gender>M</gender>
     <birth_date />
-    <birth_place />
-    <nationality />
+    <birth_place>Milano</birth_place>
+    <nationality>Italia</nationality>
     <description>gruppo musicale italiano</description>
     <active_start />
     <active_end />
-    <province />
-    <region />
-    <country />
-    <latitude />
-    <longitude />
-  </row>
+    <province>Milano</province>
+    <region>Lombardia</region>
+    <country>Italia</country>
+    <latitude>45.4641943</latitude>
+    <longitude>9.1896346</longitude>
+  <h3_idx>851f99cffffffff</h3_idx></row>
   <row>
     <id_author>ART78209349</id_author>
     <name>coez</name>
@@ -303,39 +303,39 @@
     <country>Italia</country>
     <latitude>40.7472133</latitude>
     <longitude>14.6433202</longitude>
-  </row>
+  <h3_idx>851e9d97fffffff</h3_idx></row>
   <row>
     <id_author>ART85821920</id_author>
     <name>colle der fomento</name>
     <gender>M</gender>
     <birth_date />
-    <birth_place />
-    <nationality />
+    <birth_place>Roma</birth_place>
+    <nationality>Italia</nationality>
     <description>gruppo musicale italiano</description>
     <active_start />
     <active_end />
-    <province />
-    <region />
-    <country />
-    <latitude />
-    <longitude />
-  </row>
+    <province>Roma</province>
+    <region>Lazio</region>
+    <country>Italia</country>
+    <latitude>41.8933203</latitude>
+    <longitude>12.4829321</longitude>
+  <h3_idx>851e8053fffffff</h3_idx></row>
   <row>
     <id_author>ART59609037</id_author>
     <name>cor veleno</name>
     <gender>M</gender>
     <birth_date />
-    <birth_place />
-    <nationality />
+    <birth_place>Roma</birth_place>
+    <nationality>Italia</nationality>
     <description>gruppo musicale italiano</description>
     <active_start>1993-01-01</active_start>
     <active_end />
-    <province />
-    <region />
-    <country />
-    <latitude />
-    <longitude />
-  </row>
+    <province>Roma</province>
+    <region>Lazio</region>
+    <country>Italia</country>
+    <latitude>41.8933203</latitude>
+    <longitude>12.4829321</longitude>
+  <h3_idx>851e8053fffffff</h3_idx></row>
   <row>
     <id_author>ART46851094</id_author>
     <name>dani faiv</name>
@@ -351,7 +351,7 @@
     <country>Italia</country>
     <latitude>44.238366</latitude>
     <longitude>9.6912326</longitude>
-  </row>
+  <h3_idx>851eb597fffffff</h3_idx></row>
   <row>
     <id_author>ART63985757</id_author>
     <name>dargen d_amico</name>
@@ -367,39 +367,39 @@
     <country>Italia</country>
     <latitude>45.4641943</latitude>
     <longitude>9.1896346</longitude>
-  </row>
+  <h3_idx>851f99cffffffff</h3_idx></row>
   <row>
     <id_author>ART96068455</id_author>
     <name>dark polo gang</name>
     <gender>M</gender>
     <birth_date />
-    <birth_place />
-    <nationality />
+    <birth_place>Roma</birth_place>
+    <nationality>Italia</nationality>
     <description>gruppo musicale italiano</description>
     <active_start>2014-01-01</active_start>
     <active_end />
-    <province />
-    <region />
-    <country />
-    <latitude />
-    <longitude />
-  </row>
+    <province>Roma</province>
+    <region>Lazio</region>
+    <country>Italia</country>
+    <latitude>41.8933203</latitude>
+    <longitude>12.4829321</longitude>
+  <h3_idx>851e8053fffffff</h3_idx></row>
   <row>
     <id_author>ART52349448</id_author>
     <name>doll kill</name>
     <gender>F</gender>
     <birth_date />
-    <birth_place />
-    <nationality />
+    <birth_place>Cagliari</birth_place>
+    <nationality>Italia</nationality>
     <description />
     <active_start />
     <active_end />
-    <province />
-    <region />
-    <country />
-    <latitude />
-    <longitude />
-  </row>
+    <province>Cagliari</province>
+    <region>Sardigna/Sardegna</region>
+    <country>Italia</country>
+    <latitude>39.2171994</latitude>
+    <longitude>9.113311</longitude>
+  <h3_idx>851e92d7fffffff</h3_idx></row>
   <row>
     <id_author>ART14383873</id_author>
     <name>don joe</name>
@@ -415,7 +415,7 @@
     <country>Italia</country>
     <latitude>45.4641943</latitude>
     <longitude>9.1896346</longitude>
-  </row>
+  <h3_idx>851f99cffffffff</h3_idx></row>
   <row>
     <id_author>ART09119396</id_author>
     <name>drefgold</name>
@@ -431,7 +431,7 @@
     <country>Italia</country>
     <latitude>44.4938203</latitude>
     <longitude>11.3426327</longitude>
-  </row>
+  <h3_idx>851ea05bfffffff</h3_idx></row>
   <row>
     <id_author>ART86549066</id_author>
     <name>emis killa</name>
@@ -447,7 +447,7 @@
     <country>Italia</country>
     <latitude>45.6139627</latitude>
     <longitude>9.37006</longitude>
-  </row>
+  <h3_idx>851f9913fffffff</h3_idx></row>
   <row>
     <id_author>ART57616402</id_author>
     <name>ensi</name>
@@ -463,7 +463,7 @@
     <country>Italia</country>
     <latitude>45.0957237</latitude>
     <longitude>7.5254027</longitude>
-  </row>
+  <h3_idx>851f985bfffffff</h3_idx></row>
   <row>
     <id_author>ART19729064</id_author>
     <name>entics</name>
@@ -479,7 +479,7 @@
     <country>Italia</country>
     <latitude>45.4641943</latitude>
     <longitude>9.1896346</longitude>
-  </row>
+  <h3_idx>851f99cffffffff</h3_idx></row>
   <row>
     <id_author>ART76284946</id_author>
     <name>ernia</name>
@@ -495,7 +495,7 @@
     <country>Italia</country>
     <latitude>45.4641943</latitude>
     <longitude>9.1896346</longitude>
-  </row>
+  <h3_idx>851f99cffffffff</h3_idx></row>
   <row>
     <id_author>ART14073567</id_author>
     <name>eva rea</name>
@@ -511,7 +511,7 @@
     <country>Italia</country>
     <latitude>37.5023612</latitude>
     <longitude>15.0873718</longitude>
-  </row>
+  <h3_idx>853f35c7fffffff</h3_idx></row>
   <row>
     <id_author>ART25707984</id_author>
     <name>fabri fibra</name>
@@ -523,11 +523,11 @@
     <active_start>1996-01-01</active_start>
     <active_end />
     <province>Ancona</province>
-    <region />
+    <region>Marche</region>
     <country>Italia</country>
     <latitude>43.7149517</latitude>
     <longitude>13.2179488</longitude>
-  </row>
+  <h3_idx>851ea32bfffffff</h3_idx></row>
   <row>
     <id_author>ART07024718</id_author>
     <name>fedez</name>
@@ -543,7 +543,7 @@
     <country>Italia</country>
     <latitude>45.4641943</latitude>
     <longitude>9.1896346</longitude>
-  </row>
+  <h3_idx>851f99cffffffff</h3_idx></row>
   <row>
     <id_author>ART46711784</id_author>
     <name>frah quintale</name>
@@ -559,7 +559,7 @@
     <country>Italia</country>
     <latitude>45.7795804</latitude>
     <longitude>10.425873</longitude>
-  </row>
+  <h3_idx>851ea4dbfffffff</h3_idx></row>
   <row>
     <id_author>ART31005348</id_author>
     <name>frankie hi-nrg mc</name>
@@ -575,7 +575,7 @@
     <country>Italia</country>
     <latitude>45.0677551</latitude>
     <longitude>7.6824892</longitude>
-  </row>
+  <h3_idx>851f9843fffffff</h3_idx></row>
   <row>
     <id_author>ART52465778</id_author>
     <name>fred de palma</name>
@@ -591,7 +591,7 @@
     <country>Italia</country>
     <latitude>45.0677551</latitude>
     <longitude>7.6824892</longitude>
-  </row>
+  <h3_idx>851f9843fffffff</h3_idx></row>
   <row>
     <id_author>ART85046033</id_author>
     <name>gemitaiz</name>
@@ -607,7 +607,7 @@
     <country>Italia</country>
     <latitude>41.8933203</latitude>
     <longitude>12.4829321</longitude>
-  </row>
+  <h3_idx>851e8053fffffff</h3_idx></row>
   <row>
     <id_author>ART87162895</id_author>
     <name>geolier</name>
@@ -623,7 +623,7 @@
     <country>Italia</country>
     <latitude>40.8358846</latitude>
     <longitude>14.2487679</longitude>
-  </row>
+  <h3_idx>851e832bfffffff</h3_idx></row>
   <row>
     <id_author>ART83125571</id_author>
     <name>ghali</name>
@@ -639,7 +639,7 @@
     <country>Italia</country>
     <latitude>45.4641943</latitude>
     <longitude>9.1896346</longitude>
-  </row>
+  <h3_idx>851f99cffffffff</h3_idx></row>
   <row>
     <id_author>ART73965015</id_author>
     <name>ghemon</name>
@@ -655,7 +655,7 @@
     <country>Italia</country>
     <latitude>40.9965446</latitude>
     <longitude>15.140569</longitude>
-  </row>
+  <h3_idx>851e8e0bfffffff</h3_idx></row>
   <row>
     <id_author>ART79325822</id_author>
     <name>grido</name>
@@ -671,7 +671,7 @@
     <country>Italia</country>
     <latitude>45.4641943</latitude>
     <longitude>9.1896346</longitude>
-  </row>
+  <h3_idx>851f99cffffffff</h3_idx></row>
   <row>
     <id_author>ART04141409</id_author>
     <name>guè pequeno</name>
@@ -687,7 +687,7 @@
     <country>Italia</country>
     <latitude>45.4641943</latitude>
     <longitude>9.1896346</longitude>
-  </row>
+  <h3_idx>851f99cffffffff</h3_idx></row>
   <row>
     <id_author>ART91515842</id_author>
     <name>hell raton</name>
@@ -703,7 +703,7 @@
     <country>Italia</country>
     <latitude>40.9232659</latitude>
     <longitude>9.5027442</longitude>
-  </row>
+  <h3_idx>851e9417fffffff</h3_idx></row>
   <row>
     <id_author>ART59593021</id_author>
     <name>hindaco</name>
@@ -719,7 +719,7 @@
     <country>Italia</country>
     <latitude>37.5667573</latitude>
     <longitude>14.2807473</longitude>
-  </row>
+  <h3_idx>853f34a3fffffff</h3_idx></row>
   <row>
     <id_author>ART08177154</id_author>
     <name>il tre</name>
@@ -735,7 +735,7 @@
     <country>Italia</country>
     <latitude>41.8933203</latitude>
     <longitude>12.4829321</longitude>
-  </row>
+  <h3_idx>851e8053fffffff</h3_idx></row>
   <row>
     <id_author>ART57730937</id_author>
     <name>inoki</name>
@@ -751,7 +751,7 @@
     <country>Italia</country>
     <latitude>41.8933203</latitude>
     <longitude>12.4829321</longitude>
-  </row>
+  <h3_idx>851e8053fffffff</h3_idx></row>
   <row>
     <id_author>ART17812958</id_author>
     <name>j-ax</name>
@@ -767,7 +767,7 @@
     <country>Italia</country>
     <latitude>45.4641943</latitude>
     <longitude>9.1896346</longitude>
-  </row>
+  <h3_idx>851f99cffffffff</h3_idx></row>
   <row>
     <id_author>ART80977821</id_author>
     <name>jack the smoker</name>
@@ -783,7 +783,7 @@
     <country>Italia</country>
     <latitude>45.4641943</latitude>
     <longitude>9.1896346</longitude>
-  </row>
+  <h3_idx>851f99cffffffff</h3_idx></row>
   <row>
     <id_author>ART88792008</id_author>
     <name>jake la furia</name>
@@ -799,23 +799,23 @@
     <country>Italia</country>
     <latitude>45.4641943</latitude>
     <longitude>9.1896346</longitude>
-  </row>
+  <h3_idx>851f99cffffffff</h3_idx></row>
   <row>
     <id_author>ART88199433</id_author>
     <name>joey funboy</name>
     <gender>F</gender>
     <birth_date />
-    <birth_place />
-    <nationality />
+    <birth_place>Bolzano</birth_place>
+    <nationality>Italia</nationality>
     <description />
     <active_start />
     <active_end />
-    <province />
-    <region />
-    <country />
-    <latitude />
-    <longitude />
-  </row>
+    <province>Bolzano</province>
+    <region>Trentino-Alto Adige/Südtirol</region>
+    <country>Italia</country>
+    <latitude>46.6559455</latitude>
+    <longitude>11.2302129</longitude>
+  <h3_idx>851f8bcbfffffff</h3_idx></row>
   <row>
     <id_author>ART07469279</id_author>
     <name>johnny marsiglia</name>
@@ -831,7 +831,7 @@
     <country>Italia</country>
     <latitude>38.1112268</latitude>
     <longitude>13.3524434</longitude>
-  </row>
+  <h3_idx>851e9a0ffffffff</h3_idx></row>
   <row>
     <id_author>ART88423027</id_author>
     <name>la pina</name>
@@ -847,7 +847,7 @@
     <country>Italia</country>
     <latitude>43.7697955</latitude>
     <longitude>11.2556404</longitude>
-  </row>
+  <h3_idx>851ea203fffffff</h3_idx></row>
   <row>
     <id_author>ART39344115</id_author>
     <name>lazza</name>
@@ -863,7 +863,7 @@
     <country>Italia</country>
     <latitude>40.8999881</latitude>
     <longitude>14.2410519</longitude>
-  </row>
+  <h3_idx>851e832bfffffff</h3_idx></row>
   <row>
     <id_author>ART05528539</id_author>
     <name>luchè</name>
@@ -879,7 +879,7 @@
     <country>Italia</country>
     <latitude>40.8358846</latitude>
     <longitude>14.2487679</longitude>
-  </row>
+  <h3_idx>851e832bfffffff</h3_idx></row>
   <row>
     <id_author>ART20729624</id_author>
     <name>madame</name>
@@ -895,7 +895,7 @@
     <country>Italia</country>
     <latitude>45.6348591</latitude>
     <longitude>11.4063543</longitude>
-  </row>
+  <h3_idx>851ea407fffffff</h3_idx></row>
   <row>
     <id_author>ART40433104</id_author>
     <name>madman</name>
@@ -911,7 +911,7 @@
     <country>Italia</country>
     <latitude>40.5361927</latitude>
     <longitude>17.4342206</longitude>
-  </row>
+  <h3_idx>851e8b8bfffffff</h3_idx></row>
   <row>
     <id_author>ART16868977</id_author>
     <name>mahmood</name>
@@ -927,7 +927,7 @@
     <country>Italia</country>
     <latitude>45.4641943</latitude>
     <longitude>9.1896346</longitude>
-  </row>
+  <h3_idx>851f99cffffffff</h3_idx></row>
   <row>
     <id_author>ART61734477</id_author>
     <name>mambolosco</name>
@@ -943,7 +943,7 @@
     <country>Italia</country>
     <latitude>45.6348591</latitude>
     <longitude>11.4063543</longitude>
-  </row>
+  <h3_idx>851ea407fffffff</h3_idx></row>
   <row>
     <id_author>ART02733420</id_author>
     <name>marracash</name>
@@ -959,7 +959,7 @@
     <country>Italia</country>
     <latitude>37.747452</latitude>
     <longitude>14.397271</longitude>
-  </row>
+  <h3_idx>851e9b4ffffffff</h3_idx></row>
   <row>
     <id_author>ART63613967</id_author>
     <name>massimo pericolo</name>
@@ -975,23 +975,23 @@
     <country>Italia</country>
     <latitude>45.6598951</latitude>
     <longitude>8.7932013</longitude>
-  </row>
+  <h3_idx>851f99dbfffffff</h3_idx></row>
   <row>
     <id_author>ART37807199</id_author>
     <name>mike24</name>
     <gender>M</gender>
     <birth_date />
-    <birth_place />
-    <nationality />
+    <birth_place>Avellino</birth_place>
+    <nationality>Italia</nationality>
     <description />
     <active_start />
     <active_end />
-    <province />
-    <region />
-    <country />
-    <latitude />
-    <longitude />
-  </row>
+    <province>Avellino</province>
+    <region>Campania</region>
+    <country>Italia</country>
+    <latitude>40.9965446</latitude>
+    <longitude>15.140569</longitude>
+  <h3_idx>851e8e0bfffffff</h3_idx></row>
   <row>
     <id_author>ART43601431</id_author>
     <name>miss keta</name>
@@ -1007,23 +1007,23 @@
     <country>Italia</country>
     <latitude>45.4641943</latitude>
     <longitude>9.1896346</longitude>
-  </row>
+  <h3_idx>851f99cffffffff</h3_idx></row>
   <row>
     <id_author>ART51628788</id_author>
     <name>miss simpatia</name>
     <gender>F</gender>
     <birth_date />
-    <birth_place />
-    <nationality />
+    <birth_place>Ancona</birth_place>
+    <nationality>Italia</nationality>
     <description />
     <active_start />
     <active_end />
-    <province />
-    <region />
-    <country />
-    <latitude />
-    <longitude />
-  </row>
+    <province>Ancona</province>
+    <region>Marche</region>
+    <country>Italia</country>
+    <latitude>43.4801189</latitude>
+    <longitude>13.2187279</longitude>
+  <h3_idx>851ea367fffffff</h3_idx></row>
   <row>
     <id_author>ART48537029</id_author>
     <name>mistaman</name>
@@ -1039,7 +1039,7 @@
     <country>Italia</country>
     <latitude>45.8066913</latitude>
     <longitude>12.2063158</longitude>
-  </row>
+  <h3_idx>851ea5cffffffff</h3_idx></row>
   <row>
     <id_author>ART66452136</id_author>
     <name>mistico</name>
@@ -1055,7 +1055,7 @@
     <country>Italia</country>
     <latitude>45.4641943</latitude>
     <longitude>9.1896346</longitude>
-  </row>
+  <h3_idx>851f99cffffffff</h3_idx></row>
   <row>
     <id_author>ART91352277</id_author>
     <name>mondo marcio</name>
@@ -1071,7 +1071,7 @@
     <country>Italia</country>
     <latitude>45.4641943</latitude>
     <longitude>9.1896346</longitude>
-  </row>
+  <h3_idx>851f99cffffffff</h3_idx></row>
   <row>
     <id_author>ART71846481</id_author>
     <name>mr. rain</name>
@@ -1087,7 +1087,7 @@
     <country>Italia</country>
     <latitude>45.4694851</latitude>
     <longitude>10.5389467</longitude>
-  </row>
+  <h3_idx>851ea453fffffff</h3_idx></row>
   <row>
     <id_author>ART86576759</id_author>
     <name>mudimbi</name>
@@ -1103,7 +1103,7 @@
     <country>Italia</country>
     <latitude>42.9525328</latitude>
     <longitude>13.8807144</longitude>
-  </row>
+  <h3_idx>851e850ffffffff</h3_idx></row>
   <row>
     <id_author>ART52272796</id_author>
     <name>neffa</name>
@@ -1119,7 +1119,7 @@
     <country>Italia</country>
     <latitude>40.7499887</latitude>
     <longitude>14.5269491</longitude>
-  </row>
+  <h3_idx>851e9d97fffffff</h3_idx></row>
   <row>
     <id_author>ART62385172</id_author>
     <name>nerone</name>
@@ -1135,7 +1135,7 @@
     <country>Italia</country>
     <latitude>45.4641943</latitude>
     <longitude>9.1896346</longitude>
-  </row>
+  <h3_idx>851f99cffffffff</h3_idx></row>
   <row>
     <id_author>ART07629990</id_author>
     <name>nesli</name>
@@ -1147,11 +1147,11 @@
     <active_start>1990-01-01</active_start>
     <active_end />
     <province>Ancona</province>
-    <region />
+    <region>Marche</region>
     <country>Italia</country>
     <latitude>43.7149517</latitude>
     <longitude>13.2179488</longitude>
-  </row>
+  <h3_idx>851ea32bfffffff</h3_idx></row>
   <row>
     <id_author>ART19060721</id_author>
     <name>niky savage</name>
@@ -1167,7 +1167,7 @@
     <country>Italia</country>
     <latitude>45.4641943</latitude>
     <longitude>9.1896346</longitude>
-  </row>
+  <h3_idx>851f99cffffffff</h3_idx></row>
   <row>
     <id_author>ART78358659</id_author>
     <name>nitro</name>
@@ -1183,7 +1183,7 @@
     <country>Italia</country>
     <latitude>45.6348591</latitude>
     <longitude>11.4063543</longitude>
-  </row>
+  <h3_idx>851ea407fffffff</h3_idx></row>
   <row>
     <id_author>ART07127070</id_author>
     <name>noyz narcos</name>
@@ -1199,7 +1199,7 @@
     <country>Italia</country>
     <latitude>41.8933203</latitude>
     <longitude>12.4829321</longitude>
-  </row>
+  <h3_idx>851e8053fffffff</h3_idx></row>
   <row>
     <id_author>ART42220690</id_author>
     <name>o zulù</name>
@@ -1215,7 +1215,7 @@
     <country>Italia</country>
     <latitude>40.8358846</latitude>
     <longitude>14.2487679</longitude>
-  </row>
+  <h3_idx>851e832bfffffff</h3_idx></row>
   <row>
     <id_author>ART12092805</id_author>
     <name>papa v</name>
@@ -1231,7 +1231,7 @@
     <country>Italia</country>
     <latitude>45.3559126</latitude>
     <longitude>9.2020722</longitude>
-  </row>
+  <h3_idx>851f9957fffffff</h3_idx></row>
   <row>
     <id_author>ART66932389</id_author>
     <name>piotta</name>
@@ -1247,7 +1247,7 @@
     <country>Italia</country>
     <latitude>41.8933203</latitude>
     <longitude>12.4829321</longitude>
-  </row>
+  <h3_idx>851e8053fffffff</h3_idx></row>
   <row>
     <id_author>ART87389753</id_author>
     <name>priestess</name>
@@ -1263,7 +1263,7 @@
     <country>Italia</country>
     <latitude>41.1257843</latitude>
     <longitude>16.8620293</longitude>
-  </row>
+  <h3_idx>851e880ffffffff</h3_idx></row>
   <row>
     <id_author>ART08456301</id_author>
     <name>rancore</name>
@@ -1279,7 +1279,7 @@
     <country>Italia</country>
     <latitude>41.8933203</latitude>
     <longitude>12.4829321</longitude>
-  </row>
+  <h3_idx>851e8053fffffff</h3_idx></row>
   <row>
     <id_author>ART89596800</id_author>
     <name>rkomi</name>
@@ -1295,7 +1295,7 @@
     <country>Italia</country>
     <latitude>45.4641943</latitude>
     <longitude>9.1896346</longitude>
-  </row>
+  <h3_idx>851f99cffffffff</h3_idx></row>
   <row>
     <id_author>ART17240256</id_author>
     <name>rocco hunt</name>
@@ -1311,7 +1311,7 @@
     <country>Italia</country>
     <latitude>40.4194416</latitude>
     <longitude>15.3106085</longitude>
-  </row>
+  <h3_idx>851e8adbfffffff</h3_idx></row>
   <row>
     <id_author>ART08302616</id_author>
     <name>rondodasosa</name>
@@ -1327,7 +1327,7 @@
     <country>Italia</country>
     <latitude>45.4782003</latitude>
     <longitude>9.123964</longitude>
-  </row>
+  <h3_idx>851f99cffffffff</h3_idx></row>
   <row>
     <id_author>ART04205421</id_author>
     <name>rosa chemical</name>
@@ -1343,7 +1343,7 @@
     <country>Italia</country>
     <latitude>45.068046</latitude>
     <longitude>7.57762</longitude>
-  </row>
+  <h3_idx>851f9843fffffff</h3_idx></row>
   <row>
     <id_author>ART74676403</id_author>
     <name>rose villain</name>
@@ -1359,7 +1359,7 @@
     <country>Italia</country>
     <latitude>45.4641943</latitude>
     <longitude>9.1896346</longitude>
-  </row>
+  <h3_idx>851f99cffffffff</h3_idx></row>
   <row>
     <id_author>ART02449272</id_author>
     <name>roshelle</name>
@@ -1375,7 +1375,7 @@
     <country>Italia</country>
     <latitude>45.2613104</latitude>
     <longitude>9.4916781</longitude>
-  </row>
+  <h3_idx>851f9947fffffff</h3_idx></row>
   <row>
     <id_author>ART48622722</id_author>
     <name>salmo</name>
@@ -1391,7 +1391,7 @@
     <country>Italia</country>
     <latitude>40.9232659</latitude>
     <longitude>9.5027442</longitude>
-  </row>
+  <h3_idx>851e9417fffffff</h3_idx></row>
   <row>
     <id_author>ART56967402</id_author>
     <name>samuel heron</name>
@@ -1407,7 +1407,7 @@
     <country>Italia</country>
     <latitude>44.238366</latitude>
     <longitude>9.6912326</longitude>
-  </row>
+  <h3_idx>851eb597fffffff</h3_idx></row>
   <row>
     <id_author>ART87497821</id_author>
     <name>sfera ebbasta</name>
@@ -1423,7 +1423,7 @@
     <country>Italia</country>
     <latitude>45.5357218</latitude>
     <longitude>9.2376549</longitude>
-  </row>
+  <h3_idx>851f99cffffffff</h3_idx></row>
   <row>
     <id_author>ART98307962</id_author>
     <name>shablo</name>
@@ -1434,12 +1434,12 @@
     <description>disc jockey e produttore discografico italo-argentino (1980-)</description>
     <active_start />
     <active_end />
-    <province />
-    <region />
-    <country />
+    <province>Buenos Aires, Argentina</province>
+    <region>Ciudad Autónoma de Buenos Aires</region>
+    <country>Argentina</country>
     <latitude>44.8037407</latitude>
     <longitude>10.1430038</longitude>
-  </row>
+  <h3_idx>851ea6c7fffffff</h3_idx></row>
   <row>
     <id_author>ART26418649</id_author>
     <name>shade</name>
@@ -1455,7 +1455,7 @@
     <country>Italia</country>
     <latitude>45.0677551</latitude>
     <longitude>7.6824892</longitude>
-  </row>
+  <h3_idx>851f9843fffffff</h3_idx></row>
   <row>
     <id_author>ART64850829</id_author>
     <name>shiva</name>
@@ -1471,7 +1471,7 @@
     <country>Italia</country>
     <latitude>45.4641943</latitude>
     <longitude>9.1896346</longitude>
-  </row>
+  <h3_idx>851f99cffffffff</h3_idx></row>
   <row>
     <id_author>ART41225226</id_author>
     <name>skioffi</name>
@@ -1487,7 +1487,7 @@
     <country>Italia</country>
     <latitude>41.6285468</latitude>
     <longitude>13.5758498</longitude>
-  </row>
+  <h3_idx>851e8393fffffff</h3_idx></row>
   <row>
     <id_author>ART28717687</id_author>
     <name>slait</name>
@@ -1503,23 +1503,23 @@
     <country>Italia</country>
     <latitude>40.9232659</latitude>
     <longitude>9.5027442</longitude>
-  </row>
+  <h3_idx>851e9417fffffff</h3_idx></row>
   <row>
     <id_author>ART22979236</id_author>
     <name>sottotono</name>
     <gender>M</gender>
     <birth_date />
-    <birth_place />
-    <nationality />
+    <birth_place>Novara</birth_place>
+    <nationality>Italia</nationality>
     <description>gruppo musicale italiano</description>
     <active_start />
     <active_end />
-    <province />
-    <region />
-    <country />
-    <latitude />
-    <longitude />
-  </row>
+    <province>Novara</province>
+    <region>Piemonte</region>
+    <country>Italia</country>
+    <latitude>45.58425</latitude>
+    <longitude>8.545997</longitude>
+  <h3_idx>851f98affffffff</h3_idx></row>
   <row>
     <id_author>ART85780419</id_author>
     <name>tedua</name>
@@ -1535,7 +1535,7 @@
     <country>Italia</country>
     <latitude>44.40726</latitude>
     <longitude>8.9338624</longitude>
-  </row>
+  <h3_idx>851f9b0bfffffff</h3_idx></row>
   <row>
     <id_author>ART88026810</id_author>
     <name>thasup</name>
@@ -1551,7 +1551,7 @@
     <country>Italia</country>
     <latitude>41.7712145</latitude>
     <longitude>12.2278855</longitude>
-  </row>
+  <h3_idx>851e862ffffffff</h3_idx></row>
   <row>
     <id_author>ART51721248</id_author>
     <name>tony boy</name>
@@ -1567,7 +1567,7 @@
     <country>Italia</country>
     <latitude>45.391408</latitude>
     <longitude>11.8058487</longitude>
-  </row>
+  <h3_idx>851ea093fffffff</h3_idx></row>
   <row>
     <id_author>ART57242110</id_author>
     <name>tony effe</name>
@@ -1583,7 +1583,7 @@
     <country>Italia</country>
     <latitude>41.8933203</latitude>
     <longitude>12.4829321</longitude>
-  </row>
+  <h3_idx>851e8053fffffff</h3_idx></row>
   <row>
     <id_author>ART98118784</id_author>
     <name>tormento</name>
@@ -1599,7 +1599,7 @@
     <country>Italia</country>
     <latitude>38.1035389</latitude>
     <longitude>15.6397556</longitude>
-  </row>
+  <h3_idx>853f2653fffffff</h3_idx></row>
   <row>
     <id_author>ART15560128</id_author>
     <name>vacca</name>
@@ -1615,7 +1615,7 @@
     <country>Italia</country>
     <latitude>39.2171994</latitude>
     <longitude>9.113311</longitude>
-  </row>
+  <h3_idx>851e92d7fffffff</h3_idx></row>
   <row>
     <id_author>ART57587384</id_author>
     <name>willie peyote</name>
@@ -1631,23 +1631,23 @@
     <country>Italia</country>
     <latitude>45.0677551</latitude>
     <longitude>7.6824892</longitude>
-  </row>
+  <h3_idx>851f9843fffffff</h3_idx></row>
   <row>
     <id_author>ART71515715</id_author>
     <name>yeиdry</name>
     <gender>F</gender>
     <birth_date />
-    <birth_place />
+    <birth_place>Santo Domingo, Dominican Republic</birth_place>
     <nationality />
     <description />
     <active_start />
     <active_end />
-    <province />
-    <region />
-    <country />
-    <latitude />
-    <longitude />
-  </row>
+    <province>Santo Domingo, Dominican Republic</province>
+    <region>Distrito Nacional</region>
+    <country>República Dominicana</country>
+    <latitude>18.4713858</latitude>
+    <longitude>-69.8918436</longitude>
+  <h3_idx>854cd42ffffffff</h3_idx></row>
   <row>
     <id_author>ART83631935</id_author>
     <name>yung snapp</name>
@@ -1663,5 +1663,5 @@
     <country>Italia</country>
     <latitude>40.8358846</latitude>
     <longitude>14.2487679</longitude>
-  </row>
+  <h3_idx>851e832bfffffff</h3_idx></row>
 </data>

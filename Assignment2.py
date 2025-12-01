@@ -1,4 +1,4 @@
-# ASSIGNMENT 2 – DATA CLEANING FINALE (NO PANDAS)
+# ASSIGNMENT 2 â€“ DATA CLEANING FINALE (NO PANDAS)
 
 import json
 import xml.etree.ElementTree as ET
@@ -6,17 +6,19 @@ import requests
 import time
 from statistics import median, mode, StatisticsError
 from datetime import datetime
+import h3
+import pandas as pd
 
 # ==========================
 # 1) GEOCODING ARTISTI
 # ==========================
 
-# Dizionario di partenza: ARTISTA → provincia di nascita
+# Dizionario di partenza: ARTISTA â†’ provincia di nascita
 artists_birth_province = {
     "alfa": "Genova",
     "anna pepe": "La Spezia",
     "beba": "Torino",
-    "big mama": "Avellino",
+    "bigmama": "Avellino",
     "brusco": "Roma",
     "caneda": "Milano",
     "dargen d_amico": "Milano",
@@ -32,7 +34,24 @@ artists_birth_province = {
     "samuel heron": "La Spezia",
     "shiva": "Milano",
     "skioffi": "Frosinone",
-    "yendry": "Santo Domingo, Dominican Republic"
+    "yendry": "Santo Domingo, Dominican Republic",
+    "99 posse": "Napoli",
+    "articolo 31": "Milano",
+    "bushwaka": "La Spezia",
+    "club dogo": "Milano",
+    "colle der fomento": "Roma",
+    "cor veleno": "Roma",
+    "dark polo gang": "Roma",
+    "doll kill": "Cagliari",
+    "joey funboy": "Bolzano",
+    "mike24": "Avellino",
+    "miss simpatia": "Ancona",
+    "sottotono": "Novara",
+    "yeиdry": "Santo Domingo, Dominican Republic",
+    "nesli": "Ancona",
+    "fabri fibra": "Ancona",
+    "shablo": "Buenos Aires, Argentina",
+    "baby k": "Singapore"
 }
 
 # Cache per non ripetere le stesse chiamate al geocoder
@@ -76,7 +95,7 @@ def geocode_place(place):
                 country = addr.get("country", "")
                 region = addr.get("state", "")
 
-                # stima della nazionalità (case-insensitive)
+                # stima della nazionalitÃ  (case-insensitive)
                 country_lower = country.lower()
                 if "italia" in country_lower or "italy" in country_lower:
                     nationality = "Italia"
@@ -105,7 +124,7 @@ def geocode_place(place):
     return None
 
 
-# 2) Costruzione artists_geo (ARTISTA → info geografiche)
+# 2) Costruzione artists_geo (ARTISTA â†’ info geografiche)
 artists_geo = {}
 
 for artist, birthplace in artists_birth_province.items():
@@ -162,7 +181,7 @@ for row in root.findall('row'):
         "longitude": str(geo_info["longitude"]),
     }
 
-    # 3) scrivo solo se il campo è vuoto / "None" / "null" / "nan"
+    # 3) scrivo solo se il campo Ã¨ vuoto / "None" / "null" / "nan"
     for tag, value in tags.items():
         if value is None:
             continue
@@ -175,13 +194,23 @@ for row in root.findall('row'):
             fields_added += 1
 
     updated_artists += 1
-    print(f"AGGIORNATO → {name_xml}")
+    print(f"AGGIORNATO â†’ {name_xml}")
+
+for row in root.findall('row'):
+    lat = float(row.find("latitude").text)
+    long = float(row.find("longitude").text)
+    h3_index = h3.latlng_to_cell(lat, long, res=5)
+    # res=4 -> circa 897 km^2, res=5 -> circa 128 km^2, res=6 -> circa 18 km^2
+    new_elem_h3 = ET.SubElement(row, "h3_idx")
+    new_elem_h3.text = h3_index
+    fields_added += 1
+
 
 # Salva XML pulito con geo dati
 tree.write("artists_cleaned.xml", encoding="utf-8", xml_declaration=True)
 print(f"\nArtisti aggiornati con geocoding: {updated_artists}")
 print(f"Campi aggiunti totali: {fields_added}")
-print("→ artists_cleaned.xml generato e pronto per Assignment 4!\n")
+print("â†’ artists_cleaned.xml generato e pronto per Assignment 4!\n")
 
 
 # ==========================
@@ -257,13 +286,13 @@ for field in categorical_fields:
 
 # -------- 2.3 Pulizia riga per riga --------
 for track in tracks:
-    # Numerici → mediana
+    # Numerici â†’ mediana
     for field in numeric_fields:
         val = track.get(field)
         if val is None or str(val).strip() in ("", "null", "nan"):
             track[field] = medians[field]
 
-    # Categorici → moda
+    # Categorici â†’ moda
     for field in categorical_fields:
         if modes[field] is None:
             continue
