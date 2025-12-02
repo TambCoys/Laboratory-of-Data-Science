@@ -7,13 +7,12 @@ import time
 from statistics import median, mode, StatisticsError
 from datetime import datetime
 import h3
-import pandas as pd
 
 # ==========================
 # 1) GEOCODING ARTISTI
 # ==========================
 
-# Dizionario di partenza: ARTISTA â†’ provincia di nascita
+# Dizionario di partenza: Artista e provincia di nascita
 artists_birth_province = {
     "alfa": "Genova",
     "anna pepe": "La Spezia",
@@ -95,7 +94,7 @@ def geocode_place(place):
                 country = addr.get("country", "")
                 region = addr.get("state", "")
 
-                # stima della nazionalitÃ  (case-insensitive)
+                # stima della nazionalità (case-insensitive)
                 country_lower = country.lower()
                 if "italia" in country_lower or "italy" in country_lower:
                     nationality = "Italia"
@@ -124,7 +123,7 @@ def geocode_place(place):
     return None
 
 
-# 2) Costruzione artists_geo (ARTISTA â†’ info geografiche)
+# 2) Costruzione artists_geo (Artista e info geografiche)
 artists_geo = {}
 
 for artist, birthplace in artists_birth_province.items():
@@ -134,6 +133,11 @@ for artist, birthplace in artists_birth_province.items():
 print("\n=Valori Aggiunti=\n")
 for artist, info in artists_geo.items():
     print(f"{artist}: {info}")
+
+# Forzo manualmente la regione per baby k
+if artists_geo.get("baby k") is not None:
+    artists_geo["baby k"]["region"] = "Singapore"
+
 
 
 
@@ -194,7 +198,7 @@ for row in root.findall('row'):
             fields_added += 1
 
     updated_artists += 1
-    print(f"AGGIORNATO â†’ {name_xml}")
+    print(f"AGGIORNATO’ {name_xml}")
 
 for row in root.findall('row'):
     lat = float(row.find("latitude").text)
@@ -205,6 +209,23 @@ for row in root.findall('row'):
     new_elem_h3.text = h3_index
     fields_added += 1
 
+#Convertiamo le date in un formato più comodo
+date_cat = ["birth_date", "active_start", "active_end"]
+
+for row in root.findall('row'):
+    for field in date_cat:
+        elem = row.find(field)
+        if elem is None or elem.text is None:
+            continue
+
+        original = elem.text.strip()
+
+        # tentiamo di convertire YYYY-MM-DD in YYYYMMDD
+        try:
+            dt = datetime.strptime(original, "%Y-%m-%d")
+            elem.text = dt.strftime("%Y%m%d")  # nuovo formato
+        except Exception:
+            continue
 
 # Salva XML pulito con geo dati
 tree.write("artists_cleaned.xml", encoding="utf-8", xml_declaration=True)
@@ -339,6 +360,49 @@ for track in tracks:
     new_explicit = not (swear_it == 0 and swear_en == 0)
     track["explicit"] = new_explicit
 
+    month = track.get("month")
+    day = track.get("day")
+
+    season = None
+
+    try:
+        month = int(month)
+        day = int(day)
+
+        if (month == 12 and day >= 21) or month in (1, 2) or (month == 3 and day <= 19):
+            season = "Winter"
+        elif (month == 3 and day >= 20) or month in (4, 5) or (month == 6 and day <= 20):
+            season = "Spring"
+        elif (month == 6 and day >= 21) or month in (7, 8) or (month == 9 and day <= 22):
+            season = "Summer"
+        elif (month == 9 and day >= 23) or month in (10, 11) or (month == 12 and day <= 20):
+            season = "Autumn"
+
+    except:
+        season = None
+
+    track["season"] = season
+
+#rendiamo più comode le variabili temporali
+try:
+    y = int(track.get("year"))
+    m = int(track.get("month"))
+    d = int(track.get("day"))
+
+    # yyyy
+    track["year_yyyy"] = f"{y:04d}"
+
+    # yyyymm
+    track["month_yyyymm"] = f"{y:04d}{m:02d}"
+
+    # yyyymmdd
+    track["day_yyyymmdd"] = f"{y:04d}{m:02d}{d:02d}"
+
+except:
+    # Se year/month/day sono mancanti
+    track["year_yyyy"] = None
+    track["month_yyyymm"] = None
+    track["day_yyyymmdd"] = None
 
 # -------- 2.4 Salvataggio --------
 with open('tracks_cleaned.json', 'w', encoding='utf-8') as f:

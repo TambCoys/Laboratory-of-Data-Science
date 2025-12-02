@@ -8,7 +8,7 @@
     <birth_place>Napoli</birth_place>
     <nationality>Italia</nationality>
     <description>gruppo musicale italiano</description>
-    <active_start>1991-01-01</active_start>
+    <active_start>19910101</active_start>
     <active_end />
     <province>Napoli</province>
     <region>Campania</region>
@@ -20,11 +20,11 @@
     <id_author>ART53496045</id_author>
     <name>achille lauro</name>
     <gender>M</gender>
-    <birth_date>1990-07-11</birth_date>
+    <birth_date>19900711</birth_date>
     <birth_place>Verona</birth_place>
     <nationality>Italia</nationality>
     <description>cantautore e rapper italiano (1990-)</description>
-    <active_start>2012-01-01</active_start>
+    <active_start>20120101</active_start>
     <active_end />
     <province>Verona</province>
     <region>Veneto</region>
@@ -72,7 +72,7 @@
     <birth_place>Milano</birth_place>
     <nationality>Italia</nationality>
     <description>gruppo musicale hip hop italiano</description>
-    <active_start>1990-01-01</active_start>
+    <active_start>19900101</active_start>
     <active_end />
     <province>Milano</province>
     <region>Lombardia</region>
@@ -84,7 +84,7 @@
     <id_author>ART24123617</id_author>
     <name>babaman</name>
     <gender>M</gender>
-    <birth_date>1975-08-08</birth_date>
+    <birth_date>19750808</birth_date>
     <birth_place>Rho</birth_place>
     <nationality>Italia</nationality>
     <description>cantante italiano</description>
@@ -100,14 +100,14 @@
     <id_author>ART40229749</id_author>
     <name>baby k</name>
     <gender>F</gender>
-    <birth_date>1983-02-05</birth_date>
+    <birth_date>19830205</birth_date>
     <birth_place>Singapore</birth_place>
     <nationality>Italia</nationality>
     <description>cantautrice e rapper italiana (1983-)</description>
-    <active_start>2007-01-01</active_start>
+    <active_start>20070101</active_start>
     <active_end />
     <province>Singapore</province>
-    <region />
+    <region>Singapore</region>
     <country>Singapore</country>
     <latitude>45.0806268</latitude>
     <longitude>7.6707168</longitude>
@@ -116,11 +116,11 @@
     <id_author>ART56320683</id_author>
     <name>bassi maestro</name>
     <gender>M</gender>
-    <birth_date>1973-08-03</birth_date>
+    <birth_date>19730803</birth_date>
     <birth_place>Milano</birth_place>
     <nationality>Italia</nationality>
     <description>rapper, disc jockey, beatmaker e produttore discografico italiano</description>
-    <active_start>1988-01-01</active_start>
+    <active_start>19880101</active_start>
     <active_end />
     <province>Milano</province>
     <region>Lombardia</region>
@@ -152,7 +152,7 @@
     <birth_place>Avellino</birth_place>
     <nationality>Italia</nationality>
     <description />
-    <active_start>2001-01-01</active_start>
+    <active_start>20010101</active_start>
     <active_end />
     <province>Avellino</province>
     <region>Campania</region>
@@ -212,11 +212,11 @@
     <id_author>ART27304446</id_author>
     <name>caparezza</name>
     <gender>M</gender>
-    <birth_date>1973-10-09</birth_date>
+    <birth_date>19731009</birth_date>
     <birth_place>Sternatia</birth_place>
     <nationality>Italia</nationality>
     <description>rapper, cantautore e produttore discografico italiano (1973-)</description>
-    <active_start>1996-01-01</active_start>
+    <active_start>19960101</active_start>
     <active_end />
     <province>Lecce</province>
     <region>Puglia</region>
@@ -228,7 +228,7 @@
     <id_author>ART70825116</id_author>
     <name>capo plaza</name>
     <gender>M</gender>
-    <birth_date>1998-04-20</birth_date>
+    <birth_date>19980420</birth_date>
     <birth_place>Salerno</birth_place>
     <nationality>Italia</nationality>
     <description>rapper italiano (1998-)</description>
@@ -244,7 +244,7 @@
     <id_author>ART67409252</id_author>
     <name>chadia rodriguez</name>
     <gender>F</gender>
-    <birth_date>1998-11-07</birth_date>
+    <birth_date>19981107</birth_date>
     <birth_place>Almería</birth_place>
     <nationality>Italia</nationality>
     <description>rapper italiana (1998-)</description>
@@ -260,7 +260,7 @@
     <id_author>ART71969350</id_author>
     <name>clementino</name>
     <gender>M</gender>
-    <birth_date>1982-12-21</birth_date>
+    <birth_date>19821221</birth_date>
     <birth_place>Avellino</birth_place>
     <nationality>Italia</nationality>
     <description>rapper e attore italiano (1982-)</description>
@@ -292,11 +292,11 @@
     <id_author>ART78209349</id_author>
     <name>coez</name>
     <gender>M</gender>
-    <birth_date>1983-07-11</birth_date>
+    <birth_date>19830711</birth_date>
     <birth_place>Nocera Inferiore</birth_place>
     <nationality>Italia</nationality>
     <description>cantautore e rapper italiano (1983-)</description>
-    <active_start>2002-01-01</active_start>
+    <active_start>20020101</active_start>
     <active_end />
     <province>Salerno</province>
     <region>Campania</region>
@@ -328,7 +328,7 @@
     <birth_place>Roma</birth_place>
     <nationality>Italia</nationality>
     <description>gruppo musicale italiano</description>
-    <active_start>1993-01-01</active_start>
+    <active_start>19930101</active_start>
     <active_end />
     <province>Roma</province>
     <region>Lazio</region>
@@ -340,7 +340,7 @@
     <id_author>ART46851094</id_author>
     <name>dani faiv</name>
     <gender>M</gender>
-    <birth_date>1993-11-05</birth_date>
+    <birth_date>19931105</birth_date>
     <birth_place>La Spezia</birth_place>
     <nationality>Italia</nationality>
     <description>rapper italiano (1993-)</description>
@@ -376,7 +376,7 @@
     <birth_place>Roma</birth_place>
     <nationality>Italia</nationality>
     <description>gruppo musicale italiano</description>
-    <active_start>2014-01-01</active_start>
+    <active_start>20140101</active_start>
     <active_end />
     <province>Roma</province>
     <region>Lazio</region>
@@ -404,7 +404,7 @@
     <id_author>ART14383873</id_author>
     <name>don joe</name>
     <gender>M</gender>
-    <birth_date>1975-05-15</birth_date>
+    <birth_date>19750515</birth_date>
     <birth_place>Milano</birth_place>
     <nationality>Italia</nationality>
     <description>disc jockey, produttore discografico e rapper italiano (1975-)</description>
@@ -420,7 +420,7 @@
     <id_author>ART09119396</id_author>
     <name>drefgold</name>
     <gender>M</gender>
-    <birth_date>1997-05-16</birth_date>
+    <birth_date>19970516</birth_date>
     <birth_place>Bologna</birth_place>
     <nationality>Italia</nationality>
     <description>rapper italiano (1997-)</description>
@@ -436,11 +436,11 @@
     <id_author>ART86549066</id_author>
     <name>emis killa</name>
     <gender>M</gender>
-    <birth_date>1989-11-14</birth_date>
+    <birth_date>19891114</birth_date>
     <birth_place>Vimercate</birth_place>
     <nationality>Italia</nationality>
     <description>rapper italiano (1989-)</description>
-    <active_start>2006-01-01</active_start>
+    <active_start>20060101</active_start>
     <active_end />
     <province>Monza e della Brianza</province>
     <region>Lombardia</region>
@@ -452,11 +452,11 @@
     <id_author>ART57616402</id_author>
     <name>ensi</name>
     <gender>M</gender>
-    <birth_date>1985-12-13</birth_date>
+    <birth_date>19851213</birth_date>
     <birth_place>Alpignano</birth_place>
     <nationality>Italia</nationality>
     <description>rapper italiano (1985-)</description>
-    <active_start>2002-01-01</active_start>
+    <active_start>20020101</active_start>
     <active_end />
     <province>Torino</province>
     <region>Piemonte</region>
@@ -468,7 +468,7 @@
     <id_author>ART19729064</id_author>
     <name>entics</name>
     <gender>M</gender>
-    <birth_date>1985-03-16</birth_date>
+    <birth_date>19850316</birth_date>
     <birth_place>Milano</birth_place>
     <nationality>Italia</nationality>
     <description>cantante italiano</description>
@@ -484,11 +484,11 @@
     <id_author>ART76284946</id_author>
     <name>ernia</name>
     <gender>M</gender>
-    <birth_date>1993-11-29</birth_date>
+    <birth_date>19931129</birth_date>
     <birth_place>Milano</birth_place>
     <nationality>Italia</nationality>
     <description>rapper italiano (1993-)</description>
-    <active_start>2011-01-01</active_start>
+    <active_start>20110101</active_start>
     <active_end />
     <province>Milano</province>
     <region>Lombardia</region>
@@ -516,11 +516,11 @@
     <id_author>ART25707984</id_author>
     <name>fabri fibra</name>
     <gender>M</gender>
-    <birth_date>1976-10-17</birth_date>
+    <birth_date>19761017</birth_date>
     <birth_place>Senigallia</birth_place>
     <nationality>Italia</nationality>
     <description>rapper italiano (1976-)</description>
-    <active_start>1996-01-01</active_start>
+    <active_start>19960101</active_start>
     <active_end />
     <province>Ancona</province>
     <region>Marche</region>
@@ -532,11 +532,11 @@
     <id_author>ART07024718</id_author>
     <name>fedez</name>
     <gender>M</gender>
-    <birth_date>1989-10-15</birth_date>
+    <birth_date>19891015</birth_date>
     <birth_place>Milano</birth_place>
     <nationality>Italia</nationality>
     <description>rapper, personaggio televisivo e imprenditore italiano (1989-)</description>
-    <active_start>2006-01-01</active_start>
+    <active_start>20060101</active_start>
     <active_end />
     <province>Milano</province>
     <region>Lombardia</region>
@@ -548,11 +548,11 @@
     <id_author>ART46711784</id_author>
     <name>frah quintale</name>
     <gender>M</gender>
-    <birth_date>1989-12-27</birth_date>
+    <birth_date>19891227</birth_date>
     <birth_place>Brescia</birth_place>
     <nationality>Italia</nationality>
     <description>cantautore e rapper italiano (1989-)</description>
-    <active_start>2006-01-01</active_start>
+    <active_start>20060101</active_start>
     <active_end />
     <province>Brescia</province>
     <region>Lombardia</region>
@@ -564,11 +564,11 @@
     <id_author>ART31005348</id_author>
     <name>frankie hi-nrg mc</name>
     <gender>M</gender>
-    <birth_date>1969-08-18</birth_date>
+    <birth_date>19690818</birth_date>
     <birth_place>Torino</birth_place>
     <nationality>Italia</nationality>
     <description>rapper e cantautore italiano (1969-)</description>
-    <active_start>1991-01-01</active_start>
+    <active_start>19910101</active_start>
     <active_end />
     <province>Torino</province>
     <region>Piemonte</region>
@@ -580,7 +580,7 @@
     <id_author>ART52465778</id_author>
     <name>fred de palma</name>
     <gender>M</gender>
-    <birth_date>1989-11-03</birth_date>
+    <birth_date>19891103</birth_date>
     <birth_place>Torino</birth_place>
     <nationality>Italia</nationality>
     <description>cantautore e rapper italiano (1989-)</description>
@@ -596,11 +596,11 @@
     <id_author>ART85046033</id_author>
     <name>gemitaiz</name>
     <gender>M</gender>
-    <birth_date>1988-11-04</birth_date>
+    <birth_date>19881104</birth_date>
     <birth_place>Roma</birth_place>
     <nationality>Italia</nationality>
     <description>rapper e produttore discografico italiano (1988)</description>
-    <active_start>2003-01-01</active_start>
+    <active_start>20030101</active_start>
     <active_end />
     <province>Roma</province>
     <region>Lazio</region>
@@ -612,7 +612,7 @@
     <id_author>ART87162895</id_author>
     <name>geolier</name>
     <gender>M</gender>
-    <birth_date>2000-03-23</birth_date>
+    <birth_date>20000323</birth_date>
     <birth_place>Napoli</birth_place>
     <nationality>Italia</nationality>
     <description>rapper italiano (2000-)</description>
@@ -628,11 +628,11 @@
     <id_author>ART83125571</id_author>
     <name>ghali</name>
     <gender>M</gender>
-    <birth_date>1993-05-21</birth_date>
+    <birth_date>19930521</birth_date>
     <birth_place>Milano</birth_place>
     <nationality>Italia</nationality>
     <description>rapper e cantautore italo-tunisino (1993-)</description>
-    <active_start>2011-01-01</active_start>
+    <active_start>20110101</active_start>
     <active_end />
     <province>Milano</province>
     <region>Lombardia</region>
@@ -644,11 +644,11 @@
     <id_author>ART73965015</id_author>
     <name>ghemon</name>
     <gender>M</gender>
-    <birth_date>1982-04-01</birth_date>
+    <birth_date>19820401</birth_date>
     <birth_place>Avellino</birth_place>
     <nationality>Italia</nationality>
     <description>rapper, cantante e stand up comedian italiano</description>
-    <active_start>1996-01-01</active_start>
+    <active_start>19960101</active_start>
     <active_end />
     <province>Avellino</province>
     <region>Campania</region>
@@ -660,11 +660,11 @@
     <id_author>ART79325822</id_author>
     <name>grido</name>
     <gender>M</gender>
-    <birth_date>1979-03-30</birth_date>
+    <birth_date>19790330</birth_date>
     <birth_place>Milano</birth_place>
     <nationality>Italia</nationality>
     <description>rapper e cantautore italiano (1979)</description>
-    <active_start>1996-01-01</active_start>
+    <active_start>19960101</active_start>
     <active_end />
     <province>Milano</province>
     <region>Lombardia</region>
@@ -692,7 +692,7 @@
     <id_author>ART91515842</id_author>
     <name>hell raton</name>
     <gender>M</gender>
-    <birth_date>1990-05-14</birth_date>
+    <birth_date>19900514</birth_date>
     <birth_place>Olbia</birth_place>
     <nationality>Italia</nationality>
     <description>rapper e produttore discografico italiano (1990-)</description>
@@ -724,11 +724,11 @@
     <id_author>ART08177154</id_author>
     <name>il tre</name>
     <gender>M</gender>
-    <birth_date>1997-01-01</birth_date>
+    <birth_date>19970101</birth_date>
     <birth_place>Roma</birth_place>
     <nationality>Italia</nationality>
     <description>rapper e cantautore italiano (1997-)</description>
-    <active_start>2015-01-01</active_start>
+    <active_start>20150101</active_start>
     <active_end />
     <province>Roma</province>
     <region>Lazio</region>
@@ -740,11 +740,11 @@
     <id_author>ART57730937</id_author>
     <name>inoki</name>
     <gender>M</gender>
-    <birth_date>1979-10-02</birth_date>
+    <birth_date>19791002</birth_date>
     <birth_place>Roma</birth_place>
     <nationality>Italia</nationality>
     <description>rapper e produttore discografico italiano (1979)</description>
-    <active_start>1996-01-01</active_start>
+    <active_start>19960101</active_start>
     <active_end />
     <province>Roma</province>
     <region>Lazio</region>
@@ -756,11 +756,11 @@
     <id_author>ART17812958</id_author>
     <name>j-ax</name>
     <gender>M</gender>
-    <birth_date>1972-08-05</birth_date>
+    <birth_date>19720805</birth_date>
     <birth_place>Milano</birth_place>
     <nationality>Italia</nationality>
     <description>rapper, cantautore e produttore discografico italiano (1972-)</description>
-    <active_start>1990-01-01</active_start>
+    <active_start>19900101</active_start>
     <active_end />
     <province>Milano</province>
     <region>Lombardia</region>
@@ -772,7 +772,7 @@
     <id_author>ART80977821</id_author>
     <name>jack the smoker</name>
     <gender>M</gender>
-    <birth_date>1982-12-20</birth_date>
+    <birth_date>19821220</birth_date>
     <birth_place>Milano</birth_place>
     <nationality>Italia</nationality>
     <description>rapper e produttore discografico italiano (1982-)</description>
@@ -788,11 +788,11 @@
     <id_author>ART88792008</id_author>
     <name>jake la furia</name>
     <gender>M</gender>
-    <birth_date>1979-02-25</birth_date>
+    <birth_date>19790225</birth_date>
     <birth_place>Milano</birth_place>
     <nationality>Italia</nationality>
     <description>rapper italiano (1979-)</description>
-    <active_start>1999-01-01</active_start>
+    <active_start>19990101</active_start>
     <active_end />
     <province>Milano</province>
     <region>Lombardia</region>
@@ -836,7 +836,7 @@
     <id_author>ART88423027</id_author>
     <name>la pina</name>
     <gender>F</gender>
-    <birth_date>1970-06-20</birth_date>
+    <birth_date>19700620</birth_date>
     <birth_place>Firenze</birth_place>
     <nationality>Italia</nationality>
     <description>rapper, conduttrice radiofonica e televisiva italiana (1970-)</description>
@@ -852,11 +852,11 @@
     <id_author>ART39344115</id_author>
     <name>lazza</name>
     <gender>M</gender>
-    <birth_date>1994-08-22</birth_date>
+    <birth_date>19940822</birth_date>
     <birth_place>Scampia</birth_place>
     <nationality>Italia</nationality>
     <description>rapper, musicista e produttore discografico italiano (1994-)</description>
-    <active_start>2012-01-01</active_start>
+    <active_start>20120101</active_start>
     <active_end />
     <province>Napoli</province>
     <region>Campania</region>
@@ -868,7 +868,7 @@
     <id_author>ART05528539</id_author>
     <name>luchè</name>
     <gender>M</gender>
-    <birth_date>1981-01-07</birth_date>
+    <birth_date>19810107</birth_date>
     <birth_place>Napoli</birth_place>
     <nationality>Italia</nationality>
     <description>rapper e produttore discografico italiano</description>
@@ -884,11 +884,11 @@
     <id_author>ART20729624</id_author>
     <name>madame</name>
     <gender>F</gender>
-    <birth_date>2002-01-16</birth_date>
+    <birth_date>20020116</birth_date>
     <birth_place>Vicenza</birth_place>
     <nationality>Italia</nationality>
     <description>cantautrice e rapper italiana (2002-)</description>
-    <active_start>2018-01-01</active_start>
+    <active_start>20180101</active_start>
     <active_end />
     <province>Vicenza</province>
     <region>Veneto</region>
@@ -900,11 +900,11 @@
     <id_author>ART40433104</id_author>
     <name>madman</name>
     <gender>M</gender>
-    <birth_date>1988-07-25</birth_date>
+    <birth_date>19880725</birth_date>
     <birth_place>Grottaglie</birth_place>
     <nationality>Italia</nationality>
     <description>rapper italiano (1988)</description>
-    <active_start>2006-01-01</active_start>
+    <active_start>20060101</active_start>
     <active_end />
     <province>Taranto</province>
     <region>Puglia</region>
@@ -916,11 +916,11 @@
     <id_author>ART16868977</id_author>
     <name>mahmood</name>
     <gender>M</gender>
-    <birth_date>1992-09-12</birth_date>
+    <birth_date>19920912</birth_date>
     <birth_place>Milano</birth_place>
     <nationality>Italia</nationality>
     <description>cantautore e paroliere italiano (1992-)</description>
-    <active_start>2012-01-01</active_start>
+    <active_start>20120101</active_start>
     <active_end />
     <province>Milano</province>
     <region>Lombardia</region>
@@ -932,7 +932,7 @@
     <id_author>ART61734477</id_author>
     <name>mambolosco</name>
     <gender>M</gender>
-    <birth_date>1991-08-16</birth_date>
+    <birth_date>19910816</birth_date>
     <birth_place>Vicenza</birth_place>
     <nationality>Italia</nationality>
     <description>rapper italiano (1991-)</description>
@@ -948,11 +948,11 @@
     <id_author>ART02733420</id_author>
     <name>marracash</name>
     <gender>M</gender>
-    <birth_date>1979-05-22</birth_date>
+    <birth_date>19790522</birth_date>
     <birth_place>Nicosia</birth_place>
     <nationality>Italia</nationality>
     <description>rapper e produttore discografico italiano (1979-)</description>
-    <active_start>1999-01-01</active_start>
+    <active_start>19990101</active_start>
     <active_end />
     <province>Enna</province>
     <region>Sicilia</region>
@@ -964,7 +964,7 @@
     <id_author>ART63613967</id_author>
     <name>massimo pericolo</name>
     <gender>M</gender>
-    <birth_date>1993-11-30</birth_date>
+    <birth_date>19931130</birth_date>
     <birth_place>Gallarate</birth_place>
     <nationality>Italia</nationality>
     <description>criminale e rapper italiano</description>
@@ -1028,7 +1028,7 @@
     <id_author>ART48537029</id_author>
     <name>mistaman</name>
     <gender>M</gender>
-    <birth_date>1976-09-11</birth_date>
+    <birth_date>19760911</birth_date>
     <birth_place>Treviso</birth_place>
     <nationality>Italia</nationality>
     <description>rapper italiano</description>
@@ -1060,7 +1060,7 @@
     <id_author>ART91352277</id_author>
     <name>mondo marcio</name>
     <gender>M</gender>
-    <birth_date>1986-12-01</birth_date>
+    <birth_date>19861201</birth_date>
     <birth_place>Milano</birth_place>
     <nationality>Italia</nationality>
     <description>rapper e produttore discografico italiano</description>
@@ -1076,11 +1076,11 @@
     <id_author>ART71846481</id_author>
     <name>mr. rain</name>
     <gender>M</gender>
-    <birth_date>1991-11-19</birth_date>
+    <birth_date>19911119</birth_date>
     <birth_place>Desenzano del Garda</birth_place>
     <nationality>Italia</nationality>
     <description>cantautore e rapper italiano (1991-)</description>
-    <active_start>2011-01-01</active_start>
+    <active_start>20110101</active_start>
     <active_end />
     <province>Brescia</province>
     <region>Lombardia</region>
@@ -1092,11 +1092,11 @@
     <id_author>ART86576759</id_author>
     <name>mudimbi</name>
     <gender>M</gender>
-    <birth_date>1986-10-17</birth_date>
+    <birth_date>19861017</birth_date>
     <birth_place>San Benedetto del Tronto</birth_place>
     <nationality>Italia</nationality>
     <description>cantante italiano</description>
-    <active_start>2013-01-01</active_start>
+    <active_start>20130101</active_start>
     <active_end />
     <province>Ascoli Piceno</province>
     <region>Marche</region>
@@ -1108,11 +1108,11 @@
     <id_author>ART52272796</id_author>
     <name>neffa</name>
     <gender>M</gender>
-    <birth_date>1967-10-07</birth_date>
+    <birth_date>19671007</birth_date>
     <birth_place>Scafati</birth_place>
     <nationality>Italia</nationality>
     <description>cantautore, rapper e produttore discografico italiano (1967-)</description>
-    <active_start>1988-01-01</active_start>
+    <active_start>19880101</active_start>
     <active_end />
     <province>Salerno</province>
     <region>Campania</region>
@@ -1140,11 +1140,11 @@
     <id_author>ART07629990</id_author>
     <name>nesli</name>
     <gender>M</gender>
-    <birth_date>1980-12-29</birth_date>
+    <birth_date>19801229</birth_date>
     <birth_place>Senigallia</birth_place>
     <nationality>Italia</nationality>
     <description>cantautore, rapper e produttore discografico italiano</description>
-    <active_start>1990-01-01</active_start>
+    <active_start>19900101</active_start>
     <active_end />
     <province>Ancona</province>
     <region>Marche</region>
@@ -1156,7 +1156,7 @@
     <id_author>ART19060721</id_author>
     <name>niky savage</name>
     <gender>M</gender>
-    <birth_date>1997-07-22</birth_date>
+    <birth_date>19970722</birth_date>
     <birth_place>Milano</birth_place>
     <nationality />
     <description>Rapper italiano</description>
@@ -1172,11 +1172,11 @@
     <id_author>ART78358659</id_author>
     <name>nitro</name>
     <gender>M</gender>
-    <birth_date>1993-02-11</birth_date>
+    <birth_date>19930211</birth_date>
     <birth_place>Vicenza</birth_place>
     <nationality>Italia</nationality>
     <description>rapper italiano (1993-)</description>
-    <active_start>2007-01-01</active_start>
+    <active_start>20070101</active_start>
     <active_end />
     <province>Vicenza</province>
     <region>Veneto</region>
@@ -1188,11 +1188,11 @@
     <id_author>ART07127070</id_author>
     <name>noyz narcos</name>
     <gender>M</gender>
-    <birth_date>1979-12-15</birth_date>
+    <birth_date>19791215</birth_date>
     <birth_place>Roma</birth_place>
     <nationality>Italia</nationality>
     <description>rapper e produttore discografico italiano (1979-)</description>
-    <active_start>1996-01-01</active_start>
+    <active_start>19960101</active_start>
     <active_end />
     <province>Roma</province>
     <region>Lazio</region>
@@ -1220,7 +1220,7 @@
     <id_author>ART12092805</id_author>
     <name>papa v</name>
     <gender>M</gender>
-    <birth_date>2001-02-19</birth_date>
+    <birth_date>20010219</birth_date>
     <birth_place>Pieve Emanuele</birth_place>
     <nationality>Italia</nationality>
     <description>rapper italiano (2001-)</description>
@@ -1236,11 +1236,11 @@
     <id_author>ART66932389</id_author>
     <name>piotta</name>
     <gender>M</gender>
-    <birth_date>1973-04-26</birth_date>
+    <birth_date>19730426</birth_date>
     <birth_place>Roma</birth_place>
     <nationality>Italia</nationality>
     <description>rapper e produttore discografico italiano (1973-)</description>
-    <active_start>1994-01-01</active_start>
+    <active_start>19940101</active_start>
     <active_end />
     <province>Roma</province>
     <region>Lazio</region>
@@ -1256,7 +1256,7 @@
     <birth_place>Bari</birth_place>
     <nationality>Italia</nationality>
     <description>gruppo musicale canadese</description>
-    <active_start>2003-01-01</active_start>
+    <active_start>20030101</active_start>
     <active_end />
     <province>Bari</province>
     <region>Puglia</region>
@@ -1268,11 +1268,11 @@
     <id_author>ART08456301</id_author>
     <name>rancore</name>
     <gender>M</gender>
-    <birth_date>1989-07-19</birth_date>
+    <birth_date>19890719</birth_date>
     <birth_place>Roma</birth_place>
     <nationality>Italia</nationality>
     <description>rapper italiano (1989-)</description>
-    <active_start>2004-01-01</active_start>
+    <active_start>20040101</active_start>
     <active_end />
     <province>Roma</province>
     <region>Lazio</region>
@@ -1284,11 +1284,11 @@
     <id_author>ART89596800</id_author>
     <name>rkomi</name>
     <gender>M</gender>
-    <birth_date>1994-04-19</birth_date>
+    <birth_date>19940419</birth_date>
     <birth_place>Milano</birth_place>
     <nationality>Italia</nationality>
     <description>rapper e cantautore italiano (1994-)</description>
-    <active_start>2012-01-01</active_start>
+    <active_start>20120101</active_start>
     <active_end />
     <province>Milano</province>
     <region>Lombardia</region>
@@ -1300,11 +1300,11 @@
     <id_author>ART17240256</id_author>
     <name>rocco hunt</name>
     <gender>M</gender>
-    <birth_date>1994-11-21</birth_date>
+    <birth_date>19941121</birth_date>
     <birth_place>Salerno</birth_place>
     <nationality>Italia</nationality>
     <description>cantautore e rapper italiano (1994-)</description>
-    <active_start>2009-01-01</active_start>
+    <active_start>20090101</active_start>
     <active_end />
     <province>Salerno</province>
     <region>Campania</region>
@@ -1316,7 +1316,7 @@
     <id_author>ART08302616</id_author>
     <name>rondodasosa</name>
     <gender>M</gender>
-    <birth_date>2002-04-29</birth_date>
+    <birth_date>20020429</birth_date>
     <birth_place>San Siro</birth_place>
     <nationality>Italia</nationality>
     <description>rapper italiano (2002-)</description>
@@ -1332,11 +1332,11 @@
     <id_author>ART04205421</id_author>
     <name>rosa chemical</name>
     <gender>M</gender>
-    <birth_date>1998-01-30</birth_date>
+    <birth_date>19980130</birth_date>
     <birth_place>Grugliasco</birth_place>
     <nationality>Italia</nationality>
     <description>rapper e cantautore italiano (1998-)</description>
-    <active_start>2015-01-01</active_start>
+    <active_start>20150101</active_start>
     <active_end />
     <province>Torino</province>
     <region>Piemonte</region>
@@ -1348,11 +1348,11 @@
     <id_author>ART74676403</id_author>
     <name>rose villain</name>
     <gender>F</gender>
-    <birth_date>1989-07-20</birth_date>
+    <birth_date>19890720</birth_date>
     <birth_place>Milano</birth_place>
     <nationality>Italia</nationality>
     <description>cantautrice e rapper italiana (1989-)</description>
-    <active_start>2010-01-01</active_start>
+    <active_start>20100101</active_start>
     <active_end />
     <province>Milano</province>
     <region>Lombardia</region>
@@ -1364,11 +1364,11 @@
     <id_author>ART02449272</id_author>
     <name>roshelle</name>
     <gender>F</gender>
-    <birth_date>1995-09-18</birth_date>
+    <birth_date>19950918</birth_date>
     <birth_place>Lodi</birth_place>
     <nationality>Italia</nationality>
     <description>cantante e rapper italiana (1995-)</description>
-    <active_start>2016-01-01</active_start>
+    <active_start>20160101</active_start>
     <active_end />
     <province>Lodi</province>
     <region>Lombardia</region>
@@ -1380,11 +1380,11 @@
     <id_author>ART48622722</id_author>
     <name>salmo</name>
     <gender>M</gender>
-    <birth_date>1984-06-29</birth_date>
+    <birth_date>19840629</birth_date>
     <birth_place>Olbia</birth_place>
     <nationality>Italia</nationality>
     <description>rapper e produttore discografico italiano (1984-)</description>
-    <active_start>1997-01-01</active_start>
+    <active_start>19970101</active_start>
     <active_end />
     <province>Gallura</province>
     <region>Sardegna</region>
@@ -1412,11 +1412,11 @@
     <id_author>ART87497821</id_author>
     <name>sfera ebbasta</name>
     <gender>M</gender>
-    <birth_date>1992-12-07</birth_date>
+    <birth_date>19921207</birth_date>
     <birth_place>Sesto San Giovanni</birth_place>
     <nationality>Italia</nationality>
     <description>rapper italiano (1992-)</description>
-    <active_start>2011-01-01</active_start>
+    <active_start>20110101</active_start>
     <active_end />
     <province>Milano</province>
     <region>Lombardia</region>
@@ -1428,7 +1428,7 @@
     <id_author>ART98307962</id_author>
     <name>shablo</name>
     <gender>M</gender>
-    <birth_date>1980-11-17</birth_date>
+    <birth_date>19801117</birth_date>
     <birth_place>Buenos Aires</birth_place>
     <nationality>Argentina</nationality>
     <description>disc jockey e produttore discografico italo-argentino (1980-)</description>
@@ -1444,11 +1444,11 @@
     <id_author>ART26418649</id_author>
     <name>shade</name>
     <gender>M</gender>
-    <birth_date>1987-12-10</birth_date>
+    <birth_date>19871210</birth_date>
     <birth_place>Torino</birth_place>
     <nationality>Italia</nationality>
     <description>rapper e doppiatore italiano (1987-)</description>
-    <active_start>2005-01-01</active_start>
+    <active_start>20050101</active_start>
     <active_end />
     <province>Torino</province>
     <region>Piemonte</region>
@@ -1492,7 +1492,7 @@
     <id_author>ART28717687</id_author>
     <name>slait</name>
     <gender>M</gender>
-    <birth_date>1987-01-24</birth_date>
+    <birth_date>19870124</birth_date>
     <birth_place>Olbia</birth_place>
     <nationality>Italia</nationality>
     <description>rapper e produttore discografico italiano (1987-)</description>
@@ -1524,7 +1524,7 @@
     <id_author>ART85780419</id_author>
     <name>tedua</name>
     <gender>M</gender>
-    <birth_date>1994-02-21</birth_date>
+    <birth_date>19940221</birth_date>
     <birth_place>Genova</birth_place>
     <nationality>Italia</nationality>
     <description>cantautore, rapper e attore italiano (1994-)</description>
@@ -1540,11 +1540,11 @@
     <id_author>ART88026810</id_author>
     <name>thasup</name>
     <gender>M</gender>
-    <birth_date>2001-03-17</birth_date>
+    <birth_date>20010317</birth_date>
     <birth_place>Fiumicino</birth_place>
     <nationality>Italia</nationality>
     <description>rapper e produttore discografico italiano (2001-)</description>
-    <active_start>2015-01-01</active_start>
+    <active_start>20150101</active_start>
     <active_end />
     <province>Roma</province>
     <region>Lazio</region>
@@ -1556,7 +1556,7 @@
     <id_author>ART51721248</id_author>
     <name>tony boy</name>
     <gender>M</gender>
-    <birth_date>1999-09-26</birth_date>
+    <birth_date>19990926</birth_date>
     <birth_place>Padova</birth_place>
     <nationality>Italia</nationality>
     <description>rapper italiano (1999-)</description>
@@ -1572,7 +1572,7 @@
     <id_author>ART57242110</id_author>
     <name>tony effe</name>
     <gender>M</gender>
-    <birth_date>1991-05-17</birth_date>
+    <birth_date>19910517</birth_date>
     <birth_place>Roma</birth_place>
     <nationality>Italia</nationality>
     <description>rapper italiano (1991-)</description>
@@ -1588,7 +1588,7 @@
     <id_author>ART98118784</id_author>
     <name>tormento</name>
     <gender>M</gender>
-    <birth_date>1975-09-06</birth_date>
+    <birth_date>19750906</birth_date>
     <birth_place>Reggio Calabria</birth_place>
     <nationality>Italia</nationality>
     <description>rapper, cantautore e beatmaker italiano (1975-)</description>
@@ -1604,11 +1604,11 @@
     <id_author>ART15560128</id_author>
     <name>vacca</name>
     <gender>M</gender>
-    <birth_date>1979-10-21</birth_date>
+    <birth_date>19791021</birth_date>
     <birth_place>Cagliari</birth_place>
     <nationality>Italia</nationality>
     <description>rapper italiano</description>
-    <active_start>2001-01-01</active_start>
+    <active_start>20010101</active_start>
     <active_end />
     <province>Cagliari</province>
     <region>Sardegna</region>
@@ -1620,11 +1620,11 @@
     <id_author>ART57587384</id_author>
     <name>willie peyote</name>
     <gender>M</gender>
-    <birth_date>1985-08-28</birth_date>
+    <birth_date>19850828</birth_date>
     <birth_place>Torino</birth_place>
     <nationality>Italia</nationality>
     <description>rapper e cantautore italiano (1985-)</description>
-    <active_start>2004-01-01</active_start>
+    <active_start>20040101</active_start>
     <active_end />
     <province>Torino</province>
     <region>Piemonte</region>
@@ -1652,7 +1652,7 @@
     <id_author>ART83631935</id_author>
     <name>yung snapp</name>
     <gender>M</gender>
-    <birth_date>1996-08-06</birth_date>
+    <birth_date>19960806</birth_date>
     <birth_place>Napoli</birth_place>
     <nationality>Italia</nationality>
     <description>produttore discografico e rapper italiano</description>
