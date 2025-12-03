@@ -1,4 +1,4 @@
--- 5. Dim_Text_Category (lyrics – da Assignment 3)
+-- 5. Dim_Text_Category (lyrics â€“ da Assignment 3)
 IF OBJECT_ID('dbo.Dim_Text') IS NOT NULL DROP TABLE Dim_Text;
 CREATE TABLE dbo.Dim_Text (
     Text_Code_PK INT IDENTITY(1,1) PRIMARY KEY,
