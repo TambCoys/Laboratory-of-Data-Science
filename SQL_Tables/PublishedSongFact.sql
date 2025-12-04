@@ -6,12 +6,12 @@ IF OBJECT_ID('dbo.PublishedSong_Fact', 'U') IS NOT NULL
 GO
 
 CREATE TABLE dbo.PublishedSong_Fact (
-    Artist_Code_FK    INT NOT NULL,   
-    Album_Code_FK    INT NOT NULL,   
-    Date_Code_FK     INT NOT NULL,   
-    Symphony_Code_FK INT NOT NULL,   
-    Text_Code_FK     INT NOT NULL,
-    Feats_Code_FK    INT NOT NULL,   
+    Artist_Code_FK   VARCHAR(10) NOT NULL,   
+    Album_Code_FK    VARCHAR(10) NOT NULL,   
+    Date_Code_FK     VARCHAR(10) NOT NULL,   
+    Symphony_Code_FK VARCHAR(10) NOT NULL,   
+    Text_Code_FK     VARCHAR(10) NOT NULL,
+    Feats_Code_FK    VARCHAR(10) NOT NULL,   
 
 
     Track_ID         VARCHAR(100) NOT NULL, 
