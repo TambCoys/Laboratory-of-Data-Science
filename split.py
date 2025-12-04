@@ -95,7 +95,7 @@ for row in root.findall(".//row"):
         pk_geo = gen_key("AGEO", counters["ArtistGeoDim"])
         counters["ArtistGeoDim"] += 1
         artist_geo_lookup[geo_tuple] = pk_geo
-        ArtistGeoDim.append([pk_geo, h3, country, region, province, city])
+        ArtistGeoDim.append([pk_geo, h3, country, region, province, birth_place])
     else:
         pk_geo = artist_geo_lookup[geo_tuple]
 
@@ -104,7 +104,7 @@ for row in root.findall(".//row"):
         pk_artist = gen_key("ART", counters["ArtistDim"])
         counters["ArtistDim"] += 1
         artist_lookup[orig_artist_id] = pk_artist
-        ArtistDim.append([pk_artist, pk_geo, name, gender, birth_date, birth_place, nationality])
+        ArtistDim.append([pk_artist, pk_geo, name, gender, nationality])
 
 # ======================================================
 # PHASE 2: LOAD TRACKS JSON
@@ -132,14 +132,15 @@ for t in tracks:
         text_lookup[txt_key] = pk_text
         TextDim.append([
             pk_text, t.get("n_sentences",""), t.get("n_tokens",""),
-            t.get("char_per_tok",""), t.get("avg_token_per_clause",""),
-            t.get("lyrics","")
+            t.get("Is_Explicit",""), t.get("N_Swear_Words_IT",""),
+            t.get("N_Swear_Words_EN",""),
+            t.get("Lyrics","")
         ])
     else:
         pk_text = text_lookup[txt_key]
 
     # ========== DateDim ==========
-    date_key = (t["year"], t["month"], t["day"])
+    date_key = (t["year_yyyy"], t["month_yyyymm"], t["day_yyyymmdd"])
     if date_key not in date_lookup:
         pk_date = gen_key("DAT", counters["DateDim"])
         counters["DateDim"] += 1
@@ -148,9 +149,9 @@ for t in tracks:
 
 
 
-        if t["year"] != None:
-            if t["month"] != None:
-                if t["day"] != None:
+        if t["year_yyyy"] != None:
+            if t["month_yyyymm"] != None:
+                if t["day_yyyymmdd"] != None:
                     year_str = f"{int(t['year']):04d}"
                     month_str = f"{int(t['year']):04d}{int(t['month']):02d}"
                     day_str = f"{int(t['year']):04d}{int(t['month']):02d}{int(t['day']):02d}"
@@ -206,10 +207,11 @@ for t in tracks:
             if row[2].strip().lower() == f.lower():  # row[2] = Name
                 matched_artist_pk = row[0]          # row[0] = ArtistCodePK
                 print("yuppieee")
+                #print("yuppieee")
                 break
 
         if not matched_artist_pk:
-            print("grr")
+            #print("grr")
             continue
 
         # Add row to GroupFeatures
@@ -224,13 +226,9 @@ for t in tracks:
     PublishedFact.append([
         t["id"],
         t.get("title",""),
-        t.get("language",""),
-        t.get("explicit", False),
         t.get("duration_ms",""),
-        t.get("track_number",""),
         t.get("streams@1month",""),
         t.get("popularity",""),
-        t.get("disc_number",""),
         t.get("category",""),
         pk_artist,
         pk_album,
@@ -245,7 +243,7 @@ for t in tracks:
 # ======================================================
 write_csv("AlbumDim.csv", ["AlbumCodePK","AlbumTitle","AlbumType"], AlbumDim)
 write_csv("TextDim.csv", ["TextCodePK","n_sentences","n_tokens","Is_Explicit","N_Swear_Words_IT","N_Swear_Words_EN", "Lyrics"], TextDim)
-write_csv("ArtistGeoDim.csv", ["ArtistGeoCodePK","H3_index","Country","Region","Province","BirthPlace"], ArtistGeoDim)
+write_csv("ArtistGeoDim.csv", ["ArtistGeoCodePK","H3_index","Country","Region","Province","City"], ArtistGeoDim)
 write_csv("ArtistDim.csv", ["ArtistCodePK","ArtistGeoCodeFK","Name","Gender","Nationality"], ArtistDim)
 write_csv("DateDim.csv", ["DateCodePK","Year","Month","Day","Season"], DateDim)
 write_csv("SymphonyDim.csv", ["SymphonyCodePK","BPM","Rolloff","Flux","RMS","Flatness","Spectral_Complexity","Pitch","Loudness"], SymphonyDim)
