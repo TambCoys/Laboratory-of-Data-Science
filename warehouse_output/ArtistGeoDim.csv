@@ -1,0 +1,45 @@
+ArtistGeoCodePK,H3_index,Country,Region,Province,BirthPlace
+AGEO0001,851e832bfffffff,Italia,Campania,Napoli,Napoli
+AGEO0002,851ea447fffffff,Italia,Veneto,Verona,Verona
+AGEO0003,851f9b0bfffffff,Italia,Liguria,Genova,Genova
+AGEO0004,851eb597fffffff,Italia,Liguria,La Spezia,La Spezia
+AGEO0005,851f99cffffffff,Italia,Lombardia,Milano,Milano
+AGEO0006,851f99cbfffffff,Italia,Lombardia,Milano,Milano
+AGEO0007,851f9843fffffff,Singapore,Singapore,Singapore,Singapore
+AGEO0008,851f9843fffffff,Italia,Piemonte,Torino,Torino
+AGEO0009,851e8e0bfffffff,Italia,Campania,Avellino,Avellino
+AGEO0010,851e8053fffffff,Italia,Lazio,Roma,Roma
+AGEO0011,851e8b27fffffff,Italia,Puglia,Lecce,Lecce
+AGEO0012,851e8adbfffffff,Italia,Campania,Salerno,Salerno
+AGEO0013,851e9d97fffffff,Italia,Campania,Salerno,Salerno
+AGEO0014,851e92d7fffffff,Italia,Sardigna/Sardegna,Cagliari,Cagliari
+AGEO0015,851ea05bfffffff,Italia,Emilia-Romagna,Bologna,Bologna
+AGEO0016,851f9913fffffff,Italia,Lombardia,Monza e della Brianza,Monza e della Brianza
+AGEO0017,851f985bfffffff,Italia,Piemonte,Torino,Torino
+AGEO0018,853f35c7fffffff,Italia,Sicilia,Catania,Catania
+AGEO0019,851ea32bfffffff,Italia,Marche,Ancona,Ancona
+AGEO0020,851ea4dbfffffff,Italia,Lombardia,Brescia,Brescia
+AGEO0021,851e9417fffffff,Italia,Sardegna,Gallura,Gallura
+AGEO0022,853f34a3fffffff,Italia,Sicilia,Enna,Enna
+AGEO0023,851f8bcbfffffff,Italia,Trentino-Alto Adige/Südtirol,Bolzano,Bolzano
+AGEO0024,851e9a0ffffffff,Italia,Sicilia,Palermo,Palermo
+AGEO0025,851ea203fffffff,Italia,Toscana,Firenze,Firenze
+AGEO0026,851ea407fffffff,Italia,Veneto,Vicenza,Vicenza
+AGEO0027,851e8b8bfffffff,Italia,Puglia,Taranto,Taranto
+AGEO0028,851e9b4ffffffff,Italia,Sicilia,Enna,Enna
+AGEO0029,851f99dbfffffff,Italia,Lombardia,Varese,Varese
+AGEO0030,851ea367fffffff,Italia,Marche,Ancona,Ancona
+AGEO0031,851ea5cffffffff,Italia,Veneto,Treviso,Treviso
+AGEO0032,851ea453fffffff,Italia,Lombardia,Brescia,Brescia
+AGEO0033,851e850ffffffff,Italia,Marche,Ascoli Piceno,Ascoli Piceno
+AGEO0034,851f9957fffffff,Italia,Lombardia,Milano,Milano
+AGEO0035,851e880ffffffff,Italia,Puglia,Bari,Bari
+AGEO0036,851f9947fffffff,Italia,Lombardia,Lodi,Lodi
+AGEO0037,851ea6c7fffffff,Argentina,Ciudad Autónoma de Buenos Aires,"Buenos Aires, Argentina","Buenos Aires, Argentina"
+AGEO0038,851e8393fffffff,Italia,Lazio,Frosinone,Frosinone
+AGEO0039,851f98affffffff,Italia,Piemonte,Novara,Novara
+AGEO0040,851e862ffffffff,Italia,Lazio,Roma,Roma
+AGEO0041,851ea093fffffff,Italia,Veneto,Padova,Padova
+AGEO0042,853f2653fffffff,Italia,Calabria,Reggio Calabria,Reggio Calabria
+AGEO0043,851e92d7fffffff,Italia,Sardegna,Cagliari,Cagliari
+AGEO0044,854cd42ffffffff,República Dominicana,Distrito Nacional,"Santo Domingo, Dominican Republic","Santo Domingo, Dominican Republic"

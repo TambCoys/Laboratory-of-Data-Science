@@ -1,0 +1,105 @@
+ArtistCodePK,ArtistGeoCodeFK,Name,Gender,Nationality
+ART0001,AGEO0001,99 posse,M,,Napoli,Italia
+ART0002,AGEO0002,achille lauro,M,19900711,Verona,Italia
+ART0003,AGEO0003,alfa,M,,Genova,Italia
+ART0004,AGEO0004,anna pepe,F,,La Spezia,Italia
+ART0005,AGEO0005,articolo 31,M,,Milano,Italia
+ART0006,AGEO0006,babaman,M,19750808,Rho,Italia
+ART0007,AGEO0007,baby k,F,19830205,Singapore,Italia
+ART0008,AGEO0005,bassi maestro,M,19730803,Milano,Italia
+ART0009,AGEO0008,beba,F,,Torino,Italia
+ART0010,AGEO0009,bigmama,F,,Avellino,Italia
+ART0011,AGEO0010,brusco,M,,Roma,Italia
+ART0012,AGEO0004,bushwaka,M,,La Spezia,Italia
+ART0013,AGEO0005,caneda,M,,Milano,Italia
+ART0014,AGEO0011,caparezza,M,19731009,Sternatia,Italia
+ART0015,AGEO0012,capo plaza,M,19980420,Salerno,Italia
+ART0016,AGEO0003,chadia rodriguez,F,19981107,Almería,Italia
+ART0017,AGEO0009,clementino,M,19821221,Avellino,Italia
+ART0018,AGEO0005,club dogo,M,,Milano,Italia
+ART0019,AGEO0013,coez,M,19830711,Nocera Inferiore,Italia
+ART0020,AGEO0010,colle der fomento,M,,Roma,Italia
+ART0021,AGEO0010,cor veleno,M,,Roma,Italia
+ART0022,AGEO0004,dani faiv,M,19931105,La Spezia,Italia
+ART0023,AGEO0005,dargen d_amico,M,,Milano,Italia
+ART0024,AGEO0010,dark polo gang,M,,Roma,Italia
+ART0025,AGEO0014,doll kill,F,,Cagliari,Italia
+ART0026,AGEO0005,don joe,M,19750515,Milano,Italia
+ART0027,AGEO0015,drefgold,M,19970516,Bologna,Italia
+ART0028,AGEO0016,emis killa,M,19891114,Vimercate,Italia
+ART0029,AGEO0017,ensi,M,19851213,Alpignano,Italia
+ART0030,AGEO0005,entics,M,19850316,Milano,Italia
+ART0031,AGEO0005,ernia,M,19931129,Milano,Italia
+ART0032,AGEO0018,eva rea,F,,Catania,Italia
+ART0033,AGEO0019,fabri fibra,M,19761017,Senigallia,Italia
+ART0034,AGEO0005,fedez,M,19891015,Milano,Italia
+ART0035,AGEO0020,frah quintale,M,19891227,Brescia,Italia
+ART0036,AGEO0008,frankie hi-nrg mc,M,19690818,Torino,Italia
+ART0037,AGEO0008,fred de palma,M,19891103,Torino,Italia
+ART0038,AGEO0010,gemitaiz,M,19881104,Roma,Italia
+ART0039,AGEO0001,geolier,M,20000323,Napoli,Italia
+ART0040,AGEO0005,ghali,M,19930521,Milano,Italia
+ART0041,AGEO0009,ghemon,M,19820401,Avellino,Italia
+ART0042,AGEO0005,grido,M,19790330,Milano,Italia
+ART0043,AGEO0005,guè pequeno,M,,Milano,Italia
+ART0044,AGEO0021,hell raton,M,19900514,Olbia,Italia
+ART0045,AGEO0022,hindaco,F,,Enna,Italia
+ART0046,AGEO0010,il tre,M,19970101,Roma,Italia
+ART0047,AGEO0010,inoki,M,19791002,Roma,Italia
+ART0048,AGEO0005,j-ax,M,19720805,Milano,Italia
+ART0049,AGEO0005,jack the smoker,M,19821220,Milano,Italia
+ART0050,AGEO0005,jake la furia,M,19790225,Milano,Italia
+ART0051,AGEO0023,joey funboy,F,,Bolzano,Italia
+ART0052,AGEO0024,johnny marsiglia,M,,Palermo,Italia
+ART0053,AGEO0025,la pina,F,19700620,Firenze,Italia
+ART0054,AGEO0001,lazza,M,19940822,Scampia,Italia
+ART0055,AGEO0001,luchè,M,19810107,Napoli,Italia
+ART0056,AGEO0026,madame,F,20020116,Vicenza,Italia
+ART0057,AGEO0027,madman,M,19880725,Grottaglie,Italia
+ART0058,AGEO0005,mahmood,M,19920912,Milano,Italia
+ART0059,AGEO0026,mambolosco,M,19910816,Vicenza,Italia
+ART0060,AGEO0028,marracash,M,19790522,Nicosia,Italia
+ART0061,AGEO0029,massimo pericolo,M,19931130,Gallarate,Italia
+ART0062,AGEO0009,mike24,M,,Avellino,Italia
+ART0063,AGEO0005,miss keta,F,,Milano,Italia
+ART0064,AGEO0030,miss simpatia,F,,Ancona,Italia
+ART0065,AGEO0031,mistaman,M,19760911,Treviso,Italia
+ART0066,AGEO0005,mistico,M,,Milano,Italia
+ART0067,AGEO0005,mondo marcio,M,19861201,Milano,Italia
+ART0068,AGEO0032,mr. rain,M,19911119,Desenzano del Garda,Italia
+ART0069,AGEO0033,mudimbi,M,19861017,San Benedetto del Tronto,Italia
+ART0070,AGEO0013,neffa,M,19671007,Scafati,Italia
+ART0071,AGEO0005,nerone,M,,Milano,Italia
+ART0072,AGEO0019,nesli,M,19801229,Senigallia,Italia
+ART0073,AGEO0005,niky savage,M,19970722,Milano,
+ART0074,AGEO0026,nitro,M,19930211,Vicenza,Italia
+ART0075,AGEO0010,noyz narcos,M,19791215,Roma,Italia
+ART0076,AGEO0001,o zulù,M,,Napoli,Italia
+ART0077,AGEO0034,papa v,M,20010219,Pieve Emanuele,Italia
+ART0078,AGEO0010,piotta,M,19730426,Roma,Italia
+ART0079,AGEO0035,priestess,F,,Bari,Italia
+ART0080,AGEO0010,rancore,M,19890719,Roma,Italia
+ART0081,AGEO0005,rkomi,M,19940419,Milano,Italia
+ART0082,AGEO0012,rocco hunt,M,19941121,Salerno,Italia
+ART0083,AGEO0005,rondodasosa,M,20020429,San Siro,Italia
+ART0084,AGEO0008,rosa chemical,M,19980130,Grugliasco,Italia
+ART0085,AGEO0005,rose villain,F,19890720,Milano,Italia
+ART0086,AGEO0036,roshelle,F,19950918,Lodi,Italia
+ART0087,AGEO0021,salmo,M,19840629,Olbia,Italia
+ART0088,AGEO0004,samuel heron,M,,La Spezia,Italia
+ART0089,AGEO0005,sfera ebbasta,M,19921207,Sesto San Giovanni,Italia
+ART0090,AGEO0037,shablo,M,19801117,Buenos Aires,Argentina
+ART0091,AGEO0008,shade,M,19871210,Torino,Italia
+ART0092,AGEO0005,shiva,M,http://www.wikidata.org/.well-known/genid/4111f32c49a23235b2e902dc8621d27c,Milano,Italia
+ART0093,AGEO0038,skioffi,M,,Frosinone,Italia
+ART0094,AGEO0021,slait,M,19870124,Olbia,Italia
+ART0095,AGEO0039,sottotono,M,,Novara,Italia
+ART0096,AGEO0003,tedua,M,19940221,Genova,Italia
+ART0097,AGEO0040,thasup,M,20010317,Fiumicino,Italia
+ART0098,AGEO0041,tony boy,M,19990926,Padova,Italia
+ART0099,AGEO0010,tony effe,M,19910517,Roma,Italia
+ART0100,AGEO0042,tormento,M,19750906,Reggio Calabria,Italia
+ART0101,AGEO0043,vacca,M,19791021,Cagliari,Italia
+ART0102,AGEO0008,willie peyote,M,19850828,Torino,Italia
+ART0103,AGEO0044,yeиdry,F,,"Santo Domingo, Dominican Republic",
+ART0104,AGEO0001,yung snapp,M,19960806,Napoli,Italia
