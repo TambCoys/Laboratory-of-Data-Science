@@ -9,6 +9,6 @@ CREATE TABLE dbo.Dim_Artist_Geography (
     Country            NVARCHAR(100) NULL,
     Region             NVARCHAR(100) NULL,
     Province           NVARCHAR(100) NULL,
-    City               NVARCHAR(100) NULL
+    BirthPlace               NVARCHAR(100) NULL
 );
 GO
