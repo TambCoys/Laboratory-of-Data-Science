@@ -1,0 +1,105 @@
+ArtistCodePK,ArtistGeoCodeFK,Name,Gender,ArtistBirthDateFK,BirthPlace,Nationality
+1,1,99 posse,M,1,Napoli,Italia
+2,2,achille lauro,M,1,Verona,Italia
+3,3,alfa,M,1,Genova,Italia
+4,4,anna pepe,F,1,La Spezia,Italia
+5,5,articolo 31,M,1,Milano,Italia
+6,6,babaman,M,1,Rho,Italia
+7,7,baby k,F,1,Singapore,Italia
+8,5,bassi maestro,M,1,Milano,Italia
+9,8,beba,F,1,Torino,Italia
+10,9,bigmama,F,1,Avellino,Italia
+11,10,brusco,M,1,Roma,Italia
+12,4,bushwaka,M,1,La Spezia,Italia
+13,5,caneda,M,1,Milano,Italia
+14,11,caparezza,M,1,Sternatia,Italia
+15,12,capo plaza,M,1,Salerno,Italia
+16,3,chadia rodriguez,F,1,Almería,Italia
+17,9,clementino,M,1,Avellino,Italia
+18,5,club dogo,M,1,Milano,Italia
+19,13,coez,M,1,Nocera Inferiore,Italia
+20,10,colle der fomento,M,1,Roma,Italia
+21,10,cor veleno,M,1,Roma,Italia
+22,4,dani faiv,M,1,La Spezia,Italia
+23,5,dargen d_amico,M,1,Milano,Italia
+24,10,dark polo gang,M,1,Roma,Italia
+25,14,doll kill,F,1,Cagliari,Italia
+26,5,don joe,M,1,Milano,Italia
+27,15,drefgold,M,1,Bologna,Italia
+28,16,emis killa,M,1,Vimercate,Italia
+29,17,ensi,M,1,Alpignano,Italia
+30,5,entics,M,1,Milano,Italia
+31,5,ernia,M,1,Milano,Italia
+32,18,eva rea,F,1,Catania,Italia
+33,19,fabri fibra,M,1,Senigallia,Italia
+34,5,fedez,M,1,Milano,Italia
+35,20,frah quintale,M,1,Brescia,Italia
+36,8,frankie hi-nrg mc,M,1,Torino,Italia
+37,8,fred de palma,M,1,Torino,Italia
+38,10,gemitaiz,M,1,Roma,Italia
+39,1,geolier,M,1,Napoli,Italia
+40,5,ghali,M,1,Milano,Italia
+41,9,ghemon,M,1,Avellino,Italia
+42,5,grido,M,1,Milano,Italia
+43,5,guè pequeno,M,1,Milano,Italia
+44,21,hell raton,M,1,Olbia,Italia
+45,22,hindaco,F,1,Enna,Italia
+46,10,il tre,M,1,Roma,Italia
+47,10,inoki,M,1,Roma,Italia
+48,5,j-ax,M,1,Milano,Italia
+49,5,jack the smoker,M,1,Milano,Italia
+50,5,jake la furia,M,1,Milano,Italia
+51,23,joey funboy,F,1,Bolzano,Italia
+52,24,johnny marsiglia,M,1,Palermo,Italia
+53,25,la pina,F,1,Firenze,Italia
+54,1,lazza,M,1,Scampia,Italia
+55,1,luchè,M,1,Napoli,Italia
+56,26,madame,F,1,Vicenza,Italia
+57,27,madman,M,1,Grottaglie,Italia
+58,5,mahmood,M,1,Milano,Italia
+59,26,mambolosco,M,1,Vicenza,Italia
+60,28,marracash,M,1,Nicosia,Italia
+61,29,massimo pericolo,M,1,Gallarate,Italia
+62,9,mike24,M,1,Avellino,Italia
+63,5,miss keta,F,1,Milano,Italia
+64,30,miss simpatia,F,1,Ancona,Italia
+65,31,mistaman,M,1,Treviso,Italia
+66,5,mistico,M,1,Milano,Italia
+67,5,mondo marcio,M,1,Milano,Italia
+68,32,mr. rain,M,1,Desenzano del Garda,Italia
+69,33,mudimbi,M,1,San Benedetto del Tronto,Italia
+70,13,neffa,M,1,Scafati,Italia
+71,5,nerone,M,1,Milano,Italia
+72,19,nesli,M,1,Senigallia,Italia
+73,5,niky savage,M,1,Milano,
+74,26,nitro,M,1,Vicenza,Italia
+75,10,noyz narcos,M,1,Roma,Italia
+76,1,o zulù,M,1,Napoli,Italia
+77,34,papa v,M,1,Pieve Emanuele,Italia
+78,10,piotta,M,1,Roma,Italia
+79,35,priestess,F,1,Bari,Italia
+80,10,rancore,M,1,Roma,Italia
+81,5,rkomi,M,1,Milano,Italia
+82,12,rocco hunt,M,1,Salerno,Italia
+83,5,rondodasosa,M,1,San Siro,Italia
+84,8,rosa chemical,M,1,Grugliasco,Italia
+85,5,rose villain,F,1,Milano,Italia
+86,36,roshelle,F,1,Lodi,Italia
+87,21,salmo,M,1,Olbia,Italia
+88,4,samuel heron,M,1,La Spezia,Italia
+89,5,sfera ebbasta,M,1,Sesto San Giovanni,Italia
+90,37,shablo,M,1,Buenos Aires,Argentina
+91,8,shade,M,1,Torino,Italia
+92,5,shiva,M,1,Milano,Italia
+93,38,skioffi,M,1,Frosinone,Italia
+94,21,slait,M,1,Olbia,Italia
+95,39,sottotono,M,1,Novara,Italia
+96,3,tedua,M,1,Genova,Italia
+97,40,thasup,M,1,Fiumicino,Italia
+98,41,tony boy,M,1,Padova,Italia
+99,10,tony effe,M,1,Roma,Italia
+100,42,tormento,M,1,Reggio Calabria,Italia
+101,43,vacca,M,1,Cagliari,Italia
+102,8,willie peyote,M,1,Torino,Italia
+103,44,yeиdry,F,1,"Santo Domingo, Dominican Republic",
+104,1,yung snapp,M,1,Napoli,Italia
