@@ -206,7 +206,6 @@ for t in tracks:
         for row in ArtistDim:
             if row[2].strip().lower() == f.lower():  # row[2] = Name
                 matched_artist_pk = row[0]          # row[0] = ArtistCodePK
-                print("yuppieee")
                 #print("yuppieee")
                 break
 
