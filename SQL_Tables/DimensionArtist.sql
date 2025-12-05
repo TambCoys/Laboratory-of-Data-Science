@@ -1,8 +1,8 @@
 -- 1. Dim_Artist 
 IF OBJECT_ID('dbo.Dim_Artist') IS NOT NULL DROP TABLE dbo.Dim_Artist;
 CREATE TABLE dbo.Dim_Artist (
-    Artist_Code_PK     VARCHAR(10) IDENTITY(1,1) NOT NULL PRIMARY KEY,
-    Artist_Geo_Code_FK VARCHAR(10)  NOT NULL,   
+    Artist_Code_PK     INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+    Artist_Geo_Code_FK INT  NOT NULL,   
     Name               NVARCHAR(200) NULL,
     Gender             CHAR(1)       NULL,
     Nationality        NVARCHAR(50)  NULL,

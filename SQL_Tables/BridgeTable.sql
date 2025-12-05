@@ -5,8 +5,8 @@ IF OBJECT_ID('dbo.Feats_Bridge', 'U') IS NOT NULL
 GO
 
 CREATE TABLE dbo.Feats_Bridge (
-    Feat_Artist_Code_FK    VARCHAR(10) NOT NULL,
-    Feats_Code_FK    VARCHAR(10) NOT NULL,  
+    Feat_Artist_Code_FK    INT NOT NULL,
+    Feats_Code_FK    INT NOT NULL,  
 
     CONSTRAINT PK_Fact PRIMARY KEY (Feat_Artist_Code_FK, Feats_Code_FK)
 );
