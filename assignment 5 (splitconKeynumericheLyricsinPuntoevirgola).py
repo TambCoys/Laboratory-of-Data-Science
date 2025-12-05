@@ -167,6 +167,8 @@ for t in tracks:
         TextDim.append([
             pk_text,
             t.get("swear_IT", ""),
+            t.get("swear_IT", ""),
+            t.get("swear_IT", ""),
             t.get("swear_EN", ""),
             t.get("explicit", ""),
             lyrics_clean
@@ -270,7 +272,7 @@ write_csv("AlbumDim.csv",
           AlbumDim)
 
 write_csv("TextDim.csv", 
-          ["TextCodePK","n_sentences","n_tokens","Is_Explicit","N_Swear_Words_IT","N_Swear_Words_EN", "Lyrics"], 
+          ["TextCodePK","Is_Explicit","N_Swear_Words_IT","N_Swear_Words_EN", "Lyrics"], 
           TextDim)
 
 write_csv("ArtistGeoDim.csv", 
