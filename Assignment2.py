@@ -269,6 +269,55 @@ numeric_fields = [
 # Campi categorici da riempire con la moda
 categorical_fields = ["disc_number", "track_number", "language"]
 
+# =========================================================
+# FIX MISSING DATES (0 or Null)
+# =========================================================
+
+# 1. Calculate Medians (from songs that have valid dates)
+# We collect valid values to compute the median statistics
+valid_years = [t['year'] for t in tracks if t.get('year') and t['year'] != 0]
+valid_months = [t['month'] for t in tracks if t.get('month') and t['month'] != 0]
+valid_days = [t['day'] for t in tracks if t.get('day') and t['day'] != 0]
+
+# Use statistics.median (imported in your script)
+med_year = int(median(valid_years)) if valid_years else 2020
+med_month = int(median(valid_months)) if valid_months else 1
+med_day = int(median(valid_days)) if valid_days else 1
+
+# 2. Apply the Logic
+for track in tracks:
+    # Check if the song date is invalid (0 or None)
+    if track.get('year') == 0 or track.get('year') is None:
+        
+        alb_date = track.get('album_release_date')
+        
+        # Check if Album Date exists and is not empty
+        if alb_date and len(str(alb_date)) >= 4:
+            try:
+                # album_release_date is typically "YYYY-MM-DD" or "YYYY"
+                parts = str(alb_date).split('-')
+                
+                # Set Year
+                track['year'] = int(parts[0])
+                
+                # Set Month (use median if album date only has year)
+                track['month'] = int(parts[1]) if len(parts) > 1 else med_month
+                
+                # Set Day (use median if album date is YYYY-MM)
+                track['day'] = int(parts[2]) if len(parts) > 2 else med_day
+                
+            except (ValueError, IndexError):
+                # If parsing fails, default to median
+                track['year'] = med_year
+                track['month'] = med_month
+                track['day'] = med_day
+        else:
+            # Album date is missing or 0 -> Use Median
+            track['year'] = med_year
+            track['month'] = med_month
+            track['day'] = med_day
+
+
 
 # -------- 2.1 Calcolo mediane per i campi numerici --------
 medians = {}
