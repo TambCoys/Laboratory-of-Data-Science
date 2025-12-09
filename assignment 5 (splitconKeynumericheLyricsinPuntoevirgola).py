@@ -14,7 +14,7 @@ import os
 # -------------------------------
 JSON_FILE = "tracks_cleaned.json"
 XML_FILE = "artists_cleaned.xml"
-OUTPUT_DIR = "warehouse_outputkeynumeriche"
+OUTPUT_DIR = "warehouse_outputkeynumeriche!"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
