@@ -1,0 +1,1057 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="12/13/2025 10:52:57 AM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="DESKTOP-9THRA2G"
+  DTS:CreatorName="DESKTOP-9THRA2G\Utente"
+  DTS:DTSID="{D0AC64AD-073B-49B3-9BB8-2C4500FC34F8}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="17.0.1010.2"
+  DTS:LocaleID="1040"
+  DTS:ObjectName="Package1"
+  DTS:PackageType="5"
+  DTS:VersionBuild="15"
+  DTS:VersionGUID="{82B6E825-B36B-46C5-9110-8CB63E2DEC47}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[131.114.50.57.Group_ID_4_DB.Group_ID_4]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{E2991B37-AA6C-4B5E-B9CB-AFC4A74B96F0}"
+      DTS:ObjectName="131.114.50.57.Group_ID_4_DB.Group_ID_4">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=131.114.50.57;User ID=Group_ID_4;Initial Catalog=Group_ID_4_DB;Provider=SQLOLEDB.1;Persist Security Info=True;Application Name=SSIS-Assignment11-{E2991B37-AA6C-4B5E-B9CB-AFC4A74B96F0}131.114.50.57.Group_ID_4_DB.Group_ID_4;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA0XbUCCp9MkO22sr84sxNfQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADpBsBTqBApsBe4o4v5LuFvUwutzUKWV8Frn3RWrqR76QAAAAAOgAAAAAIAACAAAAD6rMhtKwpfPIUZtxO7H45uh0svmKS1yspQxbzXxKmXXSAAAABH/+hGNQ0FFjv4cDb2MWrHvfCkHbJm5Hlqq/uGhxBCXEAAAADLzunaPUoJWk7WDVYmJg7ludE01+xVZ6ciaE0q3lrSWJA76WMr+IGmeCZJ8nbfHZZrG0lBI42vrHeIeYLCC2sr</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Flat File Connection Manager 1]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{86C21F80-4E34-45FB-B2E9-ECBF68E930DD}"
+      DTS:ObjectName="Flat File Connection Manager 1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1033"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="C:\Users\Utente\Desktop\Data Science\LDS Data 2025-2026\SSIS Results\Assignment 11 bis.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="5"
+              DTS:TextQualified="True"
+              DTS:ObjectName="TrendingPercentage"
+              DTS:DTSID="{0791D3FA-C8A1-4D21-BC5C-0FD0ED674F4C}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="5"
+              DTS:TextQualified="True"
+              DTS:ObjectName="TrendingFactor"
+              DTS:DTSID="{6F022461-C533-44B1-BB05-1F6D606333DD}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="5"
+              DTS:TextQualified="True"
+              DTS:ObjectName="FeatTrendingPercentage"
+              DTS:DTSID="{0927D79D-3E70-4C37-B745-8F05620B6211}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="5"
+              DTS:TextQualified="True"
+              DTS:ObjectName="FeatTrendingFactor"
+              DTS:DTSID="{93731A91-B04E-4FBE-AECF-659BCCD2D9C3}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="200"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Name"
+              DTS:DTSID="{37C7E3B6-7793-4046-8527-4D91B9B49A28}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Flat File Connection Manager 2]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{9BDE658B-D748-4EEA-88A9-A751F1E908B3}"
+      DTS:ObjectName="Flat File Connection Manager 2">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1033"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\Utente\Desktop\Data Science\LDS Data 2025-2026\SSIS Results\Assignment 11.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="200"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Name"
+              DTS:DTSID="{435F68D0-BF5B-41F5-8CE7-572A7DE5C536}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="131"
+              DTS:DataPrecision="38"
+              DTS:DataScale="14"
+              DTS:TextQualified="True"
+              DTS:ObjectName="TrendingPercentage"
+              DTS:DTSID="{2F4395C7-A6A0-4B58-B480-35EAF7D87741}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:DataType="131"
+              DTS:DataPrecision="38"
+              DTS:DataScale="16"
+              DTS:TextQualified="True"
+              DTS:ObjectName="TrendingFactor"
+              DTS:DTSID="{1371F1D3-79DE-4395-A617-7BFC8FFE58AE}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Flat File Connection Manager 5]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{8027E8F2-9246-42B5-95B6-745201A01454}"
+      DTS:ObjectName="Flat File Connection Manager 5">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1033"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="C:\Users\Utente\Desktop\Data Science\LDS Data 2025-2026\SSIS Results\prova2.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Artist_Code_FK"
+              DTS:DTSID="{8262E3AF-2287-4064-8C53-AC5CA0374FBC}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="21"
+              DTS:TextQualified="True"
+              DTS:ObjectName="TotTrending"
+              DTS:DTSID="{0F656E3C-D438-498F-8E45-9FFEB72582AE}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="21"
+              DTS:TextQualified="True"
+              DTS:ObjectName="TotFlopping"
+              DTS:DTSID="{5AE2CD43-0BE7-4CBB-ADD6-012D13C8F61C}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="200"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Name"
+              DTS:DTSID="{1BF0B7B4-52AB-4A64-9A1F-B31FBD5A0BFF}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:DataType="21"
+              DTS:TextQualified="True"
+              DTS:ObjectName="TotSongs"
+              DTS:DTSID="{096ABA0A-E975-46B6-A145-04A847FE89DA}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Flat File Connection Manager 6]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{4A374100-B178-4537-9F17-311DFD729D7C}"
+      DTS:ObjectName="Flat File Connection Manager 6">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1033"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="C:\Users\Utente\Desktop\Data Science\LDS Data 2025-2026\SSIS Results\prova2.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="200"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Name"
+              DTS:DTSID="{20F4E2AC-572D-4936-9A05-848ACAEED33D}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="5"
+              DTS:TextQualified="True"
+              DTS:ObjectName="TrendingPercentage"
+              DTS:DTSID="{6DAABCCC-D03E-4C87-B054-D3510461E2B7}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:DataType="5"
+              DTS:TextQualified="True"
+              DTS:ObjectName="TrendingFactor"
+              DTS:DTSID="{F10F8EBA-C17E-4669-A272-87074F21BCD2}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Flat File Connection Manager 8]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{B039835A-BBEF-4FAB-BF94-7DD4F9BFA4E5}"
+      DTS:ObjectName="Flat File Connection Manager 8">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1033"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="65001"
+          DTS:ConnectionString="C:\Users\Utente\Desktop\Data Science\LDS Data 2025-2026\SSIS Results\Assignment 11 bis.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="200"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Name"
+              DTS:DTSID="{768AF3DD-D23F-4223-B4B9-A5F719494B25}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="5"
+              DTS:TextQualified="True"
+              DTS:ObjectName="TrendingPercentage"
+              DTS:DTSID="{33B2B718-D947-4DA1-ABEA-2D2135B60030}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="5"
+              DTS:TextQualified="True"
+              DTS:ObjectName="TrendingFactor"
+              DTS:DTSID="{8DE3031A-D8A3-485F-9530-654AFD09A54C}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="5"
+              DTS:TextQualified="True"
+              DTS:ObjectName="FeatTrendingPercentage"
+              DTS:DTSID="{C7A3A5BE-E57E-4FE2-885D-98C25C006C01}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:DataType="5"
+              DTS:TextQualified="True"
+              DTS:ObjectName="FeatTrendingFactor"
+              DTS:DTSID="{8E9238E3-BE67-4010-8E47-F370A06BE47F}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Attività Flusso di dati"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Attività Flusso di dati"
+      DTS:DTSID="{BAA8A992-E3FD-4AFA-8DDA-CB48CD76DB2F}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Attività Flusso di dati"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Attività Flusso di dati\Creating_needed_measures"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Colonna derivata;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tutti i diritti sono riservati; http://www.microsoft.com/sql/support;0"
+              description="Crea nuovi valori di colonna applicando espressioni alle colonne di input della trasformazione. Creare nuove colonne oppure sovrascrivere quelle esistenti. Ad esempio, concatenare i valori delle colonne 'first name' e 'last name' per creare una colonna 'full name'."
+              name="Creating_needed_measures"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Attività Flusso di dati\Creating_needed_measures.Inputs[Input colonna derivata]"
+                  description="Input della trasformazione Colonna derivata"
+                  name="Input colonna derivata">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Attività Flusso di dati\Creating_needed_measures.Inputs[Input colonna derivata].Columns[TotTrending]"
+                      cachedDataType="ui8"
+                      cachedName="TotTrending"
+                      lineageId="Package\Attività Flusso di dati\Setting_nulls_to_zero.Inputs[Input colonna derivata]" />
+                    <inputColumn
+                      refId="Package\Attività Flusso di dati\Creating_needed_measures.Inputs[Input colonna derivata].Columns[TotFlopping]"
+                      cachedDataType="ui8"
+                      cachedName="TotFlopping"
+                      lineageId="Package\Attività Flusso di dati\Setting_nulls_to_zero.Inputs[Input colonna derivata].Columns[TotTrending]" />
+                    <inputColumn
+                      refId="Package\Attività Flusso di dati\Creating_needed_measures.Inputs[Input colonna derivata].Columns[TotSongs]"
+                      cachedDataType="ui8"
+                      cachedName="TotSongs"
+                      lineageId="Package\Attività Flusso di dati\Setting_nulls_to_zero.Inputs[Input colonna derivata].Columns[TotFlopping]" />
+                    <inputColumn
+                      refId="Package\Attività Flusso di dati\Creating_needed_measures.Inputs[Input colonna derivata].Columns[FeatTotSongs]"
+                      cachedDataType="ui8"
+                      cachedName="FeatTotSongs"
+                      lineageId="Package\Attività Flusso di dati\1880:invalid" />
+                    <inputColumn
+                      refId="Package\Attività Flusso di dati\Creating_needed_measures.Inputs[Input colonna derivata].Columns[FeatTotTrending]"
+                      cachedDataType="ui8"
+                      cachedName="FeatTotTrending"
+                      lineageId="Package\Attività Flusso di dati\1881:invalid" />
+                    <inputColumn
+                      refId="Package\Attività Flusso di dati\Creating_needed_measures.Inputs[Input colonna derivata].Columns[FeatTotFlopping]"
+                      cachedDataType="ui8"
+                      cachedName="FeatTotFlopping"
+                      lineageId="Package\Attività Flusso di dati\1882:invalid" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Attività Flusso di dati\Creating_needed_measures.Outputs[Output colonna derivata]"
+                  description="Output predefinito della trasformazione Colonna derivata"
+                  exclusionGroup="1"
+                  name="Output colonna derivata"
+                  synchronousInputId="Package\Attività Flusso di dati\Creating_needed_measures.Inputs[Input colonna derivata]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Creating_needed_measures.Outputs[Output colonna derivata].Columns[TrendingPercentage]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Calcolo"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Attività Flusso di dati\Creating_needed_measures.Outputs[Output colonna derivata].Columns[TrendingPercentage]"
+                      name="TrendingPercentage"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Espressione colonna derivata"
+                          name="Expression">100 * (DT_R8)#{Package\Attività Flusso di dati\Setting_nulls_to_zero.Inputs[Input colonna derivata]} / (DT_R8)#{Package\Attività Flusso di dati\Setting_nulls_to_zero.Inputs[Input colonna derivata].Columns[TotFlopping]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Espressione descrittiva colonna derivata"
+                          expressionType="Notify"
+                          name="FriendlyExpression">100 * (DT_R8)TotTrending / (DT_R8)TotSongs</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Creating_needed_measures.Outputs[Output colonna derivata].Columns[TrendingFactor]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Calcolo"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Attività Flusso di dati\Creating_needed_measures.Outputs[Output colonna derivata].Columns[TrendingFactor]"
+                      name="TrendingFactor"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Espressione colonna derivata"
+                          name="Expression">((DT_R8)#{Package\Attività Flusso di dati\Setting_nulls_to_zero.Inputs[Input colonna derivata]} - (DT_R8)#{Package\Attività Flusso di dati\Setting_nulls_to_zero.Inputs[Input colonna derivata].Columns[TotTrending]}) / (DT_R8)#{Package\Attività Flusso di dati\Setting_nulls_to_zero.Inputs[Input colonna derivata].Columns[TotFlopping]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Espressione descrittiva colonna derivata"
+                          expressionType="Notify"
+                          name="FriendlyExpression">((DT_R8)TotTrending - (DT_R8)TotFlopping) / (DT_R8)TotSongs</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Creating_needed_measures.Outputs[Output colonna derivata].Columns[FeatTrendingPercentage]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Calcolo"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Attività Flusso di dati\Creating_needed_measures.Outputs[Output colonna derivata].Columns[FeatTrendingPercentage]"
+                      name="FeatTrendingPercentage"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Espressione colonna derivata"
+                          name="Expression">100 * (DT_R8)#{Package\Attività Flusso di dati\1881:invalid} / (DT_R8)#{Package\Attività Flusso di dati\1880:invalid}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Espressione descrittiva colonna derivata"
+                          expressionType="Notify"
+                          name="FriendlyExpression">100 * (DT_R8)FeatTotTrending / (DT_R8)FeatTotSongs</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Creating_needed_measures.Outputs[Output colonna derivata].Columns[FeatTrendingFactor]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Calcolo"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Attività Flusso di dati\Creating_needed_measures.Outputs[Output colonna derivata].Columns[FeatTrendingFactor]"
+                      name="FeatTrendingFactor"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Espressione colonna derivata"
+                          name="Expression">((DT_R8)#{Package\Attività Flusso di dati\1881:invalid} - (DT_R8)#{Package\Attività Flusso di dati\1882:invalid}) / (DT_R8)#{Package\Attività Flusso di dati\1880:invalid}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Espressione descrittiva colonna derivata"
+                          expressionType="Notify"
+                          name="FriendlyExpression">((DT_R8)FeatTotTrending - (DT_R8)FeatTotFlopping) / (DT_R8)FeatTotSongs</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Attività Flusso di dati\Creating_needed_measures.Outputs[Output errori colonna derivata]"
+                  description="Output degli errori della trasformazione Colonna derivata"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Output errori colonna derivata"
+                  synchronousInputId="Package\Attività Flusso di dati\Creating_needed_measures.Inputs[Input colonna derivata]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Creating_needed_measures.Outputs[Output errori colonna derivata].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Attività Flusso di dati\Creating_needed_measures.Outputs[Output errori colonna derivata].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Creating_needed_measures.Outputs[Output errori colonna derivata].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Attività Flusso di dati\Creating_needed_measures.Outputs[Output errori colonna derivata].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Attività Flusso di dati\Final_Sort"
+              componentClassID="Microsoft.Sort"
+              contactInfo="Ordinamento;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tutti i diritti sono riservati; http://www.microsoft.com/sql/support;1"
+              description="Ordina i dati di input in ordine crescente o decrescente quando non possono essere ordinati come la relativa origine. Ad esempio, ordinare i dati delle vendite per 'customer id' prima che vengano scritti in un file flat e recapitati a un altro reparto. Nota: questa trasformazione non è consigliata per i flussi di dati di grandi dimensioni."
+              name="Final_Sort"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica se la trasformazione Ordinamento rimuove le righe con valori di ordinamento duplicati."
+                  name="EliminateDuplicates">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifica il numero massimo di thread da utilizzare per l'ordinamento."
+                  expressionType="Notify"
+                  name="MaximumThreads">-1</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\Attività Flusso di dati\Final_Sort.Inputs[Input ordinamento]"
+                  name="Input ordinamento">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Attività Flusso di dati\Final_Sort.Inputs[Input ordinamento].Columns[Name]"
+                      cachedDataType="wstr"
+                      cachedLength="200"
+                      cachedName="Name"
+                      lineageId="Package\Attività Flusso di dati\1883:invalid">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifica le opzioni di confronto per i dati di tipo carattere."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifica il tipo di ordinamento della colonna."
+                          name="NewSortKeyPosition">1</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Attività Flusso di dati\Final_Sort.Inputs[Input ordinamento].Columns[TrendingPercentage]"
+                      cachedDataType="r8"
+                      cachedName="TrendingPercentage"
+                      lineageId="Package\Attività Flusso di dati\Creating_needed_measures.Outputs[Output colonna derivata].Columns[TrendingPercentage]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifica le opzioni di confronto per i dati di tipo carattere."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifica il tipo di ordinamento della colonna."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Attività Flusso di dati\Final_Sort.Inputs[Input ordinamento].Columns[TrendingFactor]"
+                      cachedDataType="r8"
+                      cachedName="TrendingFactor"
+                      lineageId="Package\Attività Flusso di dati\Creating_needed_measures.Outputs[Output colonna derivata].Columns[TrendingFactor]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifica le opzioni di confronto per i dati di tipo carattere."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifica il tipo di ordinamento della colonna."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Attività Flusso di dati\Final_Sort.Inputs[Input ordinamento].Columns[FeatTrendingPercentage]"
+                      cachedDataType="r8"
+                      cachedName="FeatTrendingPercentage"
+                      lineageId="Package\Attività Flusso di dati\Creating_needed_measures.Outputs[Output colonna derivata].Columns[FeatTrendingPercentage]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifica le opzioni di confronto per i dati di tipo carattere."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifica il tipo di ordinamento della colonna."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Attività Flusso di dati\Final_Sort.Inputs[Input ordinamento].Columns[FeatTrendingFactor]"
+                      cachedDataType="r8"
+                      cachedName="FeatTrendingFactor"
+                      lineageId="Package\Attività Flusso di dati\Creating_needed_measures.Outputs[Output colonna derivata].Columns[FeatTrendingFactor]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifica le opzioni di confronto per i dati di tipo carattere."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifica il tipo di ordinamento della colonna."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Attività Flusso di dati\Final_Sort.Outputs[Output ordinamento]"
+                  isSorted="true"
+                  name="Output ordinamento">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Final_Sort.Outputs[Output ordinamento].Columns[Name]"
+                      dataType="wstr"
+                      length="200"
+                      lineageId="Package\Attività Flusso di dati\Final_Sort.Outputs[Output ordinamento].Columns[Name]"
+                      name="Name"
+                      sortKeyPosition="1">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
+                          name="SortColumnId">#{Package\Attività Flusso di dati\1883:invalid}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Final_Sort.Outputs[Output ordinamento].Columns[TrendingPercentage]"
+                      dataType="r8"
+                      lineageId="Package\Attività Flusso di dati\Final_Sort.Outputs[Output ordinamento].Columns[TrendingPercentage]"
+                      name="TrendingPercentage">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
+                          name="SortColumnId">#{Package\Attività Flusso di dati\Creating_needed_measures.Outputs[Output colonna derivata].Columns[TrendingPercentage]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Final_Sort.Outputs[Output ordinamento].Columns[TrendingFactor]"
+                      dataType="r8"
+                      lineageId="Package\Attività Flusso di dati\Final_Sort.Outputs[Output ordinamento].Columns[TrendingFactor]"
+                      name="TrendingFactor">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
+                          name="SortColumnId">#{Package\Attività Flusso di dati\Creating_needed_measures.Outputs[Output colonna derivata].Columns[TrendingFactor]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Final_Sort.Outputs[Output ordinamento].Columns[FeatTrendingPercentage]"
+                      dataType="r8"
+                      lineageId="Package\Attività Flusso di dati\Final_Sort.Outputs[Output ordinamento].Columns[FeatTrendingPercentage]"
+                      name="FeatTrendingPercentage">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
+                          name="SortColumnId">#{Package\Attività Flusso di dati\Creating_needed_measures.Outputs[Output colonna derivata].Columns[FeatTrendingPercentage]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Final_Sort.Outputs[Output ordinamento].Columns[FeatTrendingFactor]"
+                      dataType="r8"
+                      lineageId="Package\Attività Flusso di dati\Final_Sort.Outputs[Output ordinamento].Columns[FeatTrendingFactor]"
+                      name="FeatTrendingFactor">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifica l'identificatore di derivazione della colonna di input associata a questa colonna di output."
+                          name="SortColumnId">#{Package\Attività Flusso di dati\Creating_needed_measures.Outputs[Output colonna derivata].Columns[FeatTrendingFactor]}</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Attività Flusso di dati\Output_to_csv"
+              componentClassID="Microsoft.FlatFileDestination"
+              contactInfo="Destinazione file flat;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tutti i diritti sono riservati; http://www.microsoft.com/sql/support;1"
+              description="Destinazione file flat"
+              localeId="1033"
+              name="Output_to_csv"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifica se i dati verranno sovrascritti o accodati nel file di destinazione."
+                  name="Overwrite">true</property>
+                <property
+                  dataType="System.Null"
+                  description="Specifica il testo da scrivere nel file di destinazione prima della scrittura dei dati."
+                  expressionType="Notify"
+                  name="Header" />
+                <property
+                  dataType="System.Boolean"
+                  description="Quando il qualificatore di testo è abilitato, specifica se il qualificatore di testo nei dati scritti nel file di destinazione verrà o meno preceduto da un carattere di escape."
+                  name="EscapeQualifier">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Attività Flusso di dati\Output_to_csv.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Flat File Connection Manager 8]"
+                  connectionManagerRefId="Package.ConnectionManagers[Flat File Connection Manager 8]"
+                  name="FlatFileConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Attività Flusso di dati\Output_to_csv.Inputs[Input destinazione file flat]"
+                  hasSideEffects="true"
+                  name="Input destinazione file flat">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Attività Flusso di dati\Output_to_csv.Inputs[Input destinazione file flat].Columns[Name]"
+                      cachedDataType="wstr"
+                      cachedLength="200"
+                      cachedName="Name"
+                      cachedSortKeyPosition="1"
+                      externalMetadataColumnId="Package\Attività Flusso di dati\Output_to_csv.Inputs[Input destinazione file flat].ExternalColumns[Name]"
+                      lineageId="Package\Attività Flusso di dati\Final_Sort.Outputs[Output ordinamento].Columns[Name]" />
+                    <inputColumn
+                      refId="Package\Attività Flusso di dati\Output_to_csv.Inputs[Input destinazione file flat].Columns[TrendingPercentage]"
+                      cachedDataType="r8"
+                      cachedName="TrendingPercentage"
+                      externalMetadataColumnId="Package\Attività Flusso di dati\Output_to_csv.Inputs[Input destinazione file flat].ExternalColumns[TrendingPercentage]"
+                      lineageId="Package\Attività Flusso di dati\Final_Sort.Outputs[Output ordinamento].Columns[TrendingPercentage]" />
+                    <inputColumn
+                      refId="Package\Attività Flusso di dati\Output_to_csv.Inputs[Input destinazione file flat].Columns[TrendingFactor]"
+                      cachedDataType="r8"
+                      cachedName="TrendingFactor"
+                      externalMetadataColumnId="Package\Attività Flusso di dati\Output_to_csv.Inputs[Input destinazione file flat].ExternalColumns[TrendingFactor]"
+                      lineageId="Package\Attività Flusso di dati\Final_Sort.Outputs[Output ordinamento].Columns[TrendingFactor]" />
+                    <inputColumn
+                      refId="Package\Attività Flusso di dati\Output_to_csv.Inputs[Input destinazione file flat].Columns[FeatTrendingPercentage]"
+                      cachedDataType="r8"
+                      cachedName="FeatTrendingPercentage"
+                      externalMetadataColumnId="Package\Attività Flusso di dati\Output_to_csv.Inputs[Input destinazione file flat].ExternalColumns[FeatTrendingPercentage]"
+                      lineageId="Package\Attività Flusso di dati\Final_Sort.Outputs[Output ordinamento].Columns[FeatTrendingPercentage]" />
+                    <inputColumn
+                      refId="Package\Attività Flusso di dati\Output_to_csv.Inputs[Input destinazione file flat].Columns[FeatTrendingFactor]"
+                      cachedDataType="r8"
+                      cachedName="FeatTrendingFactor"
+                      externalMetadataColumnId="Package\Attività Flusso di dati\Output_to_csv.Inputs[Input destinazione file flat].ExternalColumns[FeatTrendingFactor]"
+                      lineageId="Package\Attività Flusso di dati\Final_Sort.Outputs[Output ordinamento].Columns[FeatTrendingFactor]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Attività Flusso di dati\Output_to_csv.Inputs[Input destinazione file flat].ExternalColumns[Name]"
+                      dataType="wstr"
+                      length="200"
+                      name="Name" />
+                    <externalMetadataColumn
+                      refId="Package\Attività Flusso di dati\Output_to_csv.Inputs[Input destinazione file flat].ExternalColumns[TrendingPercentage]"
+                      dataType="r8"
+                      name="TrendingPercentage" />
+                    <externalMetadataColumn
+                      refId="Package\Attività Flusso di dati\Output_to_csv.Inputs[Input destinazione file flat].ExternalColumns[TrendingFactor]"
+                      dataType="r8"
+                      name="TrendingFactor" />
+                    <externalMetadataColumn
+                      refId="Package\Attività Flusso di dati\Output_to_csv.Inputs[Input destinazione file flat].ExternalColumns[FeatTrendingPercentage]"
+                      dataType="r8"
+                      name="FeatTrendingPercentage" />
+                    <externalMetadataColumn
+                      refId="Package\Attività Flusso di dati\Output_to_csv.Inputs[Input destinazione file flat].ExternalColumns[FeatTrendingFactor]"
+                      dataType="r8"
+                      name="FeatTrendingFactor" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+            </component>
+            <component
+              refId="Package\Attività Flusso di dati\Setting_nulls_to_zero"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Colonna derivata;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tutti i diritti sono riservati; http://www.microsoft.com/sql/support;0"
+              description="Crea nuovi valori di colonna applicando espressioni alle colonne di input della trasformazione. Creare nuove colonne oppure sovrascrivere quelle esistenti. Ad esempio, concatenare i valori delle colonne 'first name' e 'last name' per creare una colonna 'full name'."
+              name="Setting_nulls_to_zero"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Attività Flusso di dati\Setting_nulls_to_zero.Inputs[Input colonna derivata]"
+                  description="Input della trasformazione Colonna derivata"
+                  name="Input colonna derivata">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Attività Flusso di dati\Setting_nulls_to_zero.Inputs[Input colonna derivata].Columns[TotTrending]"
+                      cachedDataType="ui8"
+                      cachedName="TotTrending"
+                      errorOrTruncationOperation="Calcolo"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Attività Flusso di dati\Setting_nulls_to_zero.Inputs[Input colonna derivata]"
+                      truncationRowDisposition="FailComponent"
+                      usageType="readWrite">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Espressione colonna derivata"
+                          name="Expression">[ISNULL](#{Package\Attività Flusso di dati\Setting_nulls_to_zero.Inputs[Input colonna derivata]}) ? (DT_UI8)0 : #{Package\Attività Flusso di dati\Setting_nulls_to_zero.Inputs[Input colonna derivata]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Espressione descrittiva colonna derivata"
+                          expressionType="Notify"
+                          name="FriendlyExpression">ISNULL(TotTrending) ? (DT_UI8)0 : TotTrending</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Attività Flusso di dati\Setting_nulls_to_zero.Inputs[Input colonna derivata].Columns[TotFlopping]"
+                      cachedDataType="ui8"
+                      cachedName="TotFlopping"
+                      errorOrTruncationOperation="Calcolo"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Attività Flusso di dati\Setting_nulls_to_zero.Inputs[Input colonna derivata].Columns[TotTrending]"
+                      truncationRowDisposition="FailComponent"
+                      usageType="readWrite">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Espressione colonna derivata"
+                          name="Expression">[ISNULL](#{Package\Attività Flusso di dati\Setting_nulls_to_zero.Inputs[Input colonna derivata].Columns[TotTrending]}) ? (DT_UI8)0 : #{Package\Attività Flusso di dati\Setting_nulls_to_zero.Inputs[Input colonna derivata].Columns[TotTrending]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Espressione descrittiva colonna derivata"
+                          expressionType="Notify"
+                          name="FriendlyExpression">ISNULL(TotFlopping) ? (DT_UI8)0 : TotFlopping</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Attività Flusso di dati\Setting_nulls_to_zero.Inputs[Input colonna derivata].Columns[FeatTotTrending]"
+                      cachedDataType="ui8"
+                      cachedName="FeatTotTrending"
+                      errorOrTruncationOperation="Calcolo"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Attività Flusso di dati\1881:invalid"
+                      truncationRowDisposition="FailComponent"
+                      usageType="readWrite">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Espressione colonna derivata"
+                          name="Expression">[ISNULL](#{Package\Attività Flusso di dati\1881:invalid}) ? (DT_UI8)0 : #{Package\Attività Flusso di dati\1881:invalid}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Espressione descrittiva colonna derivata"
+                          expressionType="Notify"
+                          name="FriendlyExpression">ISNULL(FeatTotTrending) ? (DT_UI8)0 : FeatTotTrending</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Attività Flusso di dati\Setting_nulls_to_zero.Inputs[Input colonna derivata].Columns[FeatTotFlopping]"
+                      cachedDataType="ui8"
+                      cachedName="FeatTotFlopping"
+                      errorOrTruncationOperation="Calcolo"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Attività Flusso di dati\1882:invalid"
+                      truncationRowDisposition="FailComponent"
+                      usageType="readWrite">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Espressione colonna derivata"
+                          name="Expression">[ISNULL](#{Package\Attività Flusso di dati\1882:invalid}) ? (DT_UI8)0 : #{Package\Attività Flusso di dati\1882:invalid}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Espressione descrittiva colonna derivata"
+                          expressionType="Notify"
+                          name="FriendlyExpression">ISNULL(FeatTotFlopping) ? (DT_UI8)0 : FeatTotFlopping</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Attività Flusso di dati\Setting_nulls_to_zero.Outputs[Output colonna derivata]"
+                  description="Output predefinito della trasformazione Colonna derivata"
+                  exclusionGroup="1"
+                  name="Output colonna derivata"
+                  synchronousInputId="Package\Attività Flusso di dati\Setting_nulls_to_zero.Inputs[Input colonna derivata]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Attività Flusso di dati\Setting_nulls_to_zero.Outputs[Output errori colonna derivata]"
+                  description="Output degli errori della trasformazione Colonna derivata"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Output errori colonna derivata"
+                  synchronousInputId="Package\Attività Flusso di dati\Setting_nulls_to_zero.Inputs[Input colonna derivata]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Setting_nulls_to_zero.Outputs[Output errori colonna derivata].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Attività Flusso di dati\Setting_nulls_to_zero.Outputs[Output errori colonna derivata].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Attività Flusso di dati\Setting_nulls_to_zero.Outputs[Output errori colonna derivata].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Attività Flusso di dati\Setting_nulls_to_zero.Outputs[Output errori colonna derivata].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Attività Flusso di dati.Paths[Output colonna derivata]"
+              endId="Package\Attività Flusso di dati\Creating_needed_measures.Inputs[Input colonna derivata]"
+              name="Output colonna derivata"
+              startId="Package\Attività Flusso di dati\Setting_nulls_to_zero.Outputs[Output colonna derivata]" />
+            <path
+              refId="Package\Attività Flusso di dati.Paths[Output colonna derivata1]"
+              endId="Package\Attività Flusso di dati\Final_Sort.Inputs[Input ordinamento]"
+              name="Output colonna derivata"
+              startId="Package\Attività Flusso di dati\Creating_needed_measures.Outputs[Output colonna derivata]" />
+            <path
+              refId="Package\Attività Flusso di dati.Paths[Output ordinamento]"
+              endId="Package\Attività Flusso di dati\Output_to_csv.Inputs[Input destinazione file flat]"
+              name="Output ordinamento"
+              startId="Package\Attività Flusso di dati\Final_Sort.Outputs[Output ordinamento]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="177,42"
+          Id="Package\Attività Flusso di dati"
+          TopLeft="164,155" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\Attività Flusso di dati">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="180,42"
+          Id="Package\Attività Flusso di dati\Setting_nulls_to_zero"
+          TopLeft="305,352" />
+        <NodeLayout
+          Size="210,42"
+          Id="Package\Attività Flusso di dati\Creating_needed_measures"
+          TopLeft="294,429" />
+        <NodeLayout
+          Size="126,42"
+          Id="Package\Attività Flusso di dati\Final_Sort"
+          TopLeft="330,514" />
+        <NodeLayout
+          Size="147,42"
+          Id="Package\Attività Flusso di dati\Output_to_csv"
+          TopLeft="312,601" />
+        <EdgeLayout
+          Id="Package\Attività Flusso di dati.Paths[Output colonna derivata]"
+          TopLeft="397,394">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,35"
+              Start="0,0"
+              End="0,27.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,27.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-8,5.75,16,16"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Attività Flusso di dati.Paths[Output colonna derivata1]"
+          TopLeft="396,471">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,43"
+              Start="0,0"
+              End="0,35.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,35.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-8,9.75,16,16"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Attività Flusso di dati.Paths[Output ordinamento]"
+          TopLeft="389.25,556">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,45"
+              Start="0,0"
+              End="0,37.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,37.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>
