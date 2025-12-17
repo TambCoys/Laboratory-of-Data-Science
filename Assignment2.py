@@ -383,27 +383,26 @@ for track in tracks:
 
     track["season"] = season
 
-    # rendiamo più comode le variabili temporali
-    try:
-        y = int(track.get("year"))
-        m = int(track.get("month"))
-        d = int(track.get("day"))
+#rendiamo più comode le variabili temporali
+try:
+    y = int(track.get("year"))
+    m = int(track.get("month"))
+    d = int(track.get("day"))
 
-        # yyyy
-        track["year_yyyy"] = f"{y:04d}"
+    # yyyy
+    track["year_yyyy"] = f"{y:04d}"
 
-        # yyyymm
-        track["month_yyyymm"] = f"{y:04d}{m:02d}"
+    # yyyymm
+    track["month_yyyymm"] = f"{y:04d}{m:02d}"
 
-        # yyyymmdd
-        track["day_yyyymmdd"] = f"{y:04d}{m:02d}{d:02d}"
+    # yyyymmdd
+    track["day_yyyymmdd"] = f"{y:04d}{m:02d}{d:02d}"
 
-    except:
-        # Se year/month/day sono mancanti
-        track["year_yyyy"] = None
-        track["month_yyyymm"] = None
-        track["day_yyyymmdd"] = None
-
+except:
+    # Se year/month/day sono mancanti
+    track["year_yyyy"] = None
+    track["month_yyyymm"] = None
+    track["day_yyyymmdd"] = None
 
 # -------- 2.4 Salvataggio --------
 with open('tracks_cleaned.json', 'w', encoding='utf-8') as f:

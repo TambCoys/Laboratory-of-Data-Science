@@ -5,24 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ba1d79f-d21e-4272-8795-e63b6a8d9371" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignment6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Progetto ùLaboratory of Data Science.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Progetto ùLaboratory of Data Science.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Assignment1-checkpoint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Assignments1-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/artists-checkpoint.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/artists_cleaned-checkpoint.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/tracks-checkpoint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/tracks_cleaned-checkpoint.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artists_cleaned.xml" beforeDir="false" afterPath="$PROJECT_DIR$/artists_cleaned.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tracks_cleaned.json" beforeDir="false" afterPath="$PROJECT_DIR$/tracks_cleaned.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,7 +53,6 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.Assignment2.executor": "Run",
-    "Python.Tables_split.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
