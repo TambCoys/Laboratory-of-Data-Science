@@ -45,5 +45,6 @@ for i in range(n_clust):
 
 df_tracks_json = df_tracks.to_dict(orient='records')
 
-with open('tracks_cleaned_cat.json', 'w', encoding='utf-8') as f:
+with open('tracks_cleaned.json', 'w', encoding='utf-8') as f:
+
     json.dump(df_tracks_json, f, indent=2, ensure_ascii=False)
