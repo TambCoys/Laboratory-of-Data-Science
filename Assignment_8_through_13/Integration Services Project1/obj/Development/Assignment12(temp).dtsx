@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
   DTS:CreationDate="12/8/2025 5:14:30 PM"
@@ -29,7 +29,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA0XbUCCp9MkO22sr84sxNfQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAD+NXq1yTHsEIVBHNPGJsdaamVBV8VMJVnavasw2cKSaAAAAAAOgAAAAAIAACAAAACiR7PnMyB74foY+dgmETKX6S4lHMwkdNzoaXZRms8MTCAAAADZ0tjmyLvXxW3U+djuV+arq8VxengbEk9C1xxCV8yuQ0AAAAC2IBTKkIWoEKOg5Zxvi84lz62Ai3Mst9SBXdoucny5399yI018+EWzClnV6VzMfcJN60eF+8pVS8OQEyIxrES7</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA0XbUCCp9MkO22sr84sxNfQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACPFav6IvzqV2B/+I6hckYGCOS142Dt0EGKewwV0tWchQAAAAAOgAAAAAIAACAAAADvkxHh4r0gNQCacXviVZ6nP4LOB4EyKhq89H80CvjnOSAAAAAJzsygj5NBFKELxzjP2H8dfzeBJxPZJANfO//dhXqB70AAAADy9pHXcORLbmrlUDC8UOmr4MgbJFcqtixIn46QRirrDHgCcFcWU2E2PGeLZ1WCfdCmmBJdp6X/tp2uvYVTFalp</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -5902,12 +5902,12 @@
           </components>
           <paths>
             <path
-              refId="Package\Assignment_12.Paths[KeepSingles3]"
+              refId="Package\Assignment_12.Paths[KeepSingles]"
               endId="Package\Assignment_12\Group_by_artist_code 3.Inputs[Input aggregazione 1]"
               name="KeepSingles"
               startId="Package\Assignment_12\Where_null.Outputs[KeepNulls]" />
             <path
-              refId="Package\Assignment_12.Paths[KeepSingles]"
+              refId="Package\Assignment_12.Paths[KeepSingles1]"
               endId="Package\Assignment_12\Group_by_artist_code.Inputs[Input aggregazione 1]"
               name="KeepSingles"
               startId="Package\Assignment_12\Where_single.Outputs[KeepSingles]" />
@@ -5917,57 +5917,72 @@
               name="KeepSingles"
               startId="Package\Assignment_12\Where_compilation.Outputs[KeepCompilations]" />
             <path
-              refId="Package\Assignment_12.Paths[KeepSingles1]"
+              refId="Package\Assignment_12.Paths[KeepSingles3]"
               endId="Package\Assignment_12\Group_by_artist_code 1.Inputs[Input aggregazione 1]"
               name="KeepSingles"
               startId="Package\Assignment_12\Where_album.Outputs[KeepAlbums]" />
             <path
-              refId="Package\Assignment_12.Paths[Output aggregazione 11]"
+              refId="Package\Assignment_12.Paths[Output aggregazione 1]"
               endId="Package\Assignment_12\Sort_albums_by_artist.Inputs[Input ordinamento]"
               name="Output aggregazione 1"
               startId="Package\Assignment_12\Group_by_artist_code 1.Outputs[Output aggregazione 1]" />
             <path
-              refId="Package\Assignment_12.Paths[Output aggregazione 12]"
+              refId="Package\Assignment_12.Paths[Output aggregazione 11]"
               endId="Package\Assignment_12\Sort_compilations_by_artist.Inputs[Input ordinamento]"
               name="Output aggregazione 1"
               startId="Package\Assignment_12\Group_by_artist_code 2.Outputs[Output aggregazione 1]" />
             <path
-              refId="Package\Assignment_12.Paths[Output aggregazione 13]"
+              refId="Package\Assignment_12.Paths[Output aggregazione 12]"
               endId="Package\Assignment_12\Sort_nulls_by_artist.Inputs[Input ordinamento]"
               name="Output aggregazione 1"
               startId="Package\Assignment_12\Group_by_artist_code 3.Outputs[Output aggregazione 1]" />
             <path
-              refId="Package\Assignment_12.Paths[Output aggregazione 1]"
+              refId="Package\Assignment_12.Paths[Output aggregazione 13]"
               endId="Package\Assignment_12\Sort_singles_by_artist.Inputs[Input ordinamento]"
               name="Output aggregazione 1"
               startId="Package\Assignment_12\Group_by_artist_code.Outputs[Output aggregazione 1]" />
             <path
-              refId="Package\Assignment_12.Paths[Output colonna derivata2]"
+              refId="Package\Assignment_12.Paths[Output colonna derivata]"
               endId="Package\Assignment_12\Creating_NonSinglesAverage.Inputs[Input colonna derivata]"
               name="Output colonna derivata"
               startId="Package\Assignment_12\Creating_NonSinglesSum_NonSinglesCount.Outputs[Output colonna derivata]" />
             <path
-              refId="Package\Assignment_12.Paths[Output colonna derivata3]"
+              refId="Package\Assignment_12.Paths[Output colonna derivata1]"
               endId="Package\Assignment_12\Creating_SinglesPerformance.Inputs[Input colonna derivata]"
               name="Output colonna derivata"
               startId="Package\Assignment_12\Creating_NonSinglesAverage.Outputs[Output colonna derivata]" />
             <path
-              refId="Package\Assignment_12.Paths[Output colonna derivata]"
+              refId="Package\Assignment_12.Paths[Output colonna derivata2]"
               endId="Package\Assignment_12\Creating_NonSinglesSum_NonSinglesCount.Inputs[Input colonna derivata]"
               name="Output colonna derivata"
               startId="Package\Assignment_12\Removing_null_values.Outputs[Output colonna derivata]" />
             <path
-              refId="Package\Assignment_12.Paths[Output colonna derivata1]"
+              refId="Package\Assignment_12.Paths[Output colonna derivata3]"
               endId="Package\Assignment_12\Join_Artist.Inputs[Input merge join destro]"
               name="Output colonna derivata"
               startId="Package\Assignment_12\Creating_SinglesPerformance.Outputs[Output colonna derivata]" />
             <path
-              refId="Package\Assignment_12.Paths[Output merge join1]"
-              endId="Package\Assignment_12\Where_album.Inputs[Input suddivisione condizionale]"
+              refId="Package\Assignment_12.Paths[Output merge join7]"
+              endId="Package\Assignment_12\Outer_join_Artist 2.Inputs[Input merge join destro]"
               name="Output merge join"
-              startId="Package\Assignment_12\Join_Album 1.Outputs[Output merge join]" />
+              startId="Package\Assignment_12\Outer_join_Artist.Outputs[Output merge join]" />
             <path
               refId="Package\Assignment_12.Paths[Output merge join6]"
+              endId="Package\Assignment_12\Outer_join_Artist 2.Inputs[Input merge join sinistro]"
+              name="Output merge join"
+              startId="Package\Assignment_12\Outer_join_Artist 1.Outputs[Output merge join]" />
+            <path
+              refId="Package\Assignment_12.Paths[Output merge join5]"
+              endId="Package\Assignment_12\Where_null.Inputs[Input suddivisione condizionale]"
+              name="Output merge join"
+              startId="Package\Assignment_12\Join_Album 3.Outputs[Output merge join]" />
+            <path
+              refId="Package\Assignment_12.Paths[Output merge join4]"
+              endId="Package\Assignment_12\Final_Sort.Inputs[Input ordinamento]"
+              name="Output merge join"
+              startId="Package\Assignment_12\Join_Artist.Outputs[Output merge join]" />
+            <path
+              refId="Package\Assignment_12.Paths[Output merge join1]"
               endId="Package\Assignment_12\Removing_null_values.Inputs[Input colonna derivata]"
               name="Output merge join"
               startId="Package\Assignment_12\Outer_join_Artist 2.Outputs[Output merge join]" />
@@ -5978,141 +5993,126 @@
               startId="Package\Assignment_12\Join_Album 2.Outputs[Output merge join]" />
             <path
               refId="Package\Assignment_12.Paths[Output merge join]"
+              endId="Package\Assignment_12\Where_album.Inputs[Input suddivisione condizionale]"
+              name="Output merge join"
+              startId="Package\Assignment_12\Join_Album 1.Outputs[Output merge join]" />
+            <path
+              refId="Package\Assignment_12.Paths[Output merge join3]"
               endId="Package\Assignment_12\Where_single.Inputs[Input suddivisione condizionale]"
               name="Output merge join"
               startId="Package\Assignment_12\Join_Album.Outputs[Output merge join]" />
             <path
-              refId="Package\Assignment_12.Paths[Output merge join7]"
-              endId="Package\Assignment_12\Final_Sort.Inputs[Input ordinamento]"
-              name="Output merge join"
-              startId="Package\Assignment_12\Join_Artist.Outputs[Output merge join]" />
-            <path
-              refId="Package\Assignment_12.Paths[Output merge join3]"
-              endId="Package\Assignment_12\Where_null.Inputs[Input suddivisione condizionale]"
-              name="Output merge join"
-              startId="Package\Assignment_12\Join_Album 3.Outputs[Output merge join]" />
-            <path
-              refId="Package\Assignment_12.Paths[Output merge join5]"
-              endId="Package\Assignment_12\Outer_join_Artist 2.Inputs[Input merge join sinistro]"
-              name="Output merge join"
-              startId="Package\Assignment_12\Outer_join_Artist 1.Outputs[Output merge join]" />
-            <path
-              refId="Package\Assignment_12.Paths[Output merge join4]"
-              endId="Package\Assignment_12\Outer_join_Artist 2.Inputs[Input merge join destro]"
-              name="Output merge join"
-              startId="Package\Assignment_12\Outer_join_Artist.Outputs[Output merge join]" />
-            <path
-              refId="Package\Assignment_12.Paths[Output ordinamento11]"
-              endId="Package\Assignment_12\Outer_join_Artist 1.Inputs[Input merge join destro]"
-              name="Output ordinamento"
-              startId="Package\Assignment_12\Sort_nulls_by_artist.Outputs[Output ordinamento]" />
-            <path
-              refId="Package\Assignment_12.Paths[Output ordinamento10]"
-              endId="Package\Assignment_12\Outer_join_Artist 1.Inputs[Input merge join sinistro]"
-              name="Output ordinamento"
-              startId="Package\Assignment_12\Sort_compilations_by_artist.Outputs[Output ordinamento]" />
-            <path
-              refId="Package\Assignment_12.Paths[Output ordinamento9]"
-              endId="Package\Assignment_12\Outer_join_Artist.Inputs[Input merge join destro]"
-              name="Output ordinamento"
-              startId="Package\Assignment_12\Sort_albums_by_artist.Outputs[Output ordinamento]" />
-            <path
               refId="Package\Assignment_12.Paths[Output ordinamento8]"
-              endId="Package\Assignment_12\Outer_join_Artist.Inputs[Input merge join sinistro]"
-              name="Output ordinamento"
-              startId="Package\Assignment_12\Sort_singles_by_artist.Outputs[Output ordinamento]" />
-            <path
-              refId="Package\Assignment_12.Paths[Output ordinamento12]"
-              endId="Package\Assignment_12\Join_Artist.Inputs[Input merge join sinistro]"
-              name="Output ordinamento"
-              startId="Package\Assignment_12\Sort_artist_by_artist.Outputs[Output ordinamento]" />
-            <path
-              refId="Package\Assignment_12.Paths[Output ordinamento13]"
-              endId="Package\Assignment_12\Output_to_csv.Inputs[Input destinazione file flat]"
-              name="Output ordinamento"
-              startId="Package\Assignment_12\Final_Sort.Outputs[Output ordinamento]" />
-            <path
-              refId="Package\Assignment_12.Paths[Output ordinamento7]"
-              endId="Package\Assignment_12\Join_Album 3.Inputs[Input merge join destro]"
-              name="Output ordinamento"
-              startId="Package\Assignment_12\Sort_album_by_album 3.Outputs[Output ordinamento]" />
-            <path
-              refId="Package\Assignment_12.Paths[Output ordinamento5]"
-              endId="Package\Assignment_12\Join_Album 2.Inputs[Input merge join destro]"
-              name="Output ordinamento"
-              startId="Package\Assignment_12\Sort_album_by_album 2.Outputs[Output ordinamento]" />
-            <path
-              refId="Package\Assignment_12.Paths[Output ordinamento4]"
               endId="Package\Assignment_12\Join_Album 2.Inputs[Input merge join sinistro]"
               name="Output ordinamento"
               startId="Package\Assignment_12\Sort_fact_by_album 2.Outputs[Output ordinamento]" />
             <path
-              refId="Package\Assignment_12.Paths[Output ordinamento3]"
-              endId="Package\Assignment_12\Join_Album 1.Inputs[Input merge join destro]"
-              name="Output ordinamento"
-              startId="Package\Assignment_12\Sort_album_by_album 1.Outputs[Output ordinamento]" />
-            <path
-              refId="Package\Assignment_12.Paths[Output ordinamento2]"
-              endId="Package\Assignment_12\Join_Album 1.Inputs[Input merge join sinistro]"
-              name="Output ordinamento"
-              startId="Package\Assignment_12\Sort_fact_by_album 1.Outputs[Output ordinamento]" />
-            <path
-              refId="Package\Assignment_12.Paths[Output ordinamento1]"
-              endId="Package\Assignment_12\Join_Album.Inputs[Input merge join destro]"
-              name="Output ordinamento"
-              startId="Package\Assignment_12\Sort_album_by_album.Outputs[Output ordinamento]" />
-            <path
-              refId="Package\Assignment_12.Paths[Output ordinamento]"
-              endId="Package\Assignment_12\Join_Album.Inputs[Input merge join sinistro]"
-              name="Output ordinamento"
-              startId="Package\Assignment_12\Sort_fact_by_album.Outputs[Output ordinamento]" />
-            <path
-              refId="Package\Assignment_12.Paths[Output ordinamento6]"
+              refId="Package\Assignment_12.Paths[Output ordinamento13]"
               endId="Package\Assignment_12\Join_Album 3.Inputs[Input merge join sinistro]"
               name="Output ordinamento"
               startId="Package\Assignment_12\Sort_fact_by_album 3.Outputs[Output ordinamento]" />
             <path
+              refId="Package\Assignment_12.Paths[Output ordinamento12]"
+              endId="Package\Assignment_12\Join_Album.Inputs[Input merge join sinistro]"
+              name="Output ordinamento"
+              startId="Package\Assignment_12\Sort_fact_by_album.Outputs[Output ordinamento]" />
+            <path
+              refId="Package\Assignment_12.Paths[Output ordinamento11]"
+              endId="Package\Assignment_12\Join_Album.Inputs[Input merge join destro]"
+              name="Output ordinamento"
+              startId="Package\Assignment_12\Sort_album_by_album.Outputs[Output ordinamento]" />
+            <path
+              refId="Package\Assignment_12.Paths[Output ordinamento10]"
+              endId="Package\Assignment_12\Join_Album 1.Inputs[Input merge join sinistro]"
+              name="Output ordinamento"
+              startId="Package\Assignment_12\Sort_fact_by_album 1.Outputs[Output ordinamento]" />
+            <path
+              refId="Package\Assignment_12.Paths[Output ordinamento9]"
+              endId="Package\Assignment_12\Join_Album 1.Inputs[Input merge join destro]"
+              name="Output ordinamento"
+              startId="Package\Assignment_12\Sort_album_by_album 1.Outputs[Output ordinamento]" />
+            <path
+              refId="Package\Assignment_12.Paths[Output ordinamento7]"
+              endId="Package\Assignment_12\Join_Album 2.Inputs[Input merge join destro]"
+              name="Output ordinamento"
+              startId="Package\Assignment_12\Sort_album_by_album 2.Outputs[Output ordinamento]" />
+            <path
+              refId="Package\Assignment_12.Paths[Output ordinamento1]"
+              endId="Package\Assignment_12\Outer_join_Artist 1.Inputs[Input merge join sinistro]"
+              name="Output ordinamento"
+              startId="Package\Assignment_12\Sort_compilations_by_artist.Outputs[Output ordinamento]" />
+            <path
+              refId="Package\Assignment_12.Paths[Output ordinamento5]"
+              endId="Package\Assignment_12\Output_to_csv.Inputs[Input destinazione file flat]"
+              name="Output ordinamento"
+              startId="Package\Assignment_12\Final_Sort.Outputs[Output ordinamento]" />
+            <path
+              refId="Package\Assignment_12.Paths[Output ordinamento4]"
+              endId="Package\Assignment_12\Join_Artist.Inputs[Input merge join sinistro]"
+              name="Output ordinamento"
+              startId="Package\Assignment_12\Sort_artist_by_artist.Outputs[Output ordinamento]" />
+            <path
+              refId="Package\Assignment_12.Paths[Output ordinamento3]"
+              endId="Package\Assignment_12\Outer_join_Artist.Inputs[Input merge join sinistro]"
+              name="Output ordinamento"
+              startId="Package\Assignment_12\Sort_singles_by_artist.Outputs[Output ordinamento]" />
+            <path
+              refId="Package\Assignment_12.Paths[Output ordinamento2]"
+              endId="Package\Assignment_12\Outer_join_Artist.Inputs[Input merge join destro]"
+              name="Output ordinamento"
+              startId="Package\Assignment_12\Sort_albums_by_artist.Outputs[Output ordinamento]" />
+            <path
+              refId="Package\Assignment_12.Paths[Output ordinamento]"
+              endId="Package\Assignment_12\Outer_join_Artist 1.Inputs[Input merge join destro]"
+              name="Output ordinamento"
+              startId="Package\Assignment_12\Sort_nulls_by_artist.Outputs[Output ordinamento]" />
+            <path
+              refId="Package\Assignment_12.Paths[Output ordinamento6]"
+              endId="Package\Assignment_12\Join_Album 3.Inputs[Input merge join destro]"
+              name="Output ordinamento"
+              startId="Package\Assignment_12\Sort_album_by_album 3.Outputs[Output ordinamento]" />
+            <path
               refId="Package\Assignment_12.Paths[Output origine OLE DB7]"
-              endId="Package\Assignment_12\Sort_fact_by_album 3.Inputs[Input ordinamento]"
-              name="Output origine OLE DB"
-              startId="Package\Assignment_12\Connecting_fact_table 3.Outputs[Output origine OLE DB]" />
-            <path
-              refId="Package\Assignment_12.Paths[Output origine OLE DB6]"
-              endId="Package\Assignment_12\Sort_album_by_album 3.Inputs[Input ordinamento]"
-              name="Output origine OLE DB"
-              startId="Package\Assignment_12\Connecting_dim_album 3.Outputs[Output origine OLE DB]" />
-            <path
-              refId="Package\Assignment_12.Paths[Output origine OLE DB5]"
-              endId="Package\Assignment_12\Sort_fact_by_album 2.Inputs[Input ordinamento]"
-              name="Output origine OLE DB"
-              startId="Package\Assignment_12\Connecting_fact_table 2.Outputs[Output origine OLE DB]" />
-            <path
-              refId="Package\Assignment_12.Paths[Output origine OLE DB4]"
-              endId="Package\Assignment_12\Sort_album_by_album 2.Inputs[Input ordinamento]"
-              name="Output origine OLE DB"
-              startId="Package\Assignment_12\Connecting_dim_album 2.Outputs[Output origine OLE DB]" />
-            <path
-              refId="Package\Assignment_12.Paths[Output origine OLE DB3]"
-              endId="Package\Assignment_12\Sort_fact_by_album 1.Inputs[Input ordinamento]"
-              name="Output origine OLE DB"
-              startId="Package\Assignment_12\Connecting_fact_table 1.Outputs[Output origine OLE DB]" />
-            <path
-              refId="Package\Assignment_12.Paths[Output origine OLE DB8]"
-              endId="Package\Assignment_12\Sort_artist_by_artist.Inputs[Input ordinamento]"
-              name="Output origine OLE DB"
-              startId="Package\Assignment_12\Connecting_dim_artist.Outputs[Output origine OLE DB]" />
-            <path
-              refId="Package\Assignment_12.Paths[Output origine OLE DB2]"
-              endId="Package\Assignment_12\Sort_album_by_album 1.Inputs[Input ordinamento]"
-              name="Output origine OLE DB"
-              startId="Package\Assignment_12\Connecting_dim_album 1.Outputs[Output origine OLE DB]" />
-            <path
-              refId="Package\Assignment_12.Paths[Output origine OLE DB1]"
               endId="Package\Assignment_12\Sort_fact_by_album.Inputs[Input ordinamento]"
               name="Output origine OLE DB"
               startId="Package\Assignment_12\Connecting_fact_table.Outputs[Output origine OLE DB]" />
             <path
               refId="Package\Assignment_12.Paths[Output origine OLE DB]"
+              endId="Package\Assignment_12\Sort_fact_by_album 3.Inputs[Input ordinamento]"
+              name="Output origine OLE DB"
+              startId="Package\Assignment_12\Connecting_fact_table 3.Outputs[Output origine OLE DB]" />
+            <path
+              refId="Package\Assignment_12.Paths[Output origine OLE DB1]"
+              endId="Package\Assignment_12\Sort_album_by_album 3.Inputs[Input ordinamento]"
+              name="Output origine OLE DB"
+              startId="Package\Assignment_12\Connecting_dim_album 3.Outputs[Output origine OLE DB]" />
+            <path
+              refId="Package\Assignment_12.Paths[Output origine OLE DB2]"
+              endId="Package\Assignment_12\Sort_fact_by_album 2.Inputs[Input ordinamento]"
+              name="Output origine OLE DB"
+              startId="Package\Assignment_12\Connecting_fact_table 2.Outputs[Output origine OLE DB]" />
+            <path
+              refId="Package\Assignment_12.Paths[Output origine OLE DB3]"
+              endId="Package\Assignment_12\Sort_album_by_album 2.Inputs[Input ordinamento]"
+              name="Output origine OLE DB"
+              startId="Package\Assignment_12\Connecting_dim_album 2.Outputs[Output origine OLE DB]" />
+            <path
+              refId="Package\Assignment_12.Paths[Output origine OLE DB4]"
+              endId="Package\Assignment_12\Sort_fact_by_album 1.Inputs[Input ordinamento]"
+              name="Output origine OLE DB"
+              startId="Package\Assignment_12\Connecting_fact_table 1.Outputs[Output origine OLE DB]" />
+            <path
+              refId="Package\Assignment_12.Paths[Output origine OLE DB5]"
+              endId="Package\Assignment_12\Sort_artist_by_artist.Inputs[Input ordinamento]"
+              name="Output origine OLE DB"
+              startId="Package\Assignment_12\Connecting_dim_artist.Outputs[Output origine OLE DB]" />
+            <path
+              refId="Package\Assignment_12.Paths[Output origine OLE DB6]"
+              endId="Package\Assignment_12\Sort_album_by_album 1.Inputs[Input ordinamento]"
+              name="Output origine OLE DB"
+              startId="Package\Assignment_12\Connecting_dim_album 1.Outputs[Output origine OLE DB]" />
+            <path
+              refId="Package\Assignment_12.Paths[Output origine OLE DB8]"
               endId="Package\Assignment_12\Sort_album_by_album.Inputs[Input ordinamento]"
               name="Output origine OLE DB"
               startId="Package\Assignment_12\Connecting_dim_album.Outputs[Output origine OLE DB]" />
@@ -6162,7 +6162,7 @@
           Id="Package\Assignment_12\Sort_album_by_album"
           TopLeft="237,105" />
         <EdgeLayout
-          Id="Package\Assignment_12.Paths[Output origine OLE DB]"
+          Id="Package\Assignment_12.Paths[Output origine OLE DB8]"
           TopLeft="330,71">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -6184,7 +6184,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Assignment_12.Paths[Output origine OLE DB1]"
+          Id="Package\Assignment_12.Paths[Output origine OLE DB7]"
           TopLeft="121.75,69">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -6210,7 +6210,7 @@
           Id="Package\Assignment_12\Join_Album"
           TopLeft="164,193" />
         <EdgeLayout
-          Id="Package\Assignment_12.Paths[Output ordinamento]"
+          Id="Package\Assignment_12.Paths[Output ordinamento12]"
           TopLeft="120.5,145">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -6244,7 +6244,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Assignment_12.Paths[Output ordinamento1]"
+          Id="Package\Assignment_12.Paths[Output ordinamento11]"
           TopLeft="329.5,147">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -6282,7 +6282,7 @@
           Id="Package\Assignment_12\Where_single"
           TopLeft="166,267" />
         <EdgeLayout
-          Id="Package\Assignment_12.Paths[Output merge join]"
+          Id="Package\Assignment_12.Paths[Output merge join3]"
           TopLeft="234,235">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -6308,7 +6308,7 @@
           Id="Package\Assignment_12\Group_by_artist_code"
           TopLeft="154,339" />
         <EdgeLayout
-          Id="Package\Assignment_12.Paths[KeepSingles]"
+          Id="Package\Assignment_12.Paths[KeepSingles1]"
           TopLeft="241.25,309">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -6360,7 +6360,7 @@
           Id="Package\Assignment_12\Group_by_artist_code 1"
           TopLeft="588,344" />
         <EdgeLayout
-          Id="Package\Assignment_12.Paths[Output origine OLE DB2]"
+          Id="Package\Assignment_12.Paths[Output origine OLE DB6]"
           TopLeft="764,76">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -6382,7 +6382,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Assignment_12.Paths[Output origine OLE DB3]"
+          Id="Package\Assignment_12.Paths[Output origine OLE DB4]"
           TopLeft="555.75,74">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -6404,7 +6404,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Assignment_12.Paths[Output ordinamento2]"
+          Id="Package\Assignment_12.Paths[Output ordinamento10]"
           TopLeft="554.5,150">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -6438,7 +6438,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Assignment_12.Paths[Output ordinamento3]"
+          Id="Package\Assignment_12.Paths[Output ordinamento9]"
           TopLeft="763.5,152">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -6472,7 +6472,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Assignment_12.Paths[Output merge join1]"
+          Id="Package\Assignment_12.Paths[Output merge join]"
           TopLeft="668.25,240">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -6494,7 +6494,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Assignment_12.Paths[KeepSingles1]"
+          Id="Package\Assignment_12.Paths[KeepSingles3]"
           TopLeft="675.5,314">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -6546,7 +6546,7 @@
           Id="Package\Assignment_12\Group_by_artist_code 2"
           TopLeft="1014,346" />
         <EdgeLayout
-          Id="Package\Assignment_12.Paths[Output origine OLE DB4]"
+          Id="Package\Assignment_12.Paths[Output origine OLE DB3]"
           TopLeft="1202,78">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -6568,7 +6568,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Assignment_12.Paths[Output origine OLE DB5]"
+          Id="Package\Assignment_12.Paths[Output origine OLE DB2]"
           TopLeft="993.75,76">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -6590,7 +6590,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Assignment_12.Paths[Output ordinamento4]"
+          Id="Package\Assignment_12.Paths[Output ordinamento8]"
           TopLeft="992.5,152">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -6624,7 +6624,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Assignment_12.Paths[Output ordinamento5]"
+          Id="Package\Assignment_12.Paths[Output ordinamento7]"
           TopLeft="1201.5,154">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -6732,7 +6732,7 @@
           Id="Package\Assignment_12\Group_by_artist_code 3"
           TopLeft="1427,347" />
         <EdgeLayout
-          Id="Package\Assignment_12.Paths[Output origine OLE DB6]"
+          Id="Package\Assignment_12.Paths[Output origine OLE DB1]"
           TopLeft="1621,80">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -6754,7 +6754,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Assignment_12.Paths[Output origine OLE DB7]"
+          Id="Package\Assignment_12.Paths[Output origine OLE DB]"
           TopLeft="1412.75,78">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -6776,7 +6776,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Assignment_12.Paths[Output ordinamento6]"
+          Id="Package\Assignment_12.Paths[Output ordinamento13]"
           TopLeft="1411.5,154">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -6810,7 +6810,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Assignment_12.Paths[Output ordinamento7]"
+          Id="Package\Assignment_12.Paths[Output ordinamento6]"
           TopLeft="1620.5,156">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -6844,7 +6844,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Assignment_12.Paths[Output merge join3]"
+          Id="Package\Assignment_12.Paths[Output merge join5]"
           TopLeft="1522.25,244">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -6866,7 +6866,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Assignment_12.Paths[KeepSingles3]"
+          Id="Package\Assignment_12.Paths[KeepSingles]"
           TopLeft="1520.5,318">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -6894,7 +6894,7 @@
           Id="Package\Assignment_12\Sort_singles_by_artist"
           TopLeft="152,429" />
         <EdgeLayout
-          Id="Package\Assignment_12.Paths[Output aggregazione 1]"
+          Id="Package\Assignment_12.Paths[Output aggregazione 13]"
           TopLeft="244,381">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -6920,7 +6920,7 @@
           Id="Package\Assignment_12\Sort_albums_by_artist"
           TopLeft="590,427" />
         <EdgeLayout
-          Id="Package\Assignment_12.Paths[Output aggregazione 11]"
+          Id="Package\Assignment_12.Paths[Output aggregazione 1]"
           TopLeft="680.5,386">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -6946,7 +6946,7 @@
           Id="Package\Assignment_12\Sort_compilations_by_artist"
           TopLeft="1006,426" />
         <EdgeLayout
-          Id="Package\Assignment_12.Paths[Output aggregazione 12]"
+          Id="Package\Assignment_12.Paths[Output aggregazione 11]"
           TopLeft="1107.75,388">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -6972,7 +6972,7 @@
           Id="Package\Assignment_12\Sort_nulls_by_artist"
           TopLeft="1431,430" />
         <EdgeLayout
-          Id="Package\Assignment_12.Paths[Output aggregazione 13]"
+          Id="Package\Assignment_12.Paths[Output aggregazione 12]"
           TopLeft="1517.5,389">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -6998,7 +6998,7 @@
           Id="Package\Assignment_12\Outer_join_Artist"
           TopLeft="352,530" />
         <EdgeLayout
-          Id="Package\Assignment_12.Paths[Output ordinamento8]"
+          Id="Package\Assignment_12.Paths[Output ordinamento3]"
           TopLeft="243,471">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7032,7 +7032,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Assignment_12.Paths[Output ordinamento9]"
+          Id="Package\Assignment_12.Paths[Output ordinamento2]"
           TopLeft="682,469">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7070,7 +7070,7 @@
           Id="Package\Assignment_12\Outer_join_Artist 1"
           TopLeft="1253,522" />
         <EdgeLayout
-          Id="Package\Assignment_12.Paths[Output ordinamento10]"
+          Id="Package\Assignment_12.Paths[Output ordinamento1]"
           TopLeft="1110.5,468">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7104,7 +7104,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Assignment_12.Paths[Output ordinamento11]"
+          Id="Package\Assignment_12.Paths[Output ordinamento]"
           TopLeft="1517,472">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7142,7 +7142,7 @@
           Id="Package\Assignment_12\Outer_join_Artist 2"
           TopLeft="830,605" />
         <EdgeLayout
-          Id="Package\Assignment_12.Paths[Output merge join4]"
+          Id="Package\Assignment_12.Paths[Output merge join7]"
           TopLeft="431.5,572">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7176,7 +7176,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Assignment_12.Paths[Output merge join5]"
+          Id="Package\Assignment_12.Paths[Output merge join6]"
           TopLeft="1337,564">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7218,7 +7218,7 @@
           Id="Package\Assignment_12\Removing_null_values"
           TopLeft="824,674" />
         <EdgeLayout
-          Id="Package\Assignment_12.Paths[Output merge join6]"
+          Id="Package\Assignment_12.Paths[Output merge join1]"
           TopLeft="915,647">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7240,7 +7240,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Assignment_12.Paths[Output colonna derivata]"
+          Id="Package\Assignment_12.Paths[Output colonna derivata2]"
           TopLeft="914.5,716">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7270,7 +7270,7 @@
           Id="Package\Assignment_12\Sort_artist_by_artist"
           TopLeft="1102,830" />
         <EdgeLayout
-          Id="Package\Assignment_12.Paths[Output origine OLE DB8]"
+          Id="Package\Assignment_12.Paths[Output origine OLE DB5]"
           TopLeft="1192.5,807">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7300,7 +7300,7 @@
           Id="Package\Assignment_12\Join_Artist"
           TopLeft="1011,999" />
         <EdgeLayout
-          Id="Package\Assignment_12.Paths[Output colonna derivata1]"
+          Id="Package\Assignment_12.Paths[Output colonna derivata3]"
           TopLeft="917.5,974">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7334,7 +7334,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Assignment_12.Paths[Output ordinamento12]"
+          Id="Package\Assignment_12.Paths[Output ordinamento4]"
           TopLeft="1189,872">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7372,7 +7372,7 @@
           Id="Package\Assignment_12\Final_Sort"
           TopLeft="1009,1081" />
         <EdgeLayout
-          Id="Package\Assignment_12.Paths[Output merge join7]"
+          Id="Package\Assignment_12.Paths[Output merge join4]"
           TopLeft="1073.5,1041">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7398,7 +7398,7 @@
           Id="Package\Assignment_12\Output_to_csv"
           TopLeft="996,1154" />
         <EdgeLayout
-          Id="Package\Assignment_12.Paths[Output ordinamento13]"
+          Id="Package\Assignment_12.Paths[Output ordinamento5]"
           TopLeft="1070.75,1123">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7424,7 +7424,7 @@
           Id="Package\Assignment_12\Creating_NonSinglesAverage"
           TopLeft="806,839" />
         <EdgeLayout
-          Id="Package\Assignment_12.Paths[Output colonna derivata2]"
+          Id="Package\Assignment_12.Paths[Output colonna derivata]"
           TopLeft="913,792">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7446,7 +7446,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Assignment_12.Paths[Output colonna derivata3]"
+          Id="Package\Assignment_12.Paths[Output colonna derivata1]"
           TopLeft="915.25,881">
           <EdgeLayout.Curve>
             <mssgle:Curve

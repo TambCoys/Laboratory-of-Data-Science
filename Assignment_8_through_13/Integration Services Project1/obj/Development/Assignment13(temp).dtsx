@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
   DTS:CreationDate="12/8/2025 4:29:08 PM"
@@ -11,8 +11,8 @@
   DTS:LocaleID="1040"
   DTS:ObjectName="Assignment12 temp"
   DTS:PackageType="5"
-  DTS:VersionBuild="11"
-  DTS:VersionGUID="{14391C69-4B9A-4ABB-9B70-8EFE8002ED81}">
+  DTS:VersionBuild="13"
+  DTS:VersionGUID="{FA379716-0D6F-48B5-8C53-8F9FF39330C5}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,7 +29,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA0XbUCCp9MkO22sr84sxNfQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADhueEel2le2LLBu1UjHyTsolYF3Y6QMlQL2QjRi9A9ggAAAAAOgAAAAAIAACAAAACz9Q5edH8s7kp/YJkWMFhclPrcZBoD4GuTel2+mWWE0iAAAACAYE5kwQlTfYVQ5qBKOPO4WXCe9WcEt39VQHohH1HrAEAAAAATtnS0GkEkE/Zfq/ZGBgCL4Ba9nx0qZuI/rHz/oag9jzBUeinU2Qg54F1SqqUjtLJiWkvccy+qa+8AWlovm9IU</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA0XbUCCp9MkO22sr84sxNfQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAC/fY42QYOqFap5/2ul8KKsL+etcpYAxmg59SAANqhdKQAAAAAOgAAAAAIAACAAAACUe81Sp24WO7DGeFZawGQsfX3EkuFphUPxo9Fb8iy5xSAAAAB0em4IgFtjEuFF1haa6Zcrg87ZU3TYYZ9JJHL2jwx4KEAAAADeJsNBjCxxizyFVZXLNY/cxrh0gtrmehruWRjqjmaglujJ3QZsENKzTOILS+yFKxUMnp+BswEo9QQUrYRZsgdF</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -4044,9 +4044,9 @@
               startId="Package\Assignment_13\Join_artist 2.Outputs[Output merge join]" />
             <path
               refId="Package\Assignment_13.Paths[Output merge join3]"
-              endId="Package\Assignment_13\Join_artist 2.Inputs[Input merge join sinistro]"
+              endId="Package\Assignment_13\Where_trending.Inputs[Input suddivisione condizionale]"
               name="Output merge join"
-              startId="Package\Assignment_13\Join_artist.Outputs[Output merge join]" />
+              startId="Package\Assignment_13\Join_artist 3.Outputs[Output merge join]" />
             <path
               refId="Package\Assignment_13.Paths[Output merge join]"
               endId="Package\Assignment_13\Group_by_artist_code 1.Inputs[Input aggregazione 1]"
@@ -4054,9 +4054,9 @@
               startId="Package\Assignment_13\Join_feats.Outputs[Output merge join]" />
             <path
               refId="Package\Assignment_13.Paths[Output merge join1]"
-              endId="Package\Assignment_13\Where_trending.Inputs[Input suddivisione condizionale]"
+              endId="Package\Assignment_13\Join_artist 2.Inputs[Input merge join sinistro]"
               name="Output merge join"
-              startId="Package\Assignment_13\Join_artist 3.Outputs[Output merge join]" />
+              startId="Package\Assignment_13\Join_artist.Outputs[Output merge join]" />
             <path
               refId="Package\Assignment_13.Paths[Output merge join2]"
               endId="Package\Assignment_13\Set_NULL_to_0.Inputs[Input colonna derivata]"
@@ -4064,74 +4064,74 @@
               startId="Package\Assignment_13\Left_join_feats 1.Outputs[Output merge join]" />
             <path
               refId="Package\Assignment_13.Paths[Output ordinamento6]"
-              endId="Package\Assignment_13\Left_join_feats 1.Inputs[Input merge join sinistro]"
-              name="Output ordinamento"
-              startId="Package\Assignment_13\Sort_fact_by_feats 1.Outputs[Output ordinamento]" />
-            <path
-              refId="Package\Assignment_13.Paths[Output ordinamento8]"
-              endId="Package\Assignment_13\Join_artist 3.Inputs[Input merge join sinistro]"
-              name="Output ordinamento"
-              startId="Package\Assignment_13\Sort_feats_by_artist.Outputs[Output ordinamento]" />
-            <path
-              refId="Package\Assignment_13.Paths[Output ordinamento7]"
-              endId="Package\Assignment_13\Left_join_feats 1.Inputs[Input merge join destro]"
-              name="Output ordinamento"
-              startId="Package\Assignment_13\Sort_bridge_by_feats 1.Outputs[Output ordinamento]" />
-            <path
-              refId="Package\Assignment_13.Paths[Output ordinamento5]"
-              endId="Package\Assignment_13\Join_feats.Inputs[Input merge join destro]"
-              name="Output ordinamento"
-              startId="Package\Assignment_13\Sort_fact_by_feats.Outputs[Output ordinamento]" />
-            <path
-              refId="Package\Assignment_13.Paths[Output ordinamento]"
-              endId="Package\Assignment_13\Join_feats.Inputs[Input merge join sinistro]"
-              name="Output ordinamento"
-              startId="Package\Assignment_13\Sort_bridge_by_feats.Outputs[Output ordinamento]" />
-            <path
-              refId="Package\Assignment_13.Paths[Output ordinamento3]"
-              endId="Package\Assignment_13\Join_artist 2.Inputs[Input merge join destro]"
-              name="Output ordinamento"
-              startId="Package\Assignment_13\Sort_total_feats_by_artist.Outputs[Output ordinamento]" />
-            <path
-              refId="Package\Assignment_13.Paths[Output ordinamento2]"
-              endId="Package\Assignment_13\Join_artist.Inputs[Input merge join destro]"
-              name="Output ordinamento"
-              startId="Package\Assignment_13\Sort_artist_by_artist.Outputs[Output ordinamento]" />
-            <path
-              refId="Package\Assignment_13.Paths[Output ordinamento1]"
               endId="Package\Assignment_13\Join_artist.Inputs[Input merge join sinistro]"
               name="Output ordinamento"
               startId="Package\Assignment_13\Sort_pop_by_artist.Outputs[Output ordinamento]" />
             <path
-              refId="Package\Assignment_13.Paths[Output ordinamento4]"
+              refId="Package\Assignment_13.Paths[Output ordinamento8]"
+              endId="Package\Assignment_13\Left_join_feats 1.Inputs[Input merge join sinistro]"
+              name="Output ordinamento"
+              startId="Package\Assignment_13\Sort_fact_by_feats 1.Outputs[Output ordinamento]" />
+            <path
+              refId="Package\Assignment_13.Paths[Output ordinamento7]"
               endId="Package\Assignment_13\Output_to_csv.Inputs[Input destinazione file flat]"
               name="Output ordinamento"
               startId="Package\Assignment_13\Final_Sort.Outputs[Output ordinamento]" />
             <path
+              refId="Package\Assignment_13.Paths[Output ordinamento5]"
+              endId="Package\Assignment_13\Join_artist 2.Inputs[Input merge join destro]"
+              name="Output ordinamento"
+              startId="Package\Assignment_13\Sort_total_feats_by_artist.Outputs[Output ordinamento]" />
+            <path
+              refId="Package\Assignment_13.Paths[Output ordinamento]"
+              endId="Package\Assignment_13\Left_join_feats 1.Inputs[Input merge join destro]"
+              name="Output ordinamento"
+              startId="Package\Assignment_13\Sort_bridge_by_feats 1.Outputs[Output ordinamento]" />
+            <path
+              refId="Package\Assignment_13.Paths[Output ordinamento3]"
+              endId="Package\Assignment_13\Join_feats.Inputs[Input merge join destro]"
+              name="Output ordinamento"
+              startId="Package\Assignment_13\Sort_fact_by_feats.Outputs[Output ordinamento]" />
+            <path
+              refId="Package\Assignment_13.Paths[Output ordinamento2]"
+              endId="Package\Assignment_13\Join_artist 3.Inputs[Input merge join sinistro]"
+              name="Output ordinamento"
+              startId="Package\Assignment_13\Sort_feats_by_artist.Outputs[Output ordinamento]" />
+            <path
+              refId="Package\Assignment_13.Paths[Output ordinamento1]"
+              endId="Package\Assignment_13\Join_feats.Inputs[Input merge join sinistro]"
+              name="Output ordinamento"
+              startId="Package\Assignment_13\Sort_bridge_by_feats.Outputs[Output ordinamento]" />
+            <path
+              refId="Package\Assignment_13.Paths[Output ordinamento4]"
+              endId="Package\Assignment_13\Join_artist.Inputs[Input merge join destro]"
+              name="Output ordinamento"
+              startId="Package\Assignment_13\Sort_artist_by_artist.Outputs[Output ordinamento]" />
+            <path
               refId="Package\Assignment_13.Paths[Output origine OLE DB4]"
-              endId="Package\Assignment_13\Group_by_feats_code.Inputs[Input aggregazione 1]"
-              name="Output origine OLE DB"
-              startId="Package\Assignment_13\Connecting_bridge_table.Outputs[Output origine OLE DB]" />
-            <path
-              refId="Package\Assignment_13.Paths[Output origine OLE DB]"
-              endId="Package\Assignment_13\Sort_fact_by_feats.Inputs[Input ordinamento]"
-              name="Output origine OLE DB"
-              startId="Package\Assignment_13\Connecting_fact_table 1.Outputs[Output origine OLE DB]" />
-            <path
-              refId="Package\Assignment_13.Paths[Output origine OLE DB1]"
               endId="Package\Assignment_13\Sort_fact_by_feats 1.Inputs[Input ordinamento]"
               name="Output origine OLE DB"
               startId="Package\Assignment_13\Connecting_fact_table 2.Outputs[Output origine OLE DB]" />
             <path
-              refId="Package\Assignment_13.Paths[Output origine OLE DB2]"
+              refId="Package\Assignment_13.Paths[Output origine OLE DB]"
               endId="Package\Assignment_13\Sort_bridge_by_feats.Inputs[Input ordinamento]"
               name="Output origine OLE DB"
               startId="Package\Assignment_13\Connecting_bridge_table 1.Outputs[Output origine OLE DB]" />
             <path
-              refId="Package\Assignment_13.Paths[Output origine OLE DB3]"
+              refId="Package\Assignment_13.Paths[Output origine OLE DB1]"
               endId="Package\Assignment_13\Sort_artist_by_artist.Inputs[Input ordinamento]"
               name="Output origine OLE DB"
               startId="Package\Assignment_13\Connecting_dim_artist.Outputs[Output origine OLE DB]" />
+            <path
+              refId="Package\Assignment_13.Paths[Output origine OLE DB2]"
+              endId="Package\Assignment_13\Group_by_feats_code.Inputs[Input aggregazione 1]"
+              name="Output origine OLE DB"
+              startId="Package\Assignment_13\Connecting_bridge_table.Outputs[Output origine OLE DB]" />
+            <path
+              refId="Package\Assignment_13.Paths[Output origine OLE DB3]"
+              endId="Package\Assignment_13\Sort_fact_by_feats.Inputs[Input ordinamento]"
+              name="Output origine OLE DB"
+              startId="Package\Assignment_13\Connecting_fact_table 1.Outputs[Output origine OLE DB]" />
             <path
               refId="Package\Assignment_13.Paths[Output origine OLE DB5]"
               endId="Package\Assignment_13\Creating_pop_squared.Inputs[Input colonna derivata]"
@@ -4305,51 +4305,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Assignment_13.Paths[Output origine OLE DB4]"
-          TopLeft="310.25,112">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,25"
-              Start="0,0"
-              End="0,17.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,17.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Assignment_13.Paths[Output origine OLE DB3]"
-          TopLeft="758.5,334">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,43"
-              Start="0,0"
-              End="0,35.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,35.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Assignment_13.Paths[Output origine OLE DB2]"
+          Id="Package\Assignment_13.Paths[Output origine OLE DB]"
           TopLeft="1203.25,115">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -4371,7 +4327,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Assignment_13.Paths[Output origine OLE DB1]"
+          Id="Package\Assignment_13.Paths[Output origine OLE DB4]"
           TopLeft="104.25,180">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -4393,7 +4349,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Assignment_13.Paths[Output origine OLE DB]"
+          Id="Package\Assignment_13.Paths[Output origine OLE DB3]"
           TopLeft="988.25,115">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -4415,7 +4371,85 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Assignment_13.Paths[Output ordinamento8]"
+          Id="Package\Assignment_13.Paths[Output origine OLE DB2]"
+          TopLeft="310.25,112">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,25"
+              Start="0,0"
+              End="0,17.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,17.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Assignment_13.Paths[Output origine OLE DB1]"
+          TopLeft="758.5,334">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,43"
+              Start="0,0"
+              End="0,35.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,35.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Assignment_13.Paths[Output ordinamento1]"
+          TopLeft="1203.5,184">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-65.8333333333334,54"
+              Start="0,0"
+              End="-65.8333333333334,46.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,27.9937304075235" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,27.9937304075235"
+                    Point2="0,31.9937304075235"
+                    Point3="-4,31.9937304075235" />
+                  <mssgle:LineSegment
+                    End="-61.8333333333334,31.9937304075235" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-61.8333333333334,31.9937304075235"
+                    Point2="-65.8333333333334,31.9937304075235"
+                    Point3="-65.8333333333334,35.9937304075235" />
+                  <mssgle:LineSegment
+                    End="-65.8333333333334,46.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Assignment_13.Paths[Output ordinamento2]"
           TopLeft="226,554">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -4449,7 +4483,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Assignment_13.Paths[Output ordinamento7]"
+          Id="Package\Assignment_13.Paths[Output ordinamento]"
           TopLeft="308.5,260">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -4483,7 +4517,41 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Assignment_13.Paths[Output ordinamento6]"
+          Id="Package\Assignment_13.Paths[Output ordinamento3]"
+          TopLeft="986.5,181">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="111.833333333333,57"
+              Start="0,0"
+              End="111.833333333333,49.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,29.7711598746081" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,29.7711598746081"
+                    Point2="0,33.7711598746081"
+                    Point3="4,33.7711598746081" />
+                  <mssgle:LineSegment
+                    End="107.833333333333,33.7711598746081" />
+                  <mssgle:CubicBezierSegment
+                    Point1="107.833333333333,33.7711598746081"
+                    Point2="111.833333333333,33.7711598746081"
+                    Point3="111.833333333333,37.7711598746081" />
+                  <mssgle:LineSegment
+                    End="111.833333333333,49.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Assignment_13.Paths[Output ordinamento8]"
           TopLeft="101.5,265">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -4518,62 +4586,6 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Assignment_13.Paths[Output ordinamento5]"
-          TopLeft="986.5,181">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="111.833333333333,57"
-              Start="0,0"
-              End="111.833333333333,49.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,29.7711598746081" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,29.7711598746081"
-                    Point2="0,33.7711598746081"
-                    Point3="4,33.7711598746081" />
-                  <mssgle:LineSegment
-                    End="107.833333333333,33.7711598746081" />
-                  <mssgle:CubicBezierSegment
-                    Point1="107.833333333333,33.7711598746081"
-                    Point2="111.833333333333,33.7711598746081"
-                    Point3="111.833333333333,37.7711598746081" />
-                  <mssgle:LineSegment
-                    End="111.833333333333,49.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Assignment_13.Paths[Output ordinamento4]"
-          TopLeft="550.25,881">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,32"
-              Start="0,0"
-              End="0,24.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,24.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Assignment_13.Paths[Output ordinamento3]"
           TopLeft="1120,437">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -4607,41 +4619,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Assignment_13.Paths[Output ordinamento2]"
-          TopLeft="759,419">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-59.6666666666667,47"
-              Start="0,0"
-              End="-59.6666666666667,39.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,23.8491446345257" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,23.8491446345257"
-                    Point2="0,27.8491446345257"
-                    Point3="-4,27.8491446345257" />
-                  <mssgle:LineSegment
-                    End="-55.6666666666667,27.8491446345257" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-55.6666666666667,27.8491446345257"
-                    Point2="-59.6666666666667,27.8491446345257"
-                    Point3="-59.6666666666667,31.8491446345257" />
-                  <mssgle:LineSegment
-                    End="-59.6666666666667,39.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Assignment_13.Paths[Output ordinamento1]"
+          Id="Package\Assignment_13.Paths[Output ordinamento6]"
           TopLeft="501,408">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -4675,31 +4653,109 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Assignment_13.Paths[Output ordinamento]"
-          TopLeft="1203.5,184">
+          Id="Package\Assignment_13.Paths[Output ordinamento7]"
+          TopLeft="550.25,881">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-65.8333333333334,54"
+              EndConnector="0,32"
               Start="0,0"
-              End="-65.8333333333334,46.5">
+              End="0,24.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,27.9937304075235" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,27.9937304075235"
-                    Point2="0,31.9937304075235"
-                    Point3="-4,31.9937304075235" />
+                    End="0,24.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Assignment_13.Paths[Output ordinamento4]"
+          TopLeft="759,419">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-59.6666666666667,47"
+              Start="0,0"
+              End="-59.6666666666667,39.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
                   <mssgle:LineSegment
-                    End="-61.8333333333334,31.9937304075235" />
+                    End="0,23.8491446345257" />
                   <mssgle:CubicBezierSegment
-                    Point1="-61.8333333333334,31.9937304075235"
-                    Point2="-65.8333333333334,31.9937304075235"
-                    Point3="-65.8333333333334,35.9937304075235" />
+                    Point1="0,23.8491446345257"
+                    Point2="0,27.8491446345257"
+                    Point3="-4,27.8491446345257" />
                   <mssgle:LineSegment
-                    End="-65.8333333333334,46.5" />
+                    End="-55.6666666666667,27.8491446345257" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-55.6666666666667,27.8491446345257"
+                    Point2="-59.6666666666667,27.8491446345257"
+                    Point3="-59.6666666666667,31.8491446345257" />
+                  <mssgle:LineSegment
+                    End="-59.6666666666667,39.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Assignment_13.Paths[Output merge join]"
+          TopLeft="1120.75,280">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,35"
+              Start="0,0"
+              End="0,27.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,27.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Assignment_13.Paths[Output merge join1]"
+          TopLeft="679.5,508">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="246.166666666667,27"
+              Start="0,0"
+              End="246.166666666667,19.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,12.0116279069768" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,12.0116279069768"
+                    Point2="0,16.0116279069768"
+                    Point3="4,16.0116279069768" />
+                  <mssgle:LineSegment
+                    End="242.166666666667,16.0116279069768" />
+                  <mssgle:CubicBezierSegment
+                    Point1="242.166666666667,16.0116279069768"
+                    Point2="246.166666666667,16.0116279069768"
+                    Point3="246.166666666667,20.0116279069768" />
+                  <mssgle:LineSegment
+                    End="246.166666666667,19.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4744,30 +4800,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Assignment_13.Paths[Output merge join3]"
-          TopLeft="679.5,508">
+          TopLeft="557.75,651">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="246.166666666667,27"
+              EndConnector="0,38"
               Start="0,0"
-              End="246.166666666667,19.5">
+              End="0,30.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,12.0116279069768" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,12.0116279069768"
-                    Point2="0,16.0116279069768"
-                    Point3="4,16.0116279069768" />
-                  <mssgle:LineSegment
-                    End="242.166666666667,16.0116279069768" />
-                  <mssgle:CubicBezierSegment
-                    Point1="242.166666666667,16.0116279069768"
-                    Point2="246.166666666667,16.0116279069768"
-                    Point3="246.166666666667,20.0116279069768" />
-                  <mssgle:LineSegment
-                    End="246.166666666667,19.5" />
+                    End="0,30.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4790,50 +4834,6 @@
                   Capacity="5">
                   <mssgle:LineSegment
                     End="0,30.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Assignment_13.Paths[Output merge join1]"
-          TopLeft="557.75,651">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,38"
-              Start="0,0"
-              End="0,30.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,30.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Assignment_13.Paths[Output merge join]"
-          TopLeft="1120.75,280">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,35"
-              Start="0,0"
-              End="0,27.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,27.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
