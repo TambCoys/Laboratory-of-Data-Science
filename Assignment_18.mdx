@@ -1,0 +1,27 @@
+WITH
+    MEMBER [Measures].[PrevStr] AS
+        (IIF(
+            ISEMPTY((
+                [Dim Date].[Year].CurrentMember.PrevMember,
+                [Measures].[Streams First Month])),
+            NULL,
+            ([Dim Date].[Year].CurrentMember.PrevMember,
+                [Dim Date].[Season].CurrentMember,
+                [Measures].[Streams First Month])
+        ))
+    MEMBER [Measures].[IsGrowing] AS
+        (IIF(
+            [Measures].[Streams First Month] > [Measures].[PrevStr]
+                AND NOT ISEMPTY([Measures].[PrevStr]),
+            ([Measures].[Streams First Month] - [Measures].[PrevStr]) / [Measures].[PrevStr],
+            NULL
+        )),
+        FORMAT_STRING = "Percent"
+SELECT
+    [Measures].[IsGrowing] ON COLUMNS,
+    NONEMPTY(
+        [Dim Date].[Year].[Year]*
+        [Dim Date].[Season].[Season]*
+        [DD Category].[Category].[Category],
+        [Measures].[IsGrowing]) ON ROWS
+FROM [Group4_DSV]
