@@ -1,0 +1,27 @@
+WITH
+MEMBER
+  [Dim Artist].[Region].[Totale Italia]
+AS
+  Aggregate(
+    [Dim Artist].[Region].[Region].Members
+  )
+
+SELECT
+  { [Measures].[Streams First Month] } ON COLUMNS,
+
+  NON EMPTY
+  (
+    (
+      [Dim Date].[Month].Members
+      -
+      { [Dim Date].[Month].[All] }
+    )
+    *
+    {
+      [Dim Artist].[Region].[Region].Members,
+      [Dim Artist].[Region].[Totale Italia]
+    }
+  ) ON ROWS
+
+FROM [Group ID 4 DB]
+WHERE ( [Dim Artist].[Country].&[Italia] );
