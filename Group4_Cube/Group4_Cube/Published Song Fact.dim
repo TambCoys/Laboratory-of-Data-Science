@@ -1,0 +1,386 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="2887cd10-f160-4107-9361-827dc6abb085" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Published Song Fact</ID>
+  <Name>Published Song Fact</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-7356" scrolltop="-2643" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="18669" y="10287" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="PublishedSong_Fact" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3916" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00004c0f000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_PublishedSong_Fact" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-7356</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-2643</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="b1b0bd8d-96ed-4abb-b2fb-1ba8a74334e8">
+    <DataSourceViewID>Group4_DSV</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="aad2a49c-22e6-436d-8a08-5e5e902d1ae0">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="c54bd5e4-92ce-48bf-b40d-8030ced1a133">
+      <ID>Artist Code FK</ID>
+      <Name>Artist Code FK</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bb997631-d471-44f8-b00a-331d64966603">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="007c2581-a739-411e-8825-a5d08bf45caf">
+            <TableID>dbo_PublishedSong_Fact</TableID>
+            <ColumnID>Artist_Code_FK</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="9bf96d5c-2db2-45d7-8123-75c591bc0930">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4261df75-a5d7-4be7-bc66-8ee240517f2b">
+            <TableID>dbo_PublishedSong_Fact</TableID>
+            <ColumnID>Album_Code_FK</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="d231f90a-3eff-4269-b9ae-4984a9c0c654">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="28f4623c-8f6c-4922-a0bf-f12ed48ccff4">
+            <TableID>dbo_PublishedSong_Fact</TableID>
+            <ColumnID>Date_Code_FK</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="83c1725f-5318-4127-a373-d982bc96c867">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6cbc57da-065f-41a3-8889-e8058b6f1b43">
+            <TableID>dbo_PublishedSong_Fact</TableID>
+            <ColumnID>Symphony_Code_FK</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="7d133338-f3a7-4b2d-8367-cd4738cfcb98">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="037808cb-5aa7-4889-b72f-eacbb8728b6a">
+            <TableID>dbo_PublishedSong_Fact</TableID>
+            <ColumnID>Text_Code_FK</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="bd9efc51-8aff-4646-afbe-c51024f156d9">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f2f682d2-cf67-455a-9063-441c48a5e04e">
+            <TableID>dbo_PublishedSong_Fact</TableID>
+            <ColumnID>Feats_Code_FK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="a09c7ebc-a511-498b-85f5-af0f18521e46">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="a21106f6-cf96-4506-abb5-e84453aafafa">
+          <TableID>dbo_PublishedSong_Fact</TableID>
+          <ColumnID>Artist_Code_FK</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="95d723f5-c662-4fab-aac6-7b20fda8789c">
+          <AttributeID>Date Code FK</AttributeID>
+          <Name>Date Code FK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="23a08fb6-d2a4-4e92-8205-3ad9b67d8ad8">
+          <AttributeID>Published Song Fact - Artist Code FK</AttributeID>
+          <Name>Published Song Fact - Artist Code FK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ea096fb5-1856-4ffb-b40f-d94db8baed13">
+          <AttributeID>Album Code FK</AttributeID>
+          <Name>Album Code FK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="1bb9ee49-a0f7-4707-8df0-c0f43e9f3342">
+          <AttributeID>Symphony Code FK</AttributeID>
+          <Name>Symphony Code FK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="dce14c4d-6771-4700-82f7-7c813b83a61e">
+          <AttributeID>Text Code FK</AttributeID>
+          <Name>Text Code FK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="07dbfd66-f2a2-436e-bf8a-0d629e2c4c2a">
+          <AttributeID>Feats Code FK</AttributeID>
+          <Name>Feats Code FK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="34e6061d-c903-44d9-9454-5a3934cece9a">
+          <AttributeID>Track ID</AttributeID>
+          <Name>Track ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="20a269e9-b4ea-42a0-a83f-dc01d3497ab1">
+          <AttributeID>Duration Sec</AttributeID>
+          <Name>Duration Sec</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="efb9039b-d0ef-42e7-83c1-f570d0ee3a12">
+          <AttributeID>Title</AttributeID>
+          <Name>Title</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ccf0fe8a-7927-409d-b123-024c69edf39e">
+          <AttributeID>Popularity</AttributeID>
+          <Name>Popularity</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="28d8e93b-aae5-4f9c-8397-6ce60b46683d">
+          <AttributeID>Streams First Month</AttributeID>
+          <Name>Streams First Month</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a9a9cc67-77ce-4bc0-82a0-0c8815ae9a1b">
+          <AttributeID>Category</AttributeID>
+          <Name>Category</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ff760382-d691-4ef1-a8b8-ee04759785d6">
+      <ID>Date Code FK</ID>
+      <Name>Date Code FK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3728b085-a29f-4caf-9657-7430c048c4e1">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0be6efa9-0586-4eac-b281-a8ff653e3f59">
+            <TableID>dbo_PublishedSong_Fact</TableID>
+            <ColumnID>Date_Code_FK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="93d16ffd-8984-422a-bd7b-1f2171bf91b4">
+      <ID>Published Song Fact - Artist Code FK</ID>
+      <Name>Published Song Fact - Artist Code FK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bf63153b-35e6-4ed2-84bc-ee5f9cd80470">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bc936238-9ecc-47d8-8fec-438fffea05eb">
+            <TableID>dbo_PublishedSong_Fact</TableID>
+            <ColumnID>Artist_Code_FK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a8e2e2ad-e843-46ab-b87e-e7b86caf84c6">
+      <ID>Album Code FK</ID>
+      <Name>Album Code FK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e590c5af-ec63-4d38-aafc-2b1c7711d35d">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="658359c6-fbe0-4dc0-a07d-0c6627e74d7a">
+            <TableID>dbo_PublishedSong_Fact</TableID>
+            <ColumnID>Album_Code_FK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b2dfdc38-3f17-4f1e-81c9-f44367ada9c8">
+      <ID>Symphony Code FK</ID>
+      <Name>Symphony Code FK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5c4feead-fb9b-4dd3-8d0d-b39cbeb1cb35">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9f1adc54-ef8d-4da0-a880-4f1e356f89bb">
+            <TableID>dbo_PublishedSong_Fact</TableID>
+            <ColumnID>Symphony_Code_FK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="964f504a-7b35-41b6-ae2a-2a6d4d66ff77">
+      <ID>Text Code FK</ID>
+      <Name>Text Code FK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bf4ed14f-ecb8-45de-a73e-4babf7ddcd17">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="074e4ddf-a6fb-4ab1-9cf3-2e44a5eccfbb">
+            <TableID>dbo_PublishedSong_Fact</TableID>
+            <ColumnID>Text_Code_FK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a0f1ad5c-ce9e-4643-9502-23e681a95238">
+      <ID>Feats Code FK</ID>
+      <Name>Feats Code FK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="cc69091d-1aef-441d-838c-0497caa821b8">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d71a5831-963d-4f10-ae54-df6eb2905ead">
+            <TableID>dbo_PublishedSong_Fact</TableID>
+            <ColumnID>Feats_Code_FK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4f88e0b8-f565-4fd1-a5fb-01014df9be63">
+      <ID>Track ID</ID>
+      <Name>Track ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="554f0bfc-f111-46c1-ae2d-7eb8c7265bbc">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e94c1b83-66e5-4ed9-9749-c41b46668899">
+            <TableID>dbo_PublishedSong_Fact</TableID>
+            <ColumnID>Track_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="77d931ab-5a6e-44da-bcd8-a094f6efbc64">
+      <ID>Duration Sec</ID>
+      <Name>Duration Sec</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="13fc2d01-5725-4131-9bfa-90651acad3b4">
+          <DataType>BigInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a723025d-346a-44be-808d-0d416e9a53d1">
+            <TableID>dbo_PublishedSong_Fact</TableID>
+            <ColumnID>Duration_Sec</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="de14b02b-baf2-452e-aecb-41ebc89654e5">
+      <ID>Title</ID>
+      <Name>Title</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8cc66edd-f22b-44b1-aec7-41e2aba43720">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c0ce5e6b-9154-4500-83fc-1016f4a2c3b5">
+            <TableID>dbo_PublishedSong_Fact</TableID>
+            <ColumnID>Title</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="32fbfc36-e9c8-4d76-b66c-7680609a7115">
+      <ID>Popularity</ID>
+      <Name>Popularity</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="cb636365-b17d-450f-8852-e82d079e2463">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d0fa2de2-376a-4b5d-8e1d-6f942849f7b5">
+            <TableID>dbo_PublishedSong_Fact</TableID>
+            <ColumnID>Popularity</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4896560b-05d8-4f96-895f-318d6abaadd5">
+      <ID>Streams First Month</ID>
+      <Name>Streams First Month</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a777fcea-5ab0-467c-a0fe-f6ebf3c05c04">
+          <DataType>BigInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="462670a8-8831-4b72-b56f-fbb4a6de047a">
+            <TableID>dbo_PublishedSong_Fact</TableID>
+            <ColumnID>Streams_First_Month</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9c82eae4-4524-41b9-9c7c-819495e5a1cf">
+      <ID>Category</ID>
+      <Name>Category</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="eb9b3621-b6e9-437e-bbef-20e06261a7b4">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ac4344ec-4121-48fd-879a-0f5a30ca1e6e">
+            <TableID>dbo_PublishedSong_Fact</TableID>
+            <ColumnID>Category</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

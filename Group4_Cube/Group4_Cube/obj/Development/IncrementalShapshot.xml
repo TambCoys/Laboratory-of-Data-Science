@@ -8,7 +8,7 @@
     <TransactionalDeployment>false</TransactionalDeployment>
     <PartitionDeployment>DeployPartitions</PartitionDeployment>
     <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
-    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <ProcessingOption>Default</ProcessingOption>
     <OutputScript></OutputScript>
     <ImpactAnalysisFile></ImpactAnalysisFile>
     <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
@@ -19,29 +19,99 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>VJ1oysIriqsN+9PlWhiXHXh19T8=09/12/2025 23:11:0009/12/2025 23:11:00</TimeStamp>
+        <TimeStamp>+fvwHcDpIQoTMzXxAiv2QMEH254=19/12/2025 21:58:4522/12/2025 10:50:00</TimeStamp>
         <ID>
           <String>Group ID 4 DB</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>afl+Bn5aDkXqK2DsoL33C2gfSeQ=09/12/2025 23:14:4209/12/2025 23:14:40</TimeStamp>
+        <TimeStamp>UBzFiaj8NBhfeyxiXBjd09R11ak=20/12/2025 15:38:3322/12/2025 10:50:00</TimeStamp>
         <ID>
-          <String>Group ID 4 DB</String>
+          <String>Group4_DSV</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>THfgW2mGF/pKnsUg3KXlhec4+AU=09/12/2025 23:39:2109/12/2025 23:23:29</TimeStamp>
+        <TimeStamp>aK975SleehL4Iunnr2YVLbLbd84=20/12/2025 17:14:5622/12/2025 10:50:00</TimeStamp>
         <ID>
           <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>QwDloYewnEIRUH82FmVTk+8sVgw=20/12/2025 16:39:5422/12/2025 10:50:00</TimeStamp>
+        <ID>
+          <String>Dim Artist</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>1vUr9M4i0z5I4ZJ5xgMDw8z5Wvc=20/12/2025 16:39:5422/12/2025 10:50:00</TimeStamp>
+        <ID>
+          <String>Dim Album</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>wOPrUW1koOVP3WcjzS6uQPc2gDM=20/12/2025 16:39:5422/12/2025 10:50:00</TimeStamp>
+        <ID>
+          <String>Dim Symphony</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>KaiUgFWT4+fCOATcNtSyiHBiSwA=20/12/2025 16:40:3722/12/2025 10:50:00</TimeStamp>
+        <ID>
+          <String>Dim Text</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>PkJWB7JAKg7MUBPrRSm4St+7hHc=20/12/2025 16:38:0722/12/2025 10:50:00</TimeStamp>
+        <ID>
+          <String>Dim Feats</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>fpJnLlzIlfy3IdIvZRNzUegZjkI=20/12/2025 16:39:5422/12/2025 10:50:00</TimeStamp>
+        <ID>
+          <String>Published Song Fact</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>PFOfuv+OUhC6QFGMN/axsmelhqU=22/12/2025 10:54:1722/12/2025 10:50:00</TimeStamp>
+        <ID>
+          <String>Dim Artist Geography</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>aRLd0lf/+uyGqSfiTGRZazHt6og=20/12/2025 16:56:5422/12/2025 10:50:00</TimeStamp>
+        <ID>
+          <String>Feats Bridge</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>C4W4WxcRsygSVftr1BFfCtQflII=20/12/2025 17:09:1522/12/2025 10:50:00</TimeStamp>
+        <ID>
+          <String>DD Category</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>Red4QEljObMCIgwpaBMurGS/4NQ=22/12/2025 10:54:1722/12/2025 10:50:00gmmQQL/gfvkA/vGIiO5hmt9DTP8=20/12/2025 17:09:1522/12/2025 10:50:00</TimeStamp>
+        <ID>
+          <String>Group4_DSV</String>
         </ID>
       </ObjectSnapshot>
     </ObjectSnapshots>
     <DatabaseSnapshot>
       <Type>Microsoft.AnalysisServices.Database</Type>
-      <TimeStamp>WpkYEpIefkK0WdDqM7/kozJtZwQ=09/12/2025 22:50:5409/12/2025 22:50:54</TimeStamp>
+      <TimeStamp>WpkYEpIefkK0WdDqM7/kozJtZwQ=09/12/2025 22:50:5422/12/2025 10:50:00</TimeStamp>
       <ID>
         <String>Group4_Cube</String>
       </ID>
@@ -50,5 +120,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2025-12-09T22:45:17.416667Z</LastDeployed>
+  <LastDeployed>2025-12-22T10:01:23.523333Z</LastDeployed>
 </DeploymentSnapshot>

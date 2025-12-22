@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\emanu\\Documents\\GitHub\\Laboratory-of-Data-Science\\Group4_Cube\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BCD57232-01F8-EE1B-2BB2-9AD797AC6768}|..\\..\\..\\..\\Desktop\\Group4_Cube.dwproj|C:\\Users\\emanu\\Desktop\\Group4_DSV.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|XML"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCD57232-01F8-EE1B-2BB2-9AD797AC6768}|..\\..\\..\\..\\Desktop\\Group4_Cube.dwproj|C:\\Users\\emanu\\Desktop\\Group4_DSV.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCD57232-01F8-EE1B-2BB2-9AD797AC6768}|..\\..\\..\\..\\Desktop\\Group4_Cube.dwproj|C:\\Users\\emanu\\Desktop\\Dim Album.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|XML"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCD57232-01F8-EE1B-2BB2-9AD797AC6768}|..\\..\\..\\..\\Desktop\\Group4_Cube.dwproj|C:\\Users\\emanu\\Desktop\\Dim Artist Geography.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Group4_DSV.cube [XML]",
+              "DocumentMoniker": "C:\\Users\\emanu\\Desktop\\Group4_DSV.cube",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\Group4_DSV.cube",
+              "ToolTip": "C:\\Users\\emanu\\Desktop\\Group4_DSV.cube [XML]",
+              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\Group4_DSV.cube [XML]",
+              "ViewState": "AgIAACsFAAAAAAAAAAAAADwFAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-22T10:19:41.083Z",
+              "EditorCaption": " [XML]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Group4_DSV.cube [Progettazione]",
+              "DocumentMoniker": "C:\\Users\\emanu\\Desktop\\Group4_DSV.cube",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\Group4_DSV.cube",
+              "ToolTip": "C:\\Users\\emanu\\Desktop\\Group4_DSV.cube [Progettazione]",
+              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\Group4_DSV.cube [Progettazione]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-22T10:19:10.258Z",
+              "EditorCaption": " [Progettazione]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dim Album.dim [XML]",
+              "DocumentMoniker": "C:\\Users\\emanu\\Desktop\\Dim Album.dim",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\Dim Album.dim",
+              "ToolTip": "C:\\Users\\emanu\\Desktop\\Dim Album.dim [XML]",
+              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\Dim Album.dim [XML]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-22T10:18:58.511Z",
+              "EditorCaption": " [XML]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dim Artist Geography.dim [Progettazione]",
+              "DocumentMoniker": "C:\\Users\\emanu\\Desktop\\Dim Artist Geography.dim",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\Dim Artist Geography.dim",
+              "ToolTip": "C:\\Users\\emanu\\Desktop\\Dim Artist Geography.dim [Progettazione]",
+              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\Dim Artist Geography.dim [Progettazione]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-22T09:53:51.437Z",
+              "EditorCaption": " [Progettazione]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

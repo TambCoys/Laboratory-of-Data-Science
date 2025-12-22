@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\emanu\\Documents\\GitHub\\Laboratory-of-Data-Science\\Group4_Cube\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BCD57232-01F8-EE1B-2BB2-9AD797AC6768}|..\\..\\..\\..\\Desktop\\Group4_Cube.dwproj|C:\\Users\\emanu\\Desktop\\Dim Artist Geography.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dim Artist Geography.dim [Progettazione]",
+              "DocumentMoniker": "C:\\Users\\emanu\\Desktop\\Dim Artist Geography.dim",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\Dim Artist Geography.dim",
+              "ToolTip": "C:\\Users\\emanu\\Desktop\\Dim Artist Geography.dim [Progettazione]",
+              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\Dim Artist Geography.dim [Progettazione]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-22T09:53:51.437Z",
+              "EditorCaption": " [Progettazione]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

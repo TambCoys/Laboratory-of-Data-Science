@@ -1,0 +1,185 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="49be16d3-ed4d-4244-b759-5f3e8c6b3b97" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Group4_DSV</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Published Song Fact</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="2a6e4758-66ea-4796-9148-37dcb070d1e2">
+          <ID>Published Song Fact</ID>
+          <Name>Published Song Fact</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="8f91feaa-258f-4b7b-bdca-2b4e0bbe26ff">
+            <DataSourceViewID>Group4_DSV</DataSourceViewID>
+            <TableID>dbo_PublishedSong_Fact</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Text</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="672a0a62-6968-4fed-b1ba-065288118ccc">
+          <ID>Dim Text</ID>
+          <Name>Dim Text</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="3dd06e7e-2a0c-44e5-8e0f-d1b622da1ed2">
+            <DataSourceViewID>Group4_DSV</DataSourceViewID>
+            <TableID>dbo_Dim_Text</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Feats Bridge</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="1c487ffe-5878-4bbb-b0c8-78e01c3e3661">
+          <ID>Feats Bridge</ID>
+          <Name>Feats Bridge</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="3c7c51c0-525f-42c3-8588-1a80e5920e91">
+            <DataSourceViewID>Group4_DSV</DataSourceViewID>
+            <TableID>dbo_Feats_Bridge</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Symphony</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="0308648c-cf3f-4313-a2dd-666979efbb24">
+          <ID>Dim Symphony</ID>
+          <Name>Dim Symphony</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="2d5cda70-e105-4034-861e-fc978681200d">
+            <DataSourceViewID>Group4_DSV</DataSourceViewID>
+            <TableID>dbo_Dim_Symphony</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Date</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="23896677-9af6-4155-bf5d-8f80b52fec23">
+          <ID>Dim Date</ID>
+          <Name>Dim Date</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a1bc95c4-5da4-4c8c-be3f-db6b8c8777d7">
+            <DataSourceViewID>Group4_DSV</DataSourceViewID>
+            <TableID>dbo_Dim_Date</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Artist Geography</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="997564de-02b3-4284-ad8e-660524e61301">
+          <ID>Dim Artist Geography</ID>
+          <Name>Dim Artist Geography</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="408f3a2b-4e05-4d71-88fe-8ee4ccb228ec">
+            <DataSourceViewID>Group4_DSV</DataSourceViewID>
+            <TableID>dbo_Dim_Artist_Geography</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Artist</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="af0e618b-c21e-4cc2-bdb6-a12b09736f61">
+          <ID>Dim Artist</ID>
+          <Name>Dim Artist</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="5c7510a6-f137-4efa-b4ad-8e69d5f523df">
+            <DataSourceViewID>Group4_DSV</DataSourceViewID>
+            <TableID>dbo_Dim_Artist</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Album</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="34b0b58b-eb25-4e1d-902d-40e287c068dc">
+          <ID>Dim Album</ID>
+          <Name>Dim Album</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="7ca799d2-035a-4ab1-a97e-89e45213c2b6">
+            <DataSourceViewID>Group4_DSV</DataSourceViewID>
+            <TableID>dbo_Dim_Album</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Feats</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="5dfa3051-2ef8-43d4-b843-effc517cbe2c">
+          <ID>Dim Feats</ID>
+          <Name>Dim Feats</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="16f0855c-daff-4f1d-b1f8-88fa87217b73">
+            <DataSourceViewID>Group4_DSV</DataSourceViewID>
+            <TableID>dbo_Dim_Feats</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>
