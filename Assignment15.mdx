@@ -1,9 +1,9 @@
 WITH
 MEMBER
-  [Dim Artist].[Region].[Totale Italia]
+  [Dim Artist Geography].[Region].[Totale Italia]
 AS
   Aggregate(
-    [Dim Artist].[Region].[Region].Members
+    [Dim Artist Geography].[Region].[Region].Members
   )
 
 SELECT
@@ -18,10 +18,11 @@ SELECT
     )
     *
     {
-      [Dim Artist].[Region].[Region].Members,
-      [Dim Artist].[Region].[Totale Italia]
+      [Dim Artist Geography].[Region].[Region].Members,
+      [Dim Artist Geography].[Region].[Totale Italia]
     }
   ) ON ROWS
 
-FROM [Group ID 4 DB]
-WHERE ( [Dim Artist].[Country].&[Italia] );
+FROM [Group4_DSV]
+WHERE ( [Dim Artist Geography].[Country].&[Italia] );
+
