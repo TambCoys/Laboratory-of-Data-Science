@@ -2,10 +2,6 @@ import os
 import csv
 import pyodbc
 
-# =========================
-# CONFIGURAZIONE
-# =========================
-
 CSV_DIR = "warehouse_outputkeynumeriche"  # dove abbbiamo salvato i CSV dell'Assignment 5
 
 #connettiamoci al server
@@ -27,9 +23,7 @@ cursor = cnxn.cursor()
 
 print("CONNESSO A SSMS")
 
-# =========================
 # LETTURA CSV
-# =========================
 
 def read_csv(filename):
     path = os.path.join(CSV_DIR, filename)
@@ -39,9 +33,7 @@ def read_csv(filename):
 
 
 
-# =========================
-# LOAD: DIMENSIONI
-# =========================
+# caricare dimensioni
 
 def load_album_dim(rows):
     cursor.execute("SET IDENTITY_INSERT dbo.Dim_Album ON;")
@@ -187,9 +179,9 @@ def load_feats_bridge(rows):
         )
     cnxn.commit()
     print("Feats_Bridge caricata")
-# =========================
-# LOAD: FACT TABLE
-# =========================
+
+# caricare fact table
+
 
 def load_published_song_fact(rows):
     for r in rows:
