@@ -41,6 +41,9 @@
       <Dimension>
         <ID>DD Category</ID>
       </Dimension>
+      <Dimension>
+        <ID>Dim Artist No Feat</ID>
+      </Dimension>
     </Dimensions>
     <Cubes>
       <Cube>

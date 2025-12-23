@@ -59,6 +59,10 @@
       <Name>DD Category.dim</Name>
       <FullPath>DD Category.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Artist No Feat.dim</Name>
+      <FullPath>Dim Artist No Feat.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>
