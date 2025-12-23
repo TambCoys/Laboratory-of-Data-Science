@@ -1,0 +1,17 @@
+WITH
+    MEMBER [Measures].[WS] AS
+        (0.2*([Measures].[Streams First Month], [Dim Artist].[Name].CurrentMember) +
+        0.8*([Measures].[Streams First Month], [Dim Artist No Feat].[Name].CurrentMember)
+        )
+    MEMBER [Measures].[AverageWeightedStreams] AS 
+        ( [Measures].[WS]/ SUM([Dim Artist No Feat].[Name].[Name], ([Measures].[Streams First Month], [Dim Date].[Year].CurrentMember))
+        )
+
+
+SELECT
+    [Measures].[AverageWeightedStreams] ON COLUMNS,
+    NONEMPTY(
+        [Dim Artist No Feat].[Name].[Name]*
+        [Dim Date].[Year].[Year]) ON ROWS
+
+FROM [Group4_DSV]
