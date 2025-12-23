@@ -1,8 +1,5 @@
-# -*- coding: utf-8 -*-
 """
-Created on Fri Dec 19 18:25:39 2025
-
-@author: Utente
+Functions to perform hierarchical clustering on a DataFrame and show the results.
 """
 
 import numpy as np
@@ -42,4 +39,5 @@ def hierarchical_clust(df, distance_threshold, n_clusters=None, metric='euclidea
     plt.title("Hierarchical Clustering Dendrogram - %s LINK" % (linkage))
     plot_dendrogram(model, truncate_mode="lastp", color_threshold=distance_threshold)
     plt.xlabel("Number of points in node (or index of point if no parenthesis).")
+
     plt.show()
