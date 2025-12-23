@@ -10,18 +10,13 @@ import csv
 import xml.etree.ElementTree as ET
 import os
 
-# -------------------------------
-# CONFIG
-# -------------------------------
 JSON_FILE = "tracks_cleaned.json"
 XML_FILE = "artists_cleaned.xml"
 OUTPUT_DIR = "warehouse_output"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# -------------------------------
-# SURROGATE KEY COUNTERS
-# -------------------------------
+#counters
 counters = {
     "AlbumDim": 1,
     "TextDim": 1,
@@ -35,9 +30,8 @@ counters = {
 def gen_key(prefix, counter):
     return f"{prefix}{counter:04d}"
 
-# -------------------------------
-# BUFFERS
-# -------------------------------
+#buffers
+
 AlbumDim = []
 TextDim = []
 DateDim = []
@@ -48,7 +42,6 @@ GroupDim = []
 GroupFeatures = []
 PublishedFact = []
 
-# Lookup tables
 album_lookup = {}
 text_lookup = {}
 date_lookup = {}
@@ -72,24 +65,22 @@ def write_csv(filename, header, rows):
         for r in rows:
             w.writerow(r)
 
+#load from xml
 
-# ======================================================
-# PHASE 1 : LOAD ARTISTS FROM XML → ArtistDim + ArtistGeoDim
-# ======================================================
 tree = ET.parse(XML_FILE)
 root = tree.getroot()
 
 for row in root.findall(".//row"):
     orig_artist_id = row.findtext("id_author")
 
-    # Artist attributes
+    # Artist
     name = row.findtext("name")
     gender = row.findtext("gender")
     birth_date = row.findtext("birth_date")
     birth_place = row.findtext("birth_place")
     nationality = row.findtext("nationality")
 
-    # Geo attributes
+    # Geo 
     country = row.findtext("country")
     region = row.findtext("region")
     province = row.findtext("province")
@@ -113,15 +104,15 @@ for row in root.findall(".//row"):
         artist_lookup[orig_artist_id] = pk_artist
         ArtistDim.append([pk_artist, pk_geo, name, gender, birth_date, birth_place, nationality])
 
-# ======================================================
-# PHASE 2: LOAD TRACKS JSON
-# ======================================================
+
+# load json
+
 with open(JSON_FILE, "r", encoding="utf-8") as f:
     tracks = json.load(f)
 
 for t in tracks:
 
-    # ========== AlbumDim ==========
+    #album
     alb_key = t["id_album"]
     if alb_key not in album_lookup:
         pk_album = gen_key("ALB", counters["AlbumDim"])
@@ -131,7 +122,7 @@ for t in tracks:
     else:
         pk_album = album_lookup[alb_key]
 
-    # ========== TextDim ==========
+    #text
     txt_key = t["id"]
     if txt_key not in text_lookup:
         pk_text = gen_key("TXT", counters["TextDim"])
@@ -150,7 +141,7 @@ for t in tracks:
     else:
         pk_text = text_lookup[txt_key]
 
-    # ========== DateDim ==========
+    #date
     # uso solo i campi già calcolati nel JSON
     date_key = (t["year_yyyy"], t["month_yyyymm"], t["day_yyyymmdd"])
 
@@ -169,7 +160,6 @@ for t in tracks:
     else:
         pk_date = date_lookup[date_key]
 
-    # ========== SymphonyDim ==========
     sym_key = t["id"]
     if sym_key not in symphony_lookup:
         pk_sym = gen_key("SYM", counters["SymphonyDim"])
@@ -183,40 +173,29 @@ for t in tracks:
     else:
         pk_sym = symphony_lookup[sym_key]
 
-    # =====================================================
-    # GROUPDIM — every song gets one GroupPK
-    # =====================================================
     pk_group = gen_key("GRP", counters["GroupDim"])
     counters["GroupDim"] += 1
     GroupDim.append([pk_group])
-
-    # =====================================================
-    # GROUPFEATURES — one row per featured artist
-    # =====================================================
     feats = [x.strip() for x in t.get("featured_artists", "").split(",")] if t.get("featured_artists") else []
 
     for f in feats:
         if not f:
             continue
 
-        # Match featured artist name → ArtistCodePK
+        # we match featured artist name - ArtistCodePK
         matched_artist_pk = None
         for row in ArtistDim:
             if row[2].strip().lower() == f.lower():  # row[2] = Name
                 matched_artist_pk = row[0]          # row[0] = ArtistCodePK
-                #print("yuppieee")
                 break
 
         if not matched_artist_pk:
-            #print("grr")
             continue
 
         # Add row to GroupFeatures
         GroupFeatures.append([pk_group, matched_artist_pk])
 
-    # =====================================================
-    # FACT TABLE
-    # =====================================================
+# fact
     orig_artist_id = t.get("id_artist")
     pk_artist = artist_lookup.get(orig_artist_id, None)
 
@@ -235,9 +214,6 @@ for t in tracks:
         pk_group     # NEW foreign key
     ])
 
-# ======================================================
-# WRITE CSV FILES
-# ======================================================
 write_csv("AlbumDim.csv", ["AlbumCodePK","AlbumTitle","AlbumType", "AlbumReleaseDate"], AlbumDim)
 write_csv("TextDim.csv", ["TextCodePK","N_Swear_Words_IT","N_Swear_Words_EN","Is_Explicit", "Lyrics"], TextDim)
 write_csv("ArtistGeoDim.csv", ["ArtistGeoCodePK","H3_index","Country","Region","Province","City"], ArtistGeoDim)
