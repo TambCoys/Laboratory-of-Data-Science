@@ -1,7 +1,3 @@
-"""
-Functions to perform hierarchical clustering on a DataFrame and show the results.
-"""
-
 import numpy as np
 from scipy.cluster.hierarchy import dendrogram
 from sklearn.cluster import AgglomerativeClustering
@@ -33,6 +29,9 @@ def plot_dendrogram(model, **kwargs):
     dendrogram(linkage_matrix, **kwargs)
 
 def hierarchical_clust(df, distance_threshold, n_clusters=None, metric='euclidean', linkage='complete'):
+    """
+    Functions to perform hierarchical clustering on a DataFrame and show the results.
+    """
     model = AgglomerativeClustering(distance_threshold=distance_threshold,
                                 n_clusters=n_clusters, metric=metric, linkage=linkage)
     model = model.fit(df)
@@ -41,3 +40,4 @@ def hierarchical_clust(df, distance_threshold, n_clusters=None, metric='euclidea
     plt.xlabel("Number of points in node (or index of point if no parenthesis).")
 
     plt.show()
+
