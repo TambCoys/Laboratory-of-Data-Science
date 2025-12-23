@@ -1,8 +1,7 @@
-# -*- coding: utf-8 -*-
 """
-Created on Fri Dec 19 18:48:43 2025
-
-@author: Utente
+A function to perform HDBScan clustering on a DataFrame. The dataframe is assumed normalized. The non-normalized
+dataframe is used only to append the labels resulting from the clustering. x_axis and y_axis are used for the scatter
+plot and need to be attributes of the non-normalized dataframe. The other inputs are connected to the clustering.
 """
 
 from sklearn.cluster import HDBSCAN
@@ -23,4 +22,5 @@ def hdbscan_clust(df, df_not_norm, x_axis, y_axis, cluster_selection_epsilon=0.5
                     style=hdb.labels_, 
                     palette="bright")
     
+
     plt.show()
