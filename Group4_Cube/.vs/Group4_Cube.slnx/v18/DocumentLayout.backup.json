@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\Users\\emanu\\Documents\\GitHub\\Laboratory-of-Data-Science\\Group4_Cube\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BCD57232-01F8-EE1B-2BB2-9AD797AC6768}|..\\..\\..\\..\\Desktop\\Group4_Cube.dwproj|C:\\Users\\emanu\\Desktop\\Dim Artist Geography.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BCD57232-01F8-EE1B-2BB2-9AD797AC6768}|..\\..\\..\\..\\Desktop\\Group4_Cube.dwproj|C:\\Users\\emanu\\Desktop\\Group4_DSV.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
     },
     {
@@ -31,6 +34,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Dim Artist Geography.dim [Progettazione]",
+              "DocumentMoniker": "C:\\Users\\emanu\\Desktop\\Dim Artist Geography.dim",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\Dim Artist Geography.dim",
+              "ToolTip": "C:\\Users\\emanu\\Desktop\\Dim Artist Geography.dim [Progettazione]*",
+              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\Dim Artist Geography.dim [Progettazione]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-24T17:59:30.689Z",
+              "EditorCaption": " [Progettazione]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Group4_DSV.cube [Progettazione]",
               "DocumentMoniker": "C:\\Users\\emanu\\Desktop\\Group4_DSV.cube",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\Group4_DSV.cube",
@@ -42,7 +57,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Dim Artist No Feat.dim [Progettazione]",
               "DocumentMoniker": "C:\\Users\\emanu\\Desktop\\Dim Artist No Feat.dim",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\Dim Artist No Feat.dim",
@@ -53,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Group4_DSV.dsv [Progettazione]",
               "DocumentMoniker": "C:\\Users\\emanu\\Desktop\\Group4_DSV.dsv",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\Group4_DSV.dsv",
@@ -64,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Feats Bridge.dim [Progettazione]",
               "DocumentMoniker": "C:\\Users\\emanu\\Desktop\\Feats Bridge.dim",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\Feats Bridge.dim",
