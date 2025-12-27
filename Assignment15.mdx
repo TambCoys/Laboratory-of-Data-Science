@@ -1,0 +1,33 @@
+WITH
+MEMBER [Dim Artist Geography].[Region].[Totale Italia] AS
+  Sum(
+    [Dim Artist Geography].[Region].Members
+    -
+    { [Dim Artist Geography].[Region].[All] },
+    [Measures].[Streams First Month]
+  )
+
+SELECT
+  { [Measures].[Streams First Month] } ON COLUMNS,
+
+  NON EMPTY
+  (
+    (
+      [Dim Date].[Month].Members
+      -
+      { [Dim Date].[Month].[All] }
+    )
+    *
+    (
+      (
+        [Dim Artist Geography].[Region].Members
+        -
+        { [Dim Artist Geography].[Region].[All] }
+      )
+      +
+      { [Dim Artist Geography].[Region].[Totale Italia] }
+    )
+  ) ON ROWS
+
+FROM [Group4_DSV]
+WHERE ( [Dim Artist Geography].[Country].&[Italia] );
