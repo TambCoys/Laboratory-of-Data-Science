@@ -59,7 +59,8 @@
               "ToolTip": "C:\\Users\\emanu\\Desktop\\Dim Text.dim [Progettazione]",
               "RelativeToolTip": "..\\..\\..\\..\\Desktop\\Dim Text.dim [Progettazione]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-12-25T18:02:03.998Z"
+              "WhenOpened": "2025-12-25T18:02:03.998Z",
+              "EditorCaption": " [Progettazione]"
             },
             {
               "$type": "Document",
@@ -78,8 +79,8 @@
               "Title": "Group4_DSV.dsv [Progettazione]",
               "DocumentMoniker": "C:\\Users\\emanu\\Desktop\\Group4_DSV.dsv",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\Group4_DSV.dsv",
-              "ToolTip": "C:\\Users\\emanu\\Desktop\\Group4_DSV.dsv [Progettazione]*",
-              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\Group4_DSV.dsv [Progettazione]*",
+              "ToolTip": "C:\\Users\\emanu\\Desktop\\Group4_DSV.dsv [Progettazione]",
+              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\Group4_DSV.dsv [Progettazione]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-12-22T18:04:12.476Z",
               "EditorCaption": " [Progettazione]"

@@ -3,13 +3,13 @@
   "WorkspaceRootPath": "C:\\Users\\emanu\\Documents\\GitHub\\Laboratory-of-Data-Science\\Group4_Cube\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BCD57232-01F8-EE1B-2BB2-9AD797AC6768}|..\\..\\..\\..\\Desktop\\Group4_Cube.dwproj|C:\\Users\\emanu\\Desktop\\Dim Text.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BCD57232-01F8-EE1B-2BB2-9AD797AC6768}|..\\..\\..\\..\\Desktop\\Group4_Cube.dwproj|C:\\Users\\emanu\\Desktop\\Group4_DSV.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BCD57232-01F8-EE1B-2BB2-9AD797AC6768}|..\\..\\..\\..\\Desktop\\Group4_Cube.dwproj|C:\\Users\\emanu\\Desktop\\Group4_DSV.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BCD57232-01F8-EE1B-2BB2-9AD797AC6768}|..\\..\\..\\..\\Desktop\\Group4_Cube.dwproj|C:\\Users\\emanu\\Desktop\\Dim Text.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BCD57232-01F8-EE1B-2BB2-9AD797AC6768}|..\\..\\..\\..\\Desktop\\Group4_Cube.dwproj|C:\\Users\\emanu\\Desktop\\Dim Artist Geography.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
@@ -28,7 +28,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -36,12 +36,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Group4_DSV.cube [Progettazione]",
               "DocumentMoniker": "C:\\Users\\emanu\\Desktop\\Group4_DSV.cube",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\Group4_DSV.cube",
-              "ToolTip": "C:\\Users\\emanu\\Desktop\\Group4_DSV.cube [Progettazione]*",
-              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\Group4_DSV.cube [Progettazione]*",
+              "ToolTip": "C:\\Users\\emanu\\Desktop\\Group4_DSV.cube [Progettazione]",
+              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\Group4_DSV.cube [Progettazione]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-12-22T14:00:59.567Z",
               "EditorCaption": " [Progettazione]"
@@ -52,14 +52,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Dim Text.dim [Progettazione]",
               "DocumentMoniker": "C:\\Users\\emanu\\Desktop\\Dim Text.dim",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\Dim Text.dim",
-              "ToolTip": "C:\\Users\\emanu\\Desktop\\Dim Text.dim [Progettazione]",
-              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\Dim Text.dim [Progettazione]",
+              "ToolTip": "C:\\Users\\emanu\\Desktop\\Dim Text.dim [Progettazione]*",
+              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\Dim Text.dim [Progettazione]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-12-25T18:02:03.998Z"
+              "WhenOpened": "2025-12-25T18:02:03.998Z",
+              "EditorCaption": " [Progettazione]"
             },
             {
               "$type": "Document",
@@ -74,12 +75,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Group4_DSV.dsv [Progettazione]",
               "DocumentMoniker": "C:\\Users\\emanu\\Desktop\\Group4_DSV.dsv",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\Group4_DSV.dsv",
-              "ToolTip": "C:\\Users\\emanu\\Desktop\\Group4_DSV.dsv [Progettazione]",
-              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\Group4_DSV.dsv [Progettazione]",
+              "ToolTip": "C:\\Users\\emanu\\Desktop\\Group4_DSV.dsv [Progettazione]*",
+              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\Group4_DSV.dsv [Progettazione]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-12-22T18:04:12.476Z"
             },
