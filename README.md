@@ -35,7 +35,6 @@ In short, the full lifecycle of a DSS: *raw data -> ETL -> DW -> cube -> BI.*
 | `tracks.json` | Main dataset: song details, audio features, lyrics information, and number of streams one month after release |
 | `artists.xml` | Artist information: gender, age, birthplace, and a short description |
 
-> Note: the original datasets are **not** included in the repository (per the delivery rules).
 
 ---
 
